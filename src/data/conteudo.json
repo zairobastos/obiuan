@@ -1,0 +1,582 @@
+{
+	"conteudosEstruturados": [{
+		"titulo": "Fundamentos de Matemática",
+		"descricao": "Competidores devem estar familiarizados com os conceitos matemáticos a seguir, necessários para o desenvolvimento e análise de algoritmos.",
+		"subsecoes": [{
+			"titulo": "Conceitos de Aritmética e Geometria",
+			"topicos": [
+			{
+				"nivel": "PJ",
+				"descricao": "Números inteiros, operações (incluindo exponenciação) e comparações"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Propriedades básicas dos inteiros (sinal, paridade, divisibilidade)"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Números primos"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Frações, porcentagens"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Reta, segmento de reta, ângulo, triângulo, retângulo, quadrado, círculo"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Ponto, coordenadas no plano"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Polígono (vértice, aresta/lado, simples, convexo, área)"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Distâncias euclidianas"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Teorema de Pitágoras"
+			},
+			{
+				"nivel": "P1",
+				"descricao": "Aritmética modular básica: adição, subtração, multiplicação"
+			}
+			]
+		},
+		{
+			"titulo": "Fundamentos de Lógica",
+			"topicos": [
+			{
+				"nivel": "PJ",
+				"descricao": "Lógica de primeira ordem"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Demonstrações matemáticas: provas diretas, por contradição, por contrapositiva ou contraexemplo"
+			},
+			{
+				"nivel": "P1",
+				"descricao": "Demonstrações pelo princípio de indução matemática, incluindo indução forte"
+			}
+			]
+		},
+		{
+			"titulo": "Conceitos de Matemática Discreta",
+			"topicos": [
+			{
+				"nivel": "PJ",
+				"descricao": "Funções e relações"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Ordem lexicográfica"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Conjuntos (união/interseção, complemento)"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Recursão (definições matemáticas recursivas)"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Argumentos de contagem (princípio aditivo, princípio multiplicativo)"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Permutações e função fatorial"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Progressão aritmética"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Princípio da casa dos pombos"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Teoria dos jogos básica (posições vencedoras e perdedoras)"
+			},
+			{
+				"nivel": "P1",
+				"descricao": "Progressão geométrica"
+			},
+			{
+				"nivel": "P1",
+				"descricao": "Combinações"
+			},
+			{
+				"nivel": "P1",
+				"descricao": "Triângulo de Pascal e coeficientes binomiais"
+			},
+			{
+				"nivel": "P1",
+				"descricao": "Princípio da inclusão-exclusão"
+			}
+			]
+		},
+		{
+			"titulo": "Conceitos de Grafos",
+			"topicos": [
+			{
+				"nivel": "PJ",
+				"descricao": "Grafos não-direcionados (vértice/nó, aresta, grau, adjacência, vértices ou arestas com pesos)"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Grafos direcionados (grau de entrada, grau de saída)"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Caminhos e ciclos"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Componentes conexas"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Árvores e florestas"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Lema do aperto de mão"
+			},
+			{
+				"nivel": "P1",
+				"descricao": "Árvores enraizadas (raiz, folha, pai, filho, ancestral, descendente, subárvore, profundidade)"
+			}
+			]
+		}
+		]
+	},
+	{
+		"titulo": "Fundamentos de Computação",
+		"descricao": "Competidores devem ser capazes de usar um computador comum para acessar o ambiente online de prova e implementar soluções para as tarefas apresentadas em uma das linguagens de programação disponíveis. Deste modo, competidores devem estar familiarizados com os tópicos a seguir.",
+		"subsecoes": [
+		{
+			"titulo": "Informática Básica",
+			"topicos": [
+			{
+				"nivel": "PJ",
+				"descricao": "Estrutura básica de um computador (componentes, CPU, memória)"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Uso básico de um sistema operacional com interface gráfica (Windows e Linux) e seus aplicativos padrão (editor de texto, navegador, calculadora)"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Administração básica de arquivos (criar, copiar ou mover pastas e arquivos)"
+			}
+			]
+		},
+		{
+			"titulo": "Programação",
+			"topicos": [
+			{
+				"nivel": "PJ",
+				"descricao": "Criação, compilação e execução de programas de computador em uma das linguagens disponíveis com o uso de uma IDE (Integrated Development Environment) ou terminal/linha de comando"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Sintaxe e semântica básica em uma das linguagens disponíveis"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Variáveis, expressões e atribuições"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Variáveis dos tipos primitivos: números inteiros, números reais, booleanos, caracteres"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Operadores aritméticos (adição, subtração, multiplicação, divisão inteira, divisão real, resto da divisão)"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Leitura da entrada padrão e impressão para a saída padrão"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Estruturas condicionais simples e compostas"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Estruturas de repetição simples e encadeadas"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Operadores lógicos (e, ou, negação)"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Cadeias de caracteres (strings)"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Vetores, incluindo vetores multidimensionais"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Funções e parâmetros"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Recursão"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Conceitos básicos de alocação de memória: alocação estática, pilha de recursão, tamanhos em bytes dos tipos primitivos"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Ponteiros e referências"
+			},
+			{
+				"nivel": "P1",
+				"descricao": "Representação binária de inteiros e operadores binários: e, ou, ou-exclusivo, negação, deslocamentos de bits (shifts)"
+			}
+			]
+		}
+		]
+	},
+	{
+		"titulo": "Algoritmos e Estruturas de Dados",
+		"descricao": "O foco da Modalidade Programação é o desenvolvimento, análise e implementação de algoritmos e estruturas de dados eficientes. Os competidores devem aplicar, adaptar e combinar os algoritmos e estratégias listados abaixo para resolver as tarefas propostas.",
+		"subsecoes": [
+		{
+			"titulo": "Fundamentos de Análise de Algoritmos",
+			"topicos": [
+			{
+				"nivel": "PJ",
+				"descricao": "Conceito de algoritmo (especificação, invariantes, corretude, pré-condição e pós-condição)"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Análise assintótica de complexidade (informal)"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Medidas empíricas de performance (estimar o tempo de execução e consumo de memória de um programa)"
+			}
+			]
+		},
+		{
+			"titulo": "Estratégias de Algoritmos",
+			"topicos": [
+			{
+				"nivel": "PJ",
+				"descricao": "Estratégias simples de iteração e repetição"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Algoritmos de força-bruta (busca exaustiva)"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Algoritmos gulosos (incluindo argumentos de corretude)"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Divisão-e-conquista"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Backtracking simples (busca exaustiva recursiva)"
+			},
+			{
+				"nivel": "P1",
+				"descricao": "Backtracking com podas"
+			},
+			{
+				"nivel": "P1",
+				"descricao": "Programação dinâmica"
+			}
+			]
+		},
+		{
+			"titulo": "Estruturas de Dados",
+			"topicos": [
+			{
+				"nivel": "PJ",
+				"descricao": "Histograma (Vetor de Frequências)"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Somas Parciais (soma/máximo/mínimo de prefixo/sufixo)"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Conjunto (Set) com implementação da biblioteca padrão"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Dicionário (Map) com implementação da biblioteca padrão"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Fila de Prioridades (Heap Binário) com implementação da biblioteca padrão"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Pilha e Fila"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Representações de grafos: Lista de Arestas, Lista de Adjacências, Matriz de Adjacências"
+			},
+			{
+				"nivel": "P1",
+				"descricao": "Lista Ligada"
+			},
+			{
+				"nivel": "P1",
+				"descricao": "Representação de conjuntos disjuntos com Union-Find"
+			},
+			{
+				"nivel": "P2",
+				"descricao": "Tabela Esparsa (Sparse Table) em vetores estáticos, Range Minimum Query em O(log N)"
+			},
+			{
+				"nivel": "P2",
+				"descricao": "Decomposição simples",
+				"sub_topicos": [
+				"Decomposição de estruturas estáticas",
+				"Divisão entre casos pequenos e casos grandes (“truque de leves e pesados”)"
+				]
+			},
+			{
+				"nivel": "P2",
+				"descricao": "Árvore de Índices Binários (BIT ou Fenwick Tree) 1D"
+			},
+			{
+				"nivel": "P2",
+				"descricao": "Árvore de Segmentos (Segment Tree) 1D",
+				"sub_topicos": [
+				"Técnica de Lazy Propagation",
+				"Merge Sort Tree"
+				]
+			},
+			{
+				"nivel": "P2",
+				"descricao": "Árvore de Prefixos (Trie)"
+			}
+			]
+		},
+		{
+			"titulo": "Algoritmos de Ordenação e Busca",
+			"topicos": [
+			{
+				"nivel": "PJ",
+				"descricao": "Ordenação em O(N log N) com função da biblioteca padrão, incluindo funções de comparação"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Ordenação em O(N log N) com Merge Sort e Heap Sort"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Ordenação por contagem (Counting Sort)"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Técnica de Dois Ponteiros (Two Pointers)"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Busca Binária, incluindo Busca Binária na Resposta"
+			},
+			{
+				"nivel": "P2",
+				"descricao": "Busca com técnica Meet-in-the-Middle"
+			}
+			]
+		},
+		{
+			"titulo": "Algoritmos de Matemática",
+			"topicos": [
+			{
+				"nivel": "PJ",
+				"descricao": "Conversão entre bases numéricas"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Algoritmo de Euclides para o máximo divisor comum"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Divisão por Tentativas: testar primalidade e listar divisores em O(sqrt(N))"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Crivo de Eratóstenes"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Fatoração (com crivo ou divisão por tentativas)"
+			},
+			{
+				"nivel": "P1",
+				"descricao": "Exponenciação Rápida"
+			},
+			{
+				"nivel": "P1",
+				"descricao": "Algoritmo Minimax para otimização de jogos"
+			}
+			]
+		},
+		{
+			"titulo": "Algoritmos de Programação Dinâmica",
+			"topicos": [
+			{
+				"nivel": "P1",
+				"descricao": "Problema da Mochila (Knapsack) com e sem repetições"
+			},
+			{
+				"nivel": "P1",
+				"descricao": "Análise combinatória com programação dinâmica (por exemplo, calcular triângulo de Pascal)"
+			},
+			{
+				"nivel": "P1",
+				"descricao": "Programação dinâmica em prefixos de vetores/matrizes (por exemplo, Algoritmo de Kadane, Maior Subsequência Comum, Distância de Edição)"
+			},
+			{
+				"nivel": "P1",
+				"descricao": "Programação dinâmica em intervalos de vetores/matrizes (por exemplo, Multiplicação de Cadeia de Matrizes)"
+			},
+			{
+				"nivel": "P1",
+				"descricao": "Programação dinâmica em grafos direcionados acíclicos (por exemplo, Problema do Caminho Mais Longo)"
+			},
+			{
+				"nivel": "P1",
+				"descricao": "Maior Subsequência Crescente em O(N log N)"
+			},
+			{
+				"nivel": "P2",
+				"descricao": "Programação dinâmica com máscara de bits (por exemplo, encontrar caminho Hamiltoniano)"
+			}
+			]
+		},
+		{
+			"titulo": "Algoritmos em Grafos",
+			"topicos": [
+			{
+				"nivel": "PJ",
+				"descricao": "Busca em Profundidade (DFS), incluindo aplicações"
+			},
+			{
+				"nivel": "PJ",
+				"descricao": "Busca em Largura (BFS)"
+			},
+			{
+				"nivel": "P1",
+				"descricao": "Algoritmo de Dijkstra"
+			},
+			{
+				"nivel": "P1",
+				"descricao": "Árvore geradora mínima (algoritmos de Prim e Kruskal)"
+			},
+			{
+				"nivel": "P1",
+				"descricao": "Ordenação topológica (algoritmo de Kahn)"
+			},
+			{
+				"nivel": "P2",
+				"descricao": "Algoritmos de Bellman-Ford e Floyd-Warshall"
+			},
+			{
+				"nivel": "P2",
+				"descricao": "Aplicações de árvore geradora da DFS (DFS traversal tree)"
+			},
+			{
+				"nivel": "P2",
+				"descricao": "Componentes fortemente conexas (algoritmo de Kosaraju ou Tarjan)"
+			}
+			]
+		},
+		{
+			"titulo": "Algoritmos em Árvores",
+			"topicos": [
+			{
+				"nivel": "P1",
+				"descricao": "Aumentação de subárvores em árvores enraizadas (por exemplo, calcular o tamanho ou a folha mais distante para cada subárvore)"
+			},
+			{
+				"nivel": "P1",
+				"descricao": "Diâmetro e centro de árvore em O(N)"
+			},
+			{
+				"nivel": "P2",
+				"descricao": "Grafos funcionais (decomposição em ciclos e árvores)"
+			},
+			{
+				"nivel": "P2",
+				"descricao": "Binary Lifting e Ancestral Comum Mais Profundo (LCA) em O(log N)"
+			},
+			{
+				"nivel": "P2",
+				"descricao": "Centroide de árvore em O(N)"
+			},
+			{
+				"nivel": "P2",
+				"descricao": "Pré-ordem, em-ordem, pós-ordem e técnica de Linearização de Árvore (Euler Tour Technique)"
+			},
+			{
+				"nivel": "P2",
+				"descricao": "Programação dinâmica em árvores enraizadas com técnica de Girar Raiz (Tree Rerooting)"
+			},
+			{
+				"nivel": "P2",
+				"descricao": "Técnica Small-to-Large para unir subárvores"
+			}
+			]
+		},
+		{
+			"titulo": "Algoritmos de Geometria",
+			"topicos": [
+			{
+				"nivel": "P2",
+				"descricao": "Representação de vetores, retas e segmentos de reta"
+			},
+			{
+				"nivel": "P2",
+				"descricao": "Compressão de coordenadas"
+			},
+			{
+				"nivel": "P2",
+				"descricao": "Produto escalar e vetorial, incluindo aplicações"
+			},
+			{
+				"nivel": "P2",
+				"descricao": "Interseção de duas retas"
+			},
+			{
+				"nivel": "P2",
+				"descricao": "Técnicas de Varredura (Line Sweep, Radial Sweep)"
+			},
+			{
+				"nivel": "P2",
+				"descricao": "Fecho Convexo (Convex Hull) em O(N log N)"
+			},
+			{
+				"nivel": "P2",
+				"descricao": "Área de polígono em O(N) (Fórmula do Cadarço ou equivalente)"
+			},
+			{
+				"nivel": "P2",
+				"descricao": "Checar se um ponto está em um polígono em O(N) (Ray Casting ou equivalente)"
+			}
+			]
+		}]
+	}
+	]
+}
