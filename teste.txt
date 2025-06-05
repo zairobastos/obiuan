@@ -1,0 +1,102 @@
+==================== Questão 1 ====================
+Assunto: Algoritmos e Estruturas de Dados
+Nível de dificuldade: Médio
+Grupo de subassunto: Estratégias de Algoritmos
+Subassunto: Estratégias simples de iteração e repetição
+Nível de subassunto: PJ
+==================== Questão 2 ====================
+Assunto: Algoritmos e Estruturas de Dados
+Nível de dificuldade: Médio
+Grupo de subassunto: Estratégias de Algoritmos
+Subassunto: Estratégias simples de iteração e repetição
+Nível de subassunto: PJ
+==================== Questão 3 ====================
+Assunto: Algoritmos e Estruturas de Dados
+Nível de dificuldade: Difícil
+Grupo de subassunto: Algoritmos em Grafos
+Subassunto: Busca em Profundidade (DFS), incluindo aplicações
+Nível de subassunto: P1
+==================== Questão 4 ====================
+Assunto: Algoritmos e Estruturas de Dados
+Nível de dificuldade: Médio
+Grupo de subassunto: Estratégias de Algoritmos
+Subassunto: Algoritmos de força-bruta (busca exaustiva)
+Nível de subassunto: PJ
+==================== Questão 5 ====================
+Assunto: Algoritmos e Estruturas de Dados
+Nível de dificuldade: Médio
+Grupo de subassunto: Estratégias de Algoritmos
+Subassunto: Estratégias simples de iteração e repetição
+Nível de subassunto: PJ
+==================== Questão 6 ====================
+Assunto: Algoritmos e Estruturas de Dados
+Nível de dificuldade: Médio
+Grupo de subassunto: Estratégias de Algoritmos
+Subassunto: Algoritmos de força-bruta (busca exaustiva)
+Nível de subassunto: PJ
+==================== Questão 7 ====================
+Assunto: Algoritmos e Estruturas de Dados
+Nível de dificuldade: Médio
+Grupo de subassunto: Estratégias de Algoritmos
+Subassunto: Programação dinâmica
+Nível de subassunto: P1
+==================== Questão 8 ====================
+Assunto: Algoritmos e Estruturas de Dados
+Nível de dificuldade: Médio
+Grupo de subassunto: Estratégias de Algoritmos
+Subassunto: Estratégias simples de iteração e repetição
+Nível de subassunto: PJ
+==================== Questão 9 ====================
+Assunto: Algoritmos e Estruturas de Dados
+Nível de dificuldade: Médio
+Grupo de subassunto: Estratégias de Algoritmos
+Subassunto: Estratégias simples de iteração e repetição
+Nível de subassunto: PJ
+==================== Questão 10 ====================
+Assunto: Algoritmos e Estruturas de Dados
+Nível de dificuldade: Médio
+Grupo de subassunto: Estruturas de Dados
+Subassunto: Histograma (Vetor de Frequências)
+Nível de subassunto: PJ
+==================== Questão 11 ====================
+Assunto: Fundamentos de Matemática
+Nível de dificuldade: Médio
+Grupo de subassunto: Conceitos de Aritmética e Geometria
+Subassunto: Propriedades básicas dos inteiros (sinal, paridade, divisibilidade)
+Nível de subassunto: P1
+==================== Questão 12 ====================
+Assunto: Algoritmos e Estruturas de Dados
+Nível de dificuldade: Difícil
+Grupo de subassunto: Estratégias de Algoritmos
+Subassunto: Backtracking simples (busca exaustiva recursiva)
+Nível de subassunto: P1
+==================== Questão 13 ====================
+Assunto: Algoritmos e Estruturas de Dados
+Nível de dificuldade: Médio
+Grupo de subassunto: Estratégias de Algoritmos
+Subassunto: Backtracking simples (busca exaustiva recursiva)
+Nível de subassunto: P1
+==================== Questão 14 ====================
+Assunto: Fundamentos de Computação
+Nível de dificuldade: Médio
+Grupo de subassunto: Programação
+Subassunto: Cadeias de caracteres (strings)
+Nível de subassunto: PJ
+==================== Questão 15 ====================
+Assunto: Fundamentos de Computação
+Nível de dificuldade: Fácil
+Grupo de subassunto: Programação
+Subassunto: Leitura da entrada padrão e impressão para a saída padrão
+Nível de subassunto: PJ
+==================== Questão 16 ====================
+Assunto: Algoritmos e Estruturas de Dados
+Nível de dificuldade: Médio
+Grupo de subassunto: Estruturas de Dados
+Subassunto: Dicionário (Map) com implementação da biblioteca padrão
+Nível de subassunto: PJ
+==================== Questão 17 ====================
+Assunto: Fundamentos de Computação
+Nível de dificuldade: Médio
+Grupo de subassunto: Programação
+Subassunto: Estruturas de repetição simples e encadeadas
+Nível de subassunto: PJ

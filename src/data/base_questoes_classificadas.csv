@@ -1,0 +1,11 @@
+url,assunto,nivel,grupo_subassunto,subassunto,nivel_subassunto
+https://olimpiada.ic.unicamp.br/pratique/p2/2020/f3/atlanta/,Algoritmos e Estruturas de Dados,Médio,Estratégias de Algoritmos,Estratégias simples de iteração e repetição,PJ
+https://olimpiada.ic.unicamp.br/pratique/p2/2020/f3/candidatas/,Algoritmos e Estruturas de Dados,Difícil,Estratégias de Algoritmos,Programação dinâmica,P1
+https://olimpiada.ic.unicamp.br/pratique/p2/2020/f3/jogo/,Algoritmos e Estruturas de Dados,Médio,Estratégias de Algoritmos,Backtracking simples (busca exaustiva recursiva),PJ
+https://olimpiada.ic.unicamp.br/pratique/p2/2020/f3/rede/,Algoritmos e Estruturas de Dados,Médio,Estratégias de Algoritmos,Estratégias simples de iteração e repetição,PJ
+https://olimpiada.ic.unicamp.br/pratique/p2/2020/f3/trem/,Algoritmos e Estruturas de Dados,Difícil,Algoritmos em Grafos,"Busca em Profundidade (DFS), incluindo aplicações",PJ
+https://olimpiada.ic.unicamp.br/pratique/p2/2020/f2/formiga/,Algoritmos e Estruturas de Dados,Médio,Algoritmos em Grafos,Busca em Profundidade (DFS),PJ
+https://olimpiada.ic.unicamp.br/pratique/p2/2020/f2/estrada/,Algoritmos e Estruturas de Dados,Médio,Algoritmos de Ordenação e Busca,Técnica de Dois Ponteiros (Two Pointers),PJ
+https://olimpiada.ic.unicamp.br/pratique/p2/2020/f2/fotografia/,Algoritmos e Estruturas de Dados,Médio,Algoritmos de Geometria,"Representação de vetores, retas e segmentos de reta",P2
+https://olimpiada.ic.unicamp.br/pratique/p2/2020/f2/quebra/,Algoritmos e Estruturas de Dados,Difícil,Estratégias de Algoritmos,Programação dinâmica,P1
+https://olimpiada.ic.unicamp.br/pratique/p2/2020/f1/acelerador/,Fundamentos de Matemática,Fácil,Conceitos de Aritmética e Geometria,"Números inteiros, operações (incluindo exponenciação) e comparações",PJ
