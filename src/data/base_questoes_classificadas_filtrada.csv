@@ -24,7 +24,6 @@ https://olimpiada.ic.unicamp.br/pratique/p2/2020/f3/trem/,Algoritmos e Estrutura
 https://olimpiada.ic.unicamp.br/pratique/p2/2020/f2/formiga/,Algoritmos e Estruturas de Dados,Difícil,Algoritmos de Programação Dinâmica,"Programação dinâmica em grafos direcionados acíclicos (por exemplo, Problema do Caminho Mais Longo)",P1
 https://olimpiada.ic.unicamp.br/pratique/p2/2020/f2/estrada/,Fundamentos de Matemática,Médio,Conceitos de Aritmética e Geometria,"Ponto, coordenadas no plano",PJ
 https://olimpiada.ic.unicamp.br/pratique/p2/2020/f2/fotografia/,Fundamentos de Matemática,Médio,Conceitos de Aritmética e Geometria,"Polígono (vértice, aresta/lado, simples, convexo, área)",PJ
-https://olimpiada.ic.unicamp.br/pratique/p2/2020/f2/quebra/,Algoritmos e Estruturas de Dados,Difícil,Algoritmos de Programação Dinâmica,Programação dinâmica em prefixos de vetores/matrizes,P1
 https://olimpiada.ic.unicamp.br/pratique/p2/2020/f1/acelerador/,Fundamentos de Matemática,Fácil,Conceitos de Aritmética e Geometria,"Aritmética modular básica: adição, subtração, multiplicação",P1
 https://olimpiada.ic.unicamp.br/pratique/p2/2020/f1/camisetas/,Fundamentos de Computação,Fácil,Programação,"Vetores, incluindo vetores multidimensionais",PJ
 https://olimpiada.ic.unicamp.br/pratique/p2/2020/f1/fissura/,Algoritmos e Estruturas de Dados,Médio,Algoritmos em Grafos,Busca em Largura (BFS),PJ
@@ -39,7 +38,6 @@ https://olimpiada.ic.unicamp.br/pratique/p2/2019/f3/prix/,Algoritmos e Estrutura
 https://olimpiada.ic.unicamp.br/pratique/p2/2019/f3/mesa/,Fundamentos de Matemática,Fácil,Conceitos de Aritmética e Geometria,"Aritmética modular básica: adição, subtração, multiplicação",P1
 https://olimpiada.ic.unicamp.br/pratique/p2/2019/f3/metro/,Algoritmos e Estruturas de Dados,Difícil,Algoritmos em Árvores,Diâmetro e centro de árvore em O(N),P1
 https://olimpiada.ic.unicamp.br/pratique/p2/2019/f2/detetive/,Algoritmos e Estruturas de Dados,Difícil,Algoritmos em Grafos,"Busca em Profundidade (DFS), incluindo aplicações",PJ
-https://olimpiada.ic.unicamp.br/pratique/p2/2019/f2/matriz/,Algoritmos e Estruturas de Dados,Difícil,Algoritmos de Programação Dinâmica,Programação dinâmica em intervalos de vetores/matrizes,P1
 https://olimpiada.ic.unicamp.br/pratique/p2/2019/f2/supermercado/,Fundamentos de Matemática,Fácil,Conceitos de Aritmética e Geometria,"Frações, porcentagens",PJ
 https://olimpiada.ic.unicamp.br/pratique/p2/2019/f1/idade/,Fundamentos de Matemática,Fácil,Conceitos de Aritmética e Geometria,"Números inteiros, operações (incluindo exponenciação) e comparações",PJ
 https://olimpiada.ic.unicamp.br/pratique/p2/2019/f1/imperial/,Algoritmos e Estruturas de Dados,Médio,Estratégias de Algoritmos,Programação dinâmica,P1
@@ -49,16 +47,13 @@ https://olimpiada.ic.unicamp.br/pratique/p2/2018/f3/baldes/,Algoritmos e Estrutu
 https://olimpiada.ic.unicamp.br/pratique/p2/2018/f3/bolas/,Algoritmos e Estruturas de Dados,Médio,Estruturas de Dados,Histograma (Vetor de Frequências),PJ
 https://olimpiada.ic.unicamp.br/pratique/p2/2018/f3/cinco/,Algoritmos e Estruturas de Dados,Médio,Estratégias de Algoritmos,Algoritmos de força-bruta (busca exaustiva),PJ
 https://olimpiada.ic.unicamp.br/pratique/p2/2018/f3/mancha/,Algoritmos e Estruturas de Dados,Difícil,Algoritmos em Grafos,Busca em Largura (BFS),PJ
-https://olimpiada.ic.unicamp.br/pratique/p2/2018/f3/muro/,Algoritmos e Estruturas de Dados,Médio,Algoritmos de Programação Dinâmica,Análise combinatória com programação dinâmica,P1
 https://olimpiada.ic.unicamp.br/pratique/p2/2018/f2/elevador/,Algoritmos e Estruturas de Dados,Difícil,Estratégias de Algoritmos,Programação dinâmica,P1
 https://olimpiada.ic.unicamp.br/pratique/p2/2018/f2/fuga/,Algoritmos e Estruturas de Dados,Difícil,Estratégias de Algoritmos,Backtracking com podas,P1
-https://olimpiada.ic.unicamp.br/pratique/p2/2018/f2/wifi/,Algoritmos e Estruturas de Dados,Difícil,Algoritmos em Árvores,Aumentação de subárvores em árvores enraizadas,P1
 https://olimpiada.ic.unicamp.br/pratique/p2/2018/f1/compensacao/,Algoritmos e Estruturas de Dados,Difícil,Estratégias de Algoritmos,Programação dinâmica,P1
 https://olimpiada.ic.unicamp.br/pratique/p2/2018/f1/figurinhas/,Algoritmos e Estruturas de Dados,Fácil,Estruturas de Dados,Conjunto (Set) com implementação da biblioteca padrão,PJ
 https://olimpiada.ic.unicamp.br/pratique/p2/2018/f1/piso/,Fundamentos de Matemática,Médio,Conceitos de Aritmética e Geometria,"Reta, segmento de reta, ângulo, triângulo, retângulo, quadrado, círculo",PJ
 https://olimpiada.ic.unicamp.br/pratique/p2/2017/f3/arranhaceu/,Algoritmos e Estruturas de Dados,Difícil,Estruturas de Dados,Árvore de Índices Binários (BIT ou Fenwick Tree) 1D,P2
 https://olimpiada.ic.unicamp.br/pratique/p2/2017/f3/codigo/,Algoritmos e Estruturas de Dados,Difícil,Estruturas de Dados,Árvore de Prefixos (Trie),P2
-https://olimpiada.ic.unicamp.br/pratique/p2/2017/f3/imperio/,Algoritmos e Estruturas de Dados,Difícil,Algoritmos em Árvores,Aumentação de subárvores em árvores enraizadas,P1
 https://olimpiada.ic.unicamp.br/pratique/p2/2017/f3/postes/,Fundamentos de Computação,Fácil,Programação,Estruturas condicionais simples e compostas,PJ
 https://olimpiada.ic.unicamp.br/pratique/p2/2017/f3/taxa/,Algoritmos e Estruturas de Dados,Difícil,Algoritmos de Programação Dinâmica,"Programação dinâmica em intervalos de vetores/matrizes (por exemplo, Multiplicação de Cadeia de Matrizes)",P1
 https://olimpiada.ic.unicamp.br/pratique/p2/2017/f2/papel/,Algoritmos e Estruturas de Dados,Médio,Estruturas de Dados,Histograma (Vetor de Frequências),PJ
@@ -70,12 +65,6 @@ https://olimpiada.ic.unicamp.br/pratique/p2/2017/f1/game10/,Fundamentos de Matem
 https://olimpiada.ic.unicamp.br/pratique/p2/2017/f1/chefe/,Algoritmos e Estruturas de Dados,Difícil,Conceitos de Grafos,"Busca em Profundidade (DFS), incluindo aplicações",PJ
 https://olimpiada.ic.unicamp.br/pratique/p2/2016/f2/ciclovias/,Algoritmos e Estruturas de Dados,Difícil,Algoritmos de Programação Dinâmica,"Programação dinâmica em grafos direcionados acíclicos (por exemplo, Problema do Caminho Mais Longo)",P1
 https://olimpiada.ic.unicamp.br/pratique/p2/2016/f2/falta-uma/,Algoritmos e Estruturas de Dados,Médio,Estratégias de Algoritmos,Algoritmos de força-bruta (busca exaustiva),PJ
-https://olimpiada.ic.unicamp.br/pratique/p2/2016/f2/jardim/,Fundamentos de Matemática,Fácil,,,
-https://olimpiada.ic.unicamp.br/pratique/p2/2016/f2/quase-primo/,Algoritmos e Estruturas de Dados,Fácil,,,
-https://olimpiada.ic.unicamp.br/pratique/p2/2016/f1/chaves/,Algoritmos e Estruturas de Dados,Fácil,,,
-https://olimpiada.ic.unicamp.br/pratique/p2/2016/f1/lampadas-hotel/,Algoritmos e Estruturas de Dados,Fácil,,,
-https://olimpiada.ic.unicamp.br/pratique/p2/2016/f1/sanduiche/,Algoritmos e Estruturas de Dados,Fácil,,,
-https://olimpiada.ic.unicamp.br/pratique/p2/2016/f1/toca-saci/,Algoritmos e Estruturas de Dados,Fácil,,,
 https://olimpiada.ic.unicamp.br/pratique/p2/2015/f2/calculo/,Fundamentos de Computação,Fácil,Programação,"Representação binária de inteiros e operadores binários: e, ou, ou-exclusivo, negação, deslocamentos de bits (shifts)",P1
 https://olimpiada.ic.unicamp.br/pratique/p2/2015/f2/chocolate/,Fundamentos de Matemática,Médio,Conceitos de Aritmética e Geometria,"Ponto, coordenadas no plano",PJ
 https://olimpiada.ic.unicamp.br/pratique/p2/2015/f2/fila/,Algoritmos e Estruturas de Dados,Médio,Algoritmos de Programação Dinâmica,Maior Subsequência Crescente em O(N log N),P1
@@ -83,20 +72,15 @@ https://olimpiada.ic.unicamp.br/pratique/p2/2015/f2/macacos/,Fundamentos de Mate
 https://olimpiada.ic.unicamp.br/pratique/p2/2015/f2/mina/,Algoritmos e Estruturas de Dados,Difícil,Algoritmos em Grafos,Busca em Largura (BFS),PJ
 https://olimpiada.ic.unicamp.br/pratique/p2/2015/f1/caixinha/,Fundamentos de Matemática,Difícil,Conceitos de Matemática Discreta,Combinações,P1
 https://olimpiada.ic.unicamp.br/pratique/p2/2015/f1/coral/,Algoritmos e Estruturas de Dados,Fácil,Estratégias de Algoritmos,Estratégias simples de iteração e repetição,PJ
-https://olimpiada.ic.unicamp.br/pratique/p2/2015/f1/real/,Algoritmos e Estruturas de Dados,Médio,Algoritmos em Árvores,Aumentação de subárvores em árvores enraizadas,P1
 https://olimpiada.ic.unicamp.br/pratique/p2/2015/f1/banco/,Algoritmos e Estruturas de Dados,Difícil,Algoritmos de Programação Dinâmica,Problema da Mochila (Knapsack) com e sem repetições,P1
 https://olimpiada.ic.unicamp.br/pratique/p2/2015/f1/quebra/,Algoritmos e Estruturas de Dados,Médio,Algoritmos em Grafos,Ordenação topológica (algoritmo de Kahn),P1
 https://olimpiada.ic.unicamp.br/pratique/p2/2014/f2/blefe/,Algoritmos e Estruturas de Dados,Difícil,Algoritmos de Matemática,Algoritmo Minimax para otimização de jogos,P1
 https://olimpiada.ic.unicamp.br/pratique/p2/2014/f2/frequencia/,Fundamentos de Matemática,Fácil,Conceitos de Matemática Discreta,Teoria dos jogos básica (posições vencedoras e perdedoras),PJ
-https://olimpiada.ic.unicamp.br/pratique/p2/2014/f2/mapa/,Algoritmos e Estruturas de Dados,Difícil,Conceitos de Grafos,Árvores (caracterização e propriedades),PJ
 https://olimpiada.ic.unicamp.br/pratique/p2/2014/f2/notas/,Algoritmos e Estruturas de Dados,Médio,Estruturas de Dados,Histograma (Vetor de Frequências),PJ
 https://olimpiada.ic.unicamp.br/pratique/p2/2014/f2/tapetes/,Algoritmos e Estruturas de Dados,Difícil,Estratégias de Algoritmos,Programação dinâmica,P1
-https://olimpiada.ic.unicamp.br/pratique/p2/2014/f1/copa/,Fundamentos de Matemática,"A questão fornecida está incompleta. Por favor, forneça todo o enunciado para que eu possa avaliá-la conforme solicitado.",,,
 https://olimpiada.ic.unicamp.br/pratique/p2/2014/f1/fechadura/,Fundamentos de Computação,Fácil,Informática Básica,"Estrutura básica de um computador (componentes, CPU, memória)",PJ
 https://olimpiada.ic.unicamp.br/pratique/p2/2014/f1/lingua/,Fundamentos de Computação,Fácil,Programação,Cadeias de caracteres (strings),PJ
 https://olimpiada.ic.unicamp.br/pratique/p2/2014/f1/escada/,Fundamentos de Matemática,Médio,Conceitos de Matemática Discreta,Funções e relações,PJ
-https://olimpiada.ic.unicamp.br/pratique/p2/2014/f1/pacman/,Algoritmos e Estruturas de Dados,Fácil,Estratégias de Algoritmos,Algoritmos gulosos,PJ
-https://olimpiada.ic.unicamp.br/pratique/p2/2013/f2/cachecol/,Fundamentos de Matemática,Fácil,,,
 https://olimpiada.ic.unicamp.br/pratique/p2/2013/f2/troia/,Algoritmos e Estruturas de Dados,Difícil,Estruturas de Dados,Representação de conjuntos disjuntos com Union-Find,P1
 https://olimpiada.ic.unicamp.br/pratique/p2/2013/f2/janela/,Fundamentos de Matemática,Fácil,Conceitos de Aritmética e Geometria,"Reta, segmento de reta, ângulo, triângulo, retângulo, quadrado, círculo",PJ
 https://olimpiada.ic.unicamp.br/pratique/p2/2013/f2/torneio/,Fundamentos de Matemática,Fácil,Conceitos de Grafos,"Árvores enraizadas (raiz, folha, pai, filho, ancestral, descendente, subárvore, profundidade)",P1
@@ -119,26 +103,18 @@ https://olimpiada.ic.unicamp.br/pratique/p2/2011/f2/rmapa/,Fundamentos de Comput
 https://olimpiada.ic.unicamp.br/pratique/p2/2011/f2/vira/,Fundamentos de Matemática,Fácil,Conceitos de Matemática Discreta,Teoria dos jogos básica (posições vencedoras e perdedoras),PJ
 https://olimpiada.ic.unicamp.br/pratique/p2/2011/f1/tesouro/,Fundamentos de Matemática,Fácil,Conceitos de Aritmética e Geometria,"Ponto, coordenadas no plano",PJ
 https://olimpiada.ic.unicamp.br/pratique/p2/2011/f1/cartografico/,Fundamentos de Matemática,Fácil,Conceitos de Aritmética e Geometria,"Ponto, coordenadas no plano",PJ
-https://olimpiada.ic.unicamp.br/pratique/p2/2011/f1/pesca/,Fundamentos de Matemática,Fácil,Sem subassunto identificável,Sem subassunto identificável,
 https://olimpiada.ic.unicamp.br/pratique/p2/2011/f1/quadrado/,Fundamentos de Matemática,Médio,Conceitos de Aritmética e Geometria,"Reta, segmento de reta, ângulo, triângulo, retângulo, quadrado, círculo",PJ
 https://olimpiada.ic.unicamp.br/pratique/p2/2010/f2/altas/,Fundamentos de Matemática,Fácil,Conceitos de Aritmética e Geometria,"Números inteiros, operações (incluindo exponenciação) e comparações",PJ
-https://olimpiada.ic.unicamp.br/pratique/p2/2010/f2/floresta/,Fundamentos de Matemática,Fácil,Não se aplica,Não se aplica,Não se aplica
 https://olimpiada.ic.unicamp.br/pratique/p2/2010/f2/matrizes/,Fundamentos de Matemática,Fácil,Conceitos de Aritmética e Geometria,"Números inteiros, operações (incluindo exponenciação) e comparações",PJ
 https://olimpiada.ic.unicamp.br/pratique/p2/2010/f2/telescopio/,Fundamentos de Computação,Fácil,Informática Básica,"Estrutura básica de um computador (componentes, CPU, memória)",PJ
-https://olimpiada.ic.unicamp.br/pratique/p2/2010/f2/tradutor/,Fundamentos de Computação,Fácil,Não identificável,Não aplicável,Não aplicável
 https://olimpiada.ic.unicamp.br/pratique/p2/2010/f1/batalha/,Fundamentos de Computação,Fácil,Programação,"Vetores, incluindo vetores multidimensionais",PJ
 https://olimpiada.ic.unicamp.br/pratique/p2/2010/f1/cometa/,Fundamentos de Matemática,Fácil,Conceitos de Aritmética e Geometria,"Números inteiros, operações (incluindo exponenciação) e comparações",PJ
-https://olimpiada.ic.unicamp.br/pratique/p2/2010/f1/elevador/,Fundamentos de Computação,Fácil,Não Classificável,Não há subassunto abrangido,
-https://olimpiada.ic.unicamp.br/pratique/p2/2010/f1/reuniao/,Fundamentos de Computação,Fácil,Não Aplicável,Não se enquadra em subassuntos da lista,–
 https://olimpiada.ic.unicamp.br/pratique/p2/2009/f2/banda/,Fundamentos de Matemática,Fácil,Conceitos de Matemática Discreta,Permutações e função fatorial,PJ
 https://olimpiada.ic.unicamp.br/pratique/p2/2009/f2/cadeiras/,Fundamentos de Matemática,Fácil,Conceitos de Aritmética e Geometria,"Números inteiros, operações (incluindo exponenciação) e comparações",PJ
 https://olimpiada.ic.unicamp.br/pratique/p2/2009/f2/chocolate/,Fundamentos de Matemática,Fácil,Conceitos de Matemática Discreta,Teoria dos jogos básica (posições vencedoras e perdedoras),PJ
-https://olimpiada.ic.unicamp.br/pratique/p2/2009/f2/olimpiada/,Fundamentos de Matemática,Fácil,Não aplicável,Não identificável pelos subassuntos listados,PJ
 https://olimpiada.ic.unicamp.br/pratique/p2/2009/f2/simulador/,Fundamentos de Computação,Médio,Programação,"Representação binária de inteiros e operadores binários: e, ou, ou-exclusivo, negação, deslocamentos de bits (shifts)",P1
-https://olimpiada.ic.unicamp.br/pratique/p2/2009/f1/mito/,Fundamentos de Computação,Fácil,Não se aplica,Não se aplica,Não se aplica
 https://olimpiada.ic.unicamp.br/pratique/p2/2009/f1/pontes/,Fundamentos de Matemática,Fácil,Conceitos de Aritmética e Geometria,Distâncias euclidianas,PJ
 https://olimpiada.ic.unicamp.br/pratique/p2/2009/f1/nota/,Fundamentos de Computação,Fácil,Informática Básica,"Estrutura básica de um computador (componentes, CPU, memória)",PJ
-https://olimpiada.ic.unicamp.br/pratique/p2/2009/f1/fugitivo/,Fundamentos de Computação,Não foi apresentada uma questão completa para avaliação.,,,
 https://olimpiada.ic.unicamp.br/pratique/p2/2008/f2/auto/,Fundamentos de Matemática,Fácil,Conceitos de Aritmética e Geometria,Distâncias euclidianas,PJ
 https://olimpiada.ic.unicamp.br/pratique/p2/2008/f2/chuva/,Fundamentos de Computação,Fácil,Informática Básica,"Estrutura básica de um computador (componentes, CPU, memória)",PJ
 https://olimpiada.ic.unicamp.br/pratique/p2/2008/f2/frete/,Fundamentos de Matemática,Fácil,Conceitos de Matemática Discreta,"Argumentos de contagem (princípio aditivo, princípio multiplicativo)",PJ
@@ -152,12 +128,10 @@ https://olimpiada.ic.unicamp.br/pratique/p2/2007/f2/lab/,Algoritmos e Estruturas
 https://olimpiada.ic.unicamp.br/pratique/p2/2007/f2/pizza/,Fundamentos de Matemática,Fácil,Conceitos de Matemática Discreta,Princípio da casa dos pombos,PJ
 https://olimpiada.ic.unicamp.br/pratique/p2/2007/f2/tele/,Fundamentos de Computação,Fácil,Informática Básica,"Uso básico de um sistema operacional com interface gráfica (Windows e Linux) e seus aplicativos padrão (editor de texto, navegador, calculadora)",PJ
 https://olimpiada.ic.unicamp.br/pratique/p2/2007/f1/choc/,Fundamentos de Matemática,Fácil,Conceitos de Aritmética e Geometria,"Números inteiros, operações (incluindo exponenciação) e comparações",PJ
-https://olimpiada.ic.unicamp.br/pratique/p2/2007/f1/mobile/,Algoritmos e Estruturas de Dados,Difícil,Algoritmos em Árvores,Aumentação de subárvores em árvores enraizadas,P1
 https://olimpiada.ic.unicamp.br/pratique/p2/2007/f1/pastas/,Algoritmos e Estruturas de Dados,Fácil,Algoritmos de Ordenação e Busca,"Ordenação em O(N log N) com função da biblioteca padrão, incluindo funções de comparação",PJ
 https://olimpiada.ic.unicamp.br/pratique/p2/2007/f1/repos/,Fundamentos de Computação,Fácil,Informática Básica,"Uso básico de um sistema operacional com interface gráfica (Windows e Linux) e seus aplicativos padrão (editor de texto, navegador, calculadora)",PJ
 https://olimpiada.ic.unicamp.br/pratique/p2/2007/f1/saco/,Algoritmos e Estruturas de Dados,Difícil,Algoritmos de Programação Dinâmica,Problema da Mochila (Knapsack) com e sem repetições,P1
 https://olimpiada.ic.unicamp.br/pratique/p2/2006/f2/lobo/,Algoritmos e Estruturas de Dados,Difícil,Algoritmos em Grafos,Busca em Largura (BFS),PJ
-https://olimpiada.ic.unicamp.br/pratique/p2/2006/f2/penalidade/,Algoritmos e Estruturas de Dados,Difícil,Algoritmos de Programação Dinâmica,Programação dinâmica em prefixos de vetores/matrizes,P1
 https://olimpiada.ic.unicamp.br/pratique/p2/2006/f2/subsequencias/,Algoritmos e Estruturas de Dados,Difícil,Algoritmos de Programação Dinâmica,"Programação dinâmica em prefixos de vetores/matrizes (por exemplo, Algoritmo de Kadane, Maior Subsequência Comum, Distância de Edição)",P1
 https://olimpiada.ic.unicamp.br/pratique/p2/2006/f1/caju/,Algoritmos e Estruturas de Dados,Difícil,Estruturas de Dados,Somas Parciais (soma/máximo/mínimo de prefixo/sufixo),PJ
 https://olimpiada.ic.unicamp.br/pratique/p2/2006/f1/escada/,Algoritmos e Estruturas de Dados,Difícil,Estratégias de Algoritmos,Algoritmos gulosos (incluindo argumentos de corretude),PJ

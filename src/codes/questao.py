@@ -18,8 +18,3 @@ class Questao:
 			texto_paragrafos.append(paragrafo.get_text())
 
 		return texto_paragrafos[1]
-
-if __name__ == "__main__":
-	url = 'https://olimpiada.ic.unicamp.br/pratique/p2/2021/f3/casamento/'
-	questao = Questao(url)
-	print(questao.texto())
