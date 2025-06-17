@@ -1,0 +1,39 @@
+Para resolver a questão proposta, siga os passos a seguir:
+
+1. **Leitura do Enunciado**: Compreenda bem o que está sendo pedido. Identifique as partes chaves, como números ou operações que são essenciais para a resolução. Faça anotações se necessário.
+
+2. **Identificação dos Desafios**:
+   - Pode haver operações envolvendo frações ou porcentagens, então familiarize-se com como essas operações funcionam.
+   - Entenda como as frações podem ser representadas e manipuladas.
+
+3. **Dicas Contextualizadas**:
+   - Pense em frações como porções de pizza: se você tem uma pizza inteira e corta em fatias, cada fatia representa uma fração da pizza total.
+   - Para porcentagens, considere que 100% é o todo; assim, 50% da pizza seria duas fatias de uma pizza cortada em quatro.
+
+4. **Passo a Passo da Lógica**:
+   - **Identificação das entradas**: Determine quais números ou frações você precisa ler da entrada. 
+   - **Realização de operações**: Se a questão envolver frações, talvez você precise realizar somas ou subtrações. Para porcentagens, pense em como fazer a conversão de fração para porcentagem.
+   - **Formatação da saída**: Entenda como você deve apresentar sua resposta. Isso pode incluir a conversão de uma fração para um número decimal, por exemplo.
+
+5. **Tratamento da Entrada e Saída**:
+   - Para ler a entrada, use `input()` e, se necessário, converta para o tipo numérico apropriado, como `int` ou `float`.
+   - A saída pode ser apresentada com `print()`, e se envolver formatação, utilize f-strings ou a função `format()` para manter a saída organizada.
+
+Exemplo de trechos úteis em Python:
+```python
+# Para ler um número inteiro
+numero = int(input("Digite um número: "))
+
+# Para ler uma fração representada como dois inteiros
+numerador, denominador = map(int, input("Digite numerador e denominador: ").split())
+
+# Para imprimir um resultado formatado
+print(f"O resultado é: {resultado:.2f}")  # .2f para duas casas decimais
+```
+
+6. **Estruturas Úteis**:
+   - **Listas** para armazenar múltiplos valores, se necessário.
+   - **Dicionários** se você precisar associar valores a chaves específicas.
+   - Funções auxiliares para organizar seu código e evitar repetição, especialmente se você precisar realizar a mesma operação várias vezes.
+
+Com essas orientações, espero que você consiga elaborar sua solução de forma passo a passo, respeitando as necessidades do enunciado sem perder de vista a lógica envolvida. Boa sorte!

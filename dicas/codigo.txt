@@ -1,0 +1,35 @@
+Para abordar uma questão envolvendo Árvores de Prefixos (Tries), é essencial começar por entender o que é uma Trie e como ela opera. A seguir, descreverei a metodologia que você pode seguir para resolver a questão.
+
+1. **Leitura do Enunciado**: 
+   Identifique quais são os requisitos da questão. Fique atento a detalhes como as operações a serem realizadas (inserção de palavras, busca, contagem de prefixos, etc.) e quais são as entradas e saídas esperadas.
+
+2. **Compreensão da Trie**:
+   Pense na Trie como um mapa de palavras. Cada letra de uma palavra forma um caminho na árvore. Isso significa que palavras que compartilham prefixos comuns têm caminhos semelhantes na Trie.
+
+3. **Passo a Passo para Solução**:
+   - **Construção da Trie**: Crie uma classe ou uma estrutura que represente um nó da Trie. Cada nó deve ter um dicionário para seus filhos e um valor booleano para indicar se aquele nó representa o final de uma palavra.
+   - **Inserção**: Para adicionar uma palavra, percorra cada letra da palavra. Se a letra não existe no nó atual, crie um novo nó. Mova-se para o nó do filho correspondente até que todas as letras sejam inseridas.
+   - **Busca**: Para buscar uma palavra, percorra a Trie letra por letra. Se em algum ponto a letra não for encontrada, a palavra não está na Trie. Ao final, verifique se o nó final indica uma palavra completa.
+   - **Outras Operações**: Dependendo do enunciado, você pode precisar implementar funções adicionais, como contar palavras com determinado prefixo ou listar todas as palavras armazenadas.
+
+4. **Tratamento de Entrada e Saída**:
+   - Para a entrada, você pode usar `input()` para capturar dados. Se você precisar de múltiplas entradas, considere usar um loop.
+   - A saída pode ser formatada usando `print()`. Certifique-se de formatar a saída de acordo com o que é solicitado no enunciado (ex.: se é uma lista, se deve ser separada por vírgulas, etc.).
+
+   Exemplo para entrada:
+   ```python
+   n = int(input())  # Para ler o número de operações
+   palavras = [input().strip() for _ in range(n)]  # Para ler palavras
+   ```
+
+   Exemplo para saída:
+   ```python
+   print("Resultado:", resultado)
+   ```
+
+5. **Estruturas Úteis em Python**:
+   - Use **listas** para armazenar palavras ou resultados temporários.
+   - Um **dicionário** pode ser útil para mapear as letras para os nós filhos na Trie.
+   - Considere criar funções auxiliares para modularizar seu código, como `inserir_palavra()`, `buscar_palavra()`, etc.
+
+Esses passos e estrutura ajudarão a guiar sua implementação sem revelar a solução final. Boa sorte na resolução!

@@ -1,0 +1,36 @@
+Para abordar a questão que envolve busca binária, vamos seguir um passo a passo que ajudará você a entender como resolver o problema.
+
+1. **Leitura do Enunciado**: 
+   Preste atenção nas especificidades do problema. Quais dados você tem? Qual é o objetivo? É comum que a busca binária seja utilizada em listas ou arrays já ordenados. Verifique se há alguma restrição sobre a entrada e se você precisa realizar alguma pré-processamento.
+
+2. **Identificação dos Desafios**:
+   O principal desafio na busca binária é entender como o algoritmo divide a lista em partes para encontrar o elemento desejado. Lembre-se de que o algoritmo só pode ser aplicado em listas ordenadas. Portanto, se a lista não estiver ordenada, primeiro você precisará ordená-la.
+
+3. **Passo a Passo da Resolução**:
+   - **Organize os Dados**: Se a entrada não estiver ordenada, primeiro implemente um algoritmo de ordenação (por exemplo, o próprio algoritmo de ordenação pelo método 'sort').
+   - **Defina os Limites**: Inicie com dois índices que representam o limite inferior e superior da lista onde você irá buscar.
+   - **Iteração**: Utilize um laço (while) que continue enquanto o índice inferior não ultrapassar o índice superior. Dentro desse laço:
+     - Calcule o índice médio (meio) entre os limites inferior e superior.
+     - Compare o valor no índice médio com o valor que você procura.
+     - Se o valor do meio for igual ao que você procura, você encontrou o elemento.
+     - Se o valor do meio for menor, mova o índice inferior para o meio + 1.
+     - Se o valor do meio for maior, mova o índice superior para o meio - 1.
+   - **Condicionais**: Prepare-se para lidar com casos onde o elemento não está presente na lista.
+
+4. **Tratamento da Entrada e Saída**:
+   - Para ler a entrada, você pode usar a função `input()` em Python e convertê-la para uma lista de inteiros (se necessário). Um exemplo seria:
+     ```python
+     dados = list(map(int, input().split()))
+     ```
+   - Para a saída, considere o que exatamente você precisa imprimir. Pode ser um índice ou uma mensagem específica.
+     ```python
+     print(indice)  # Se encontrado
+     print("Não encontrado")  # Se não encontrado
+     ```
+
+5. **Sugestões de Estruturas Úteis**:
+   - Utilize listas para armazenar os dados.
+   - Considere usar funções auxiliares para separar a lógica da ordenação e da busca.
+   - Se necessário, um dicionário pode ser útil para armazenar informações adicionais, mas isso depende das especificações do problema.
+
+Com esses passos e dicas, você deve ser capaz de abordar a questão de busca binária de uma maneira estruturada e clara. Lembre-se de testar seu código com diferentes entradas para se familiarizar com o funcionamento do algoritmo.
