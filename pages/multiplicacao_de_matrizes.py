@@ -251,7 +251,7 @@ col1, col2 = st.columns([20, 0.5])
 
 with col1:
     st.title("OBI-UAN")
-    col12, col22, col32 = st.columns([1.5, 1, 1])
+    col12, col22, col32 = st.columns([1, 1, 1])
 
     with col22:
         st.header("Multiplicação de Matrizes")
@@ -280,6 +280,7 @@ with col1:
     st.markdown("&emsp; • Em um conjunto de casos de teste que totaliza 40 pontos, N ≤ 100.")
 
     st.subheader("Sua resposta")
+    st.markdown("A resposta da questão na aplicação é em ***python***.")
     resposta = st.text_area("", 
                             placeholder="Escreva aqui...",
                             height=150)

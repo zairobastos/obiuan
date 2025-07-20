@@ -1,0 +1,28 @@
+Para abordar a questão proposta, aqui estão as diretrizes e recomendações que você pode seguir:
+
+1. **Leitura Atenta do Enunciado**: Comece lendo o enunciado com atenção, garantindo que você entenda todos os termos e condições mencionados. Identifique quais são as variáveis principais e quais são os resultados esperados.
+
+2. **Desafios Principais**: Geralmente, a questão irá envolver a aplicação do Princípio da Casa dos Pombos, que pode ser desafiador para iniciantes. Você precisa estar atento a como isso se aplica ao cenário apresentado. Pense em como distribuir elementos em "casas" e quais regras se aplicam.
+
+3. **Dicas e Analogias**: Pense na analogia de "pombos e casas". Se você tem mais pombos do que casas, o que isso implica? Use situações do dia a dia, como a distribuição de objetos ou pessoas em espaços limitados, para visualizar melhor a situação.
+
+4. **Passo a Passo de Resolução**:
+   - **Passo 1**: Identifique quantas "casas" (ou categorias) e quantos "pombos" (ou itens) existem no problema.
+   - **Passo 2**: Aplique o Princípio da Casa dos Pombos. Pergunte-se: se houver mais pombos do que casas, o que acontece? Quais são as implicações dessa desigualdade?
+   - **Passo 3**: Considere casos extremos e limites. O que acontece se você apenas tiver duas casas ou um número muito grande de pombos?
+   - **Passo 4**: Organize suas ideias em um formato que ajude a delinear as possibilidades e a lógica que você está seguindo.
+
+5. **Tratamento de Entrada e Saída**:
+   - Para entrada, geralmente você vai trabalhar com números inteiros que representam a quantidade de pombos e casas. Aqui está como você pode tratar a entrada em Python:
+     ```python
+     n_pombos = int(input("Digite o número de pombos: "))
+     n_casas = int(input("Digite o número de casas: "))
+     ```
+   - Para a saída, você deve formatar a resposta de acordo com o que a questão pede, que pode ser um número, uma string ou uma lista. Você pode começar com algo assim:
+     ```python
+     print("Resultado esperado: ", resultado)
+     ```
+
+6. **Estruturas Úteis em Python**: Pense em usar listas e dicionários para armazenar informações sobre a distribuição. Estruturas como sets podem ajudar a verificar duplicatas, se necessário.
+
+Utilizando essas dicas e passos, você poderá abordar e resolver a questão de forma lógica e organizada. Boa sorte!

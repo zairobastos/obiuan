@@ -1,0 +1,32 @@
+Para abordar a questão proposta, siga este passo a passo:
+
+1. **Leitura Atenta**: Comece lendo o enunciado da questão com atenção. Identifique o que é solicitado e quais dados você precisa manipular. Preste atenção especial às operações matemáticas que você terá que utilizar, como adição, subtração, multiplicação e exponenciação.
+
+2. **Identificação dos Desafios**: O problema provavelmente envolve a aplicação de operações aritméticas em números inteiros. Verifique se você precisa fazer comparações entre números, como verificar qual número é maior ou se são iguais.
+
+3. **Analogia com o Mundo Real**: Pense em situações cotidianas que envolvem números e operações. Por exemplo, se você tiver que calcular a quantidade de materiais para um projeto, isso pode ajudar a entender como as operações funcionam na prática.
+
+4. **Lógica a Ser Segida**:
+   - **Dados de Entrada**: Entenda como os dados serão fornecidos ao seu programa. Geralmente, eles podem ser obtidos através de entradas do usuário ou conforme especificado no enunciado. Pense em como você pode armazenar esses dados para facilitar a manipulação.
+   - **Processamento**: Elabore um plano para aplicar as operações matemáticas necessárias nos números recebidos. Pense em como você pode usar variáveis para guardar resultados intermediários, se necessário.
+   - **Comparações**: Se o problema requer que você faça comparações, decida como esses resultados serão tratados, por exemplo, qual ação deve ser tomada se um número for maior ou se dois números forem iguais.
+
+5. **Tratamento de Entrada e Saída**:
+   - Para entrada: Você pode usar a função `input()` para capturar dados do usuário. Lembre-se de converter esses dados para o tipo correto, como `int` para números inteiros.
+   - Para saída: Use a função `print()` para exibir os resultados. Formate a saída com clareza, dependendo do que o enunciado solicitar.
+
+Exemplo de tratamento de entrada e saída em Python:
+```python
+# Capturando a entrada
+numero = int(input("Digite um número inteiro: "))
+
+# Exibindo uma saída formatada
+print("Você digitou:", numero)
+```
+
+6. **Estruturas Úteis**: Considere utilizar:
+   - **Listas**: Úteis se você tiver que manipular múltiplos números.
+   - **Dicionários**: Se precisar mapear números a valores específicos.
+   - **Funções Auxiliares**: Para organizar seu código, principalmente se o problema envolver múltiplas etapas de cálculos.
+
+Seguindo essas diretrizes, você poderá criar uma solução sólida para a questão, desenvolvendo suas habilidades em programação competitiva. Boa sorte!

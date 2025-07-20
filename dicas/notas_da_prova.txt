@@ -1,0 +1,18 @@
+Para abordar a questão apresentada sobre a estrutura básica de um computador, siga os passos abaixo:
+
+1. **Leitura Atenta do Enunciado**: Primeiramente, certifique-se de entender todos os termos e conceitos sobre os componentes de um computador, como CPU, memória e outros periféricos. Faça anotações sobre o que cada componente faz e sua interação.
+
+2. **Identificação dos Principais Desafios**: Neste caso, o desafio principal provavelmente envolve compreender os papéis de cada componente e como eles trabalham juntos em um sistema de computação. Pense em como você descreveria a função de cada parte a alguém leigo.
+
+3. **Dicas Contextualizadas**: Imagine que o computador é como um escritório. A CPU é o escritório onde as decisões são tomadas, a memória é como a mesa onde informações temporárias são colocadas para fácil acesso, e os dispositivos de armazenamento (como disco rígido) são arquivos arquivados em prateleiras, onde você guarda dados importantes a longo prazo.
+
+4. **Passo a Passo para a Resolução**:
+   - **Identifique e descreva cada componente principal**: Comece pela CPU, memória e dispositivos de armazenamento.
+   - **Explique como cada componente se relaciona com os outros**: Como a CPU comunica-se com a memória? O que acontece quando a CPU precisa de dados?
+   - **Use exemplos**: Forneça exemplos práticos que relacionam cada componente a tarefas simples do dia a dia. 
+
+5. **Tratamento de Entrada e Formatação de Saída**: A entrada pode ser alguns cenários onde o computador está realizando tarefas. A saída deve descrever como os componentes estão envolvidos nessas tarefas. Por exemplo, se a entrada for uma pergunta sobre como abrir um aplicativo, a saída poderia ser uma explicação sobre como a CPU busca o aplicativo da memória disposta em um formato claro e lógico.
+
+6. **Estruturas Úteis em Python**: Embora não se possa fornecer código completo, considere usar listas ou dicionários para organizar as descrições dos componentes e suas funções. Isso pode ajudar a criar uma visualização clara das informações.
+
+Com essa estrutura, você poderá trabalhar na questão de forma eficaz, organizando suas ideias e apresentando-as de maneira clara e coerente.

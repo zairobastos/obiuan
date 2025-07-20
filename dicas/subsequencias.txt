@@ -1,0 +1,31 @@
+Para abordar uma questão de programação dinâmica, especialmente em prefixos de vetores ou matrizes como a que você está enfrentando, siga as etapas descritas abaixo:
+
+1. **Leitura atenta do enunciado**: Antes de tudo, entenda o que está sendo pedido. Identifique variáveis, restrições e a saída esperada. Observe se há exemplos que esclareçam a dinâmica do problema.
+
+2. **Identificação dos desafios**: Para programar dinamicamente, você precisa entender como as subproblemas se relacionam. Pergunte-se:
+   - Quais são os estados necessários?
+   - Como você pode construir as soluções desses subproblemas passo a passo?
+
+3. **Estratégia de resolução**:
+   - Pense em como dividir o problema. A programação dinâmica geralmente envolve a decomposição de um problema maior em subproblemas menores que são mais fáceis de resolver.
+   - Tente visualizar ou desenhar a relação entre os subproblemas. Muitas vezes, vale a pena criar uma tabela (ou matriz) onde você armazena os resultados dos subproblemas.
+
+4. **Tratamento de entradas e saídas**:
+   - **Entrada**: Verifique como os dados são fornecidos. São listas, matrizes? Como você pode ler esses dados em Python?
+   - Um trecho útil de código seria:
+     ```python
+     n = int(input())  # leitura de um número
+     array = list(map(int, input().split()))  # leitura de uma lista de inteiros
+     ```
+
+   - **Saída**: Certifique-se de formatar a saída conforme solicitado. Você pode usar `print()` para exibir os resultados, mas atente para o formato:
+     ```python
+     print(result)  # Exibe o resultado final
+     ```
+
+5. **Estruturas de dados úteis**:
+   - Considere usar listas (ou matrizes) para armazenar os estados dos subproblemas.
+   - Dicionários podem ser úteis se o problema envolver mapeamentos mais complexos ou se você precisar acessar valores não sequencialmente.
+   - Funções auxiliares são ótimas para manter seu código modular.
+
+Ao seguir estas etapas e dicas, você estará bem preparado para abordar a questão com sucesso. Mantenha a clareza mental e não hesite em realizar testes locais com pequenos conjuntos de dados para validar suas hipóteses enquanto progride na resolução.

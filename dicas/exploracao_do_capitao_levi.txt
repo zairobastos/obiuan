@@ -1,0 +1,41 @@
+Para abordar a questão proposta, siga o passo a passo abaixo:
+
+1. **Leitura Atenta do Enunciado**:
+   - Compreenda todos os detalhes do problema.
+   - Identifique os requisitos e restrições que serão importantes na hora de implementar a solução.
+
+2. **Identificação dos Desafios**:
+   - Reconheça os principais desafios que a questão apresenta.
+   - Analise se há necessidade de manipulação de dados geográficos, comparação de posições ou outras operações específicas.
+
+3. **Dicas Contextualizadas**:
+   - Pense em cenários do mundo real que envolvem a varredura de eventos ou pontos no espaço (por exemplo, filas ou eventos em uma linha do tempo).
+   - Considere como você organizaria esses pontos ou eventos e como processá-los sequencialmente.
+
+4. **Passo a Passo de Como Resolver**:
+   - **Defina o Retângulo de Varredura**: Prepare um esquema de como você poderia usar uma linha imaginária que se move através dos pontos.
+   - **Classifique os Eventos**: Organize os eventos que você precisará processar ao longo desta linha imaginária. Isso pode incluir determinar a ordem com que eventos precisam ser considerados.
+   - **Estruturas de Dados**: Pense em como você pode utilizar listas ou filas para manter eventos em ordem. Um dicionário pode ser útil para armazenar informações associadas a esses eventos.
+
+5. **Tratamento da Entrada e Saída**:
+   - **Leitura da Entrada**: Utilize a função `input()` para ler os dados. Se for necessário, você pode utilizar `split()` para dividir a entrada em componentes.
+   - **Saída Formatada**: Certifique-se de formatar a saída de acordo com as especificações do problema. Você pode usar `print()` para exibir a saída desejada.
+
+   Exemplo de manipulação de entrada e saída:
+   ```python
+   # Leitura de um inteiro
+   num_eventos = int(input())
+   for _ in range(num_eventos):
+       x, y = map(int, input().split())
+       # Processar os eventos aqui
+
+   # Saída formatada
+   print("Resultado:", resultado)
+   ```
+
+6. **Sugestões de Estruturas Úteis**:
+   - **Listas**: Útil para armazenar eventos ou pontos que você irá processar.
+   - **Dicionários**: Bons para associar informações a eventos ou armazenar contagens.
+   - **Funções Auxiliares**: Considere escrever funções para dividir tarefas, como ordenar eventos ou calcular distâncias.
+
+Ao seguir este guia, você estará em uma boa posição para desenvolver sua solução sem que a lógica final seja mão a mão. Boa sorte!

@@ -1,0 +1,33 @@
+Primeiramente, é essencial que você compreenda os componentes fundamentais de um computador. A questão pode envolver conceitos sobre a estrutura básica de hardware, como CPU, memória, e dispositivos de entrada/saída. 
+
+1. **Leitura Atenta do Enunciado**:
+   Identifique quais componentes do computador estão sendo abordados na questão. Fique atento a termos específicos que possam indicar a função ou a interação entre esses componentes.
+
+2. **Dicas Contextualizadas**:
+   Pense nos componentes de um computador como as partes de uma orquestra. Cada um tem um papel específico a desempenhar: a CPU é como o maestro, coordenando tudo; a memória é como a partitura, armazenando informações necessárias para a performance; e os dispositivos de entrada/saída são os instrumentos que permitem a comunicação com o mundo exterior.
+
+3. **Passo a Passo para Resolver a Questão**:
+   - **Identifique os Componentes**: Faça uma lista dos componentes que podem ser abordados na questão.
+   - **Entenda as Funções**: Para cada componente, reflita sobre o que ele faz. Por exemplo, o que a CPU processa? O que a memória armazena?
+   - **Analise a Interação entre Componentes**: Pense em como esses componentes trabalham juntos. Por exemplo, como a CPU utiliza a memória para realizar tarefas?
+   - **Classifique os Componentes**: Classifique-os em diferentes categorias como armazenamento, processamento e comunicação.
+
+4. **Tratamento de Entrada e Formatação de Saída**:
+   Para abordar a entrada e a saída, considere como você poderia lidar com dados sobre os componentes:
+   - Entrada: Crie uma lista ou dicionário que represente os componentes do computador. Exemplo de como você pode estruturar isso:
+     ```python
+     componentes = {
+         "CPU": "Processador central",
+         "Memória": "Armazenamento temporário",
+         "Dispositivo de Entrada": "Teclado, mouse",
+         "Dispositivo de Saída": "Monitor, impressora"
+     }
+     ```
+   - Saída: Ao descrever ou apresentar a informação sobre os componentes, considere formatá-la de maneira clara. Por exemplo, você pode utilizar um loop para iterar sobre os componentes e suas funções.
+
+5. **Sugestões de Estruturas em Python**:
+   - **Listas**: Útil para armazenar componentes em uma sequência.
+   - **Dicionários**: Extremamente úteis para associar componentes às suas definições ou funções.
+   - **Funções auxiliares**: Considere criar funções para adicionar componentes ou mostrar informações detalhadas sobre cada um.
+
+Com este guia, você deve ser capaz de abordar a questão de estrutura básica de um computador com confiança. Boa sorte!

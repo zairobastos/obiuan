@@ -1,0 +1,29 @@
+Para abordar essa questão de programação competitiva, siga os seguintes passos:
+
+1. **Leitura Atenta do Enunciado**: Comece lendo o enunciado várias vezes. Tente entender quais fórmulas ou conceitos matemáticos estão envolvidos. Qual é a pergunta principal? O que precisa ser calculado?
+
+2. **Identificação dos Desafios**: Determine quais aspectos da matemática (aritmética ou geometria) você precisará aplicar. Isso pode incluir entender as propriedades de formas (triângulos, quadrados, círculos, etc.) ou fazer cálculos envolvendo lados ou áreas.
+
+3. **Dicas Contextualizadas**: Pense em analogias do cotidiano. Por exemplo, se a questão envolve calcular a área de um círculo, utilize a analogia de como você calcularia a quantidade de tinta necessária para pintar uma superfície circular.
+
+4. **Passo a Passo**:
+   - Identifique os dados de entrada. O que exatamente você precisa ler? Quais valores representam cada dimensão ou característica das figuras geométricas?
+   - Esboce as fórmulas que você precisará usar. Por exemplo, a fórmula para a área de um triângulo é diferente da de um quadrado.
+   - Pense em como você pode organizar a lógica. Às vezes, criar funções auxiliares para cálculos específicos pode ajudar a estruturar seu código de forma mais clara.
+   - Considere como as saídas devem ser apresentadas. O problema pode exigir muitos resultados ou apenas um, então organize seus dados de forma coerente.
+
+5. **Tratamento de Entradas e Saídas**:
+   - Para tratar entradas em Python, geralmente usamos a função `input()` para capturar valores e, se precisar de múltiplas entradas, pode dividi-las usando o método `split()`.
+   - Ao formatar a saída, preste atenção em como os resultados devem ser exibidos (como um número inteiro, decimal, ou em formato de texto).
+   - Exemplo de entrada em Python:
+     ```python
+     linha = input()  # Captura uma linha de entrada
+     valores = list(map(int, linha.split()))  # Converte em lista de inteiros
+     ```
+
+6. **Estruturas Úteis em Python**:
+   - Use listas para armazenar múltiplos dados relacionados (como as coordenadas de vértices).
+   - Dicionários podem ser úteis se você precisar mapear nomes de figuras a suas propriedades ou cálculos.
+   - Funções podem ser criadas para cálculos específicos, como por exemplo, uma função que recebe os lados de um triângulo e retorna a área.
+
+Seguindo essas etapas, você terá uma boa base para começar a resolver a questão proposta. Mantenha a calma e avance passo a passo!

@@ -1,6 +1,8 @@
 import streamlit as st
 from pathlib import Path
-from streamlit.components.v1 import html
+import sys
+sys.path.append('./pages')  # Caminho absoluto
+from variavel import dados
 
 st.set_page_config(
     layout="wide",
@@ -251,7 +253,7 @@ col1, col2 = st.columns([20, 0.5])
 
 with col1:
     st.title("OBI-UAN")
-    col12, col22, col32 = st.columns([1.5, 1, 1])
+    col12, col22, col32 = st.columns([1, 1, 1])
 
     with col22:
         st.header("Blefe")
@@ -259,6 +261,7 @@ with col1:
     st.markdown("[Blefe](https://olimpiada.ic.unicamp.br/pratique/p2/2014/f2/blefe/)")
 
     st.subheader("Sua resposta")
+    st.markdown("A resposta da questão na aplicação é em ***cpp***.")
     resposta = st.text_area("", 
                             placeholder="Escreva aqui...",
                             height=150)
@@ -266,9 +269,17 @@ with col1:
     # CSS com classes diferentes
     
     with col23:
-        dicas = st.button("Pedir dicas", key="dicas")
+        if st.button("Pedir dicas", key="dicas"):
+            dados.resposta = resposta
+            dados.nome_questao = "Blefe"
+            dados.rota_questao = "blefe"
+            st.switch_page('pages/dicas.py')
     with col33:
-        enviado = st.button("Enviar", key="enviar")
+        if st.button("Enviar", key="enviar"):
+            dados.resposta = resposta
+            dados.nome_questao = "Blefe"
+            dados.rota_questao = "blefe"
+            st.switch_page('pages/resposta.py')
 
 with col2:
     if st.button("", icon="🏠", key="image_main"):

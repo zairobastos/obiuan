@@ -1,0 +1,36 @@
+Para resolver uma questão de busca em largura (BFS) que envolve grafos, siga estas etapas:
+
+1. **Leitura Atenta do Enunciado**:
+   - Identifique os elementos-chave da questão: qual é o objetivo, quais são as condições, e quais os dados de entrada e saída solicitados.
+
+2. **Identificação dos Desafios**:
+   - Os principais desafios podem incluir a construção do grafo a partir da entrada, a implementação correta da BFS, e a coleta dos resultados de maneira que respeite as condições impostas pela questão.
+
+3. **Dicas Contextualizadas**:
+   - Pense no grafo como uma rede de estradas onde você quer encontrar o caminho mais curto entre diferentes cidades. A BFS explora cada cidade (ou nó) antes de passar para cidades mais distantes, garantindo que você esteja sempre explorando as opções mais próximas.
+
+4. **Passo a Passo Lógico**:
+   - Comece definindo claramente como o grafo será representado. Uma representação comum é através de listas de adjacência ou matrizes de adjacência.
+   - Após construir o grafo, implemente a BFS. Para isso, mantenha uma fila para os nós a serem explorados e um conjunto (ou dicionário) para rastrear os nós que já foram visitados.
+   - Explore cada nó: para cada nó visitado, adicione vizinhos ainda não visitados à fila e marque-os como visitados.
+
+5. **Tratamento da Entrada e Saída**:
+   - A entrada geralmente será um número que representa o total de nós, seguido de pares de nó que representam as arestas do grafo.
+   - Para tratar a entrada, você pode usar `input()` e dividir a string resultante para formar a estrutura de dados que irá utilizar. Aqui está um exemplo de como pode estruturar a leitura da entrada em Python:
+     ```python
+     n = int(input())  # Número de nós
+     graph = {}
+     for _ in range(int(input())):  # Para o número de arestas
+         u, v = map(int, input().split())
+         # Adiciona a aresta u-v e v-u
+         graph.setdefault(u, []).append(v)
+         graph.setdefault(v, []).append(u)
+     ```
+
+6. **Formato da Saída**:
+   - A saída deve ser formatada conforme solicitado e pode envolver a impressão de certos valores ou listas. Você pode usar `print()` para formatar as saídas e garantir que está no formato correto conforme o enunciado.
+
+7. **Estruturas Úteis em Python**:
+   - Utilize listas para armazenar os nós adjacentes, dicionários para a representação do grafo, e filas (deque do módulo collections) para a implementação da BFS.
+
+Esta abordagem metódica permitirá que você consiga compreender e resolver a questão de uma maneira eficiente, utilizando conceitos fundamentais de busca em grafos.

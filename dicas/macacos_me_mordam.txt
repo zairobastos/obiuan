@@ -1,0 +1,30 @@
+Para abordar a questão sobre árvores e florestas, siga estes passos:
+
+1. **Leitura Atenta do Enunciado**: Preste atenção nos detalhes da questão, especialmente nas definições de árvore e floresta, que são conceitos fundamentais em grafos. Uma árvore é um gráfico conexo, acíclico, e uma floresta é um conjunto de árvores disjuntas.
+
+2. **Identificação dos Desafios**: Veja o que está sendo pedido. É necessário entender a estrutura dos dados que você terá e o que deve ser retornado. Pense em como representar a árvore e como manipular suas relações parentais e filhos.
+
+3. **Analogias**: Imagine uma árvore genealógica. Uma pessoa pode ter múltiplos filhos, mas não pode ter mais de um pai. Este conceito pode ajudar a entender a relação entre os nós em uma árvore.
+
+4. **Passo a Passo da Resolução**:
+   - **Representação**: Pense em como você pode representar a árvore (por exemplo, com listas de adjacência ou dicionários). Cada nó pode ser um ponto de interesse, e você deve decidir como conectá-los.
+   - **Recursão**: Considere se um algoritmo recursivo pode ser útil para explorar a árvore. Pergunte-se como você pode visitar todos os nós.
+   - **Contagem e Cálculo**: Se a questão pede contagens ou verificações, pense em como criar uma função que percorre a árvore e acumula esses valores.
+
+5. **Tratamento de Entrada e Saída**:
+   - **Entrada**: Verifique se a entrada é fornecida como uma lista de arestas ou em algum formato específico e como você pode converter isso em sua representação interna da árvore.
+   - **Saída**: Certifique-se de que a saída esteja no formato adequado (como um valor inteiro ou uma lista). Crie um esboço simples de como você vai formatar seus resultados.
+
+6. **Exemplos de Manipulação**:
+   - Para entrada: você pode usar `input()` para ler e depois processar a string para criar suas conexões:
+     ```python
+     input_data = input().split()  # Exemplo de leitura
+     ```
+   - Para saída: a impressão pode ser simplesmente:
+     ```python
+     print(resultado)  # Para exibir o resultado final
+     ```
+
+7. **Estruturas Úteis**: Considere usar dicionários para armazenar a relação pai-filho ou listas para armazenar os nós visitados. Pense também em funções auxiliares para dividir seu código em partes gerenciáveis.
+
+Seguindo essas diretrizes, você terá um bom plano de ação para resolver a questão sobre árvores e florestas. Boa sorte!

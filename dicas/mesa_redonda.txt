@@ -1,0 +1,39 @@
+Para abordar a questão apresentada, siga as etapas a seguir:
+
+1. **Leitura Atenta do Enunciado**: Primeiro, leia o enunciado com cuidado e identifique qual é a operação aritmética modular que você precisa realizar. Anote as operações (adição, subtração, multiplicação) e quais números estão envolvidos.
+
+2. **Identificar os Desafios**: Os principais desafios geralmente envolvem entender como funciona a aritmética modular e aplicar isso nas operações especificadas. Considere também como lidar com valores que ultrapassam o módulo sugerido.
+
+3. **Dicas Contextualizadas**: Pense na aritmética modular como um “relógio”. Se você tem um relógio de 12 horas e soma 5 horas a 10 horas, você vai para 3 horas, não para 15 horas. A ideia aqui é "dar a volta" quando os números ultrapassam o limite do módulo.
+
+4. **Passo a Passo da Resolução**:
+   - **Passo 1**: Identifique o número do módulo, que é o número com o qual você estará fazendo a operação modular.
+   - **Passo 2**: Lembre-se da propriedade da aritmética modular: para uma operação, como \( (a + b) \mod c \), você deve primeiro calcular \( a + b \) e, em seguida, aplicar o módulo.
+   - **Passo 3**: Se a operação envolve subtração ou multiplicação, siga a mesma lógica: calcule a operação e depois aplique o módulo.
+   - **Passo 4**: Certifique-se de considerar os casos em que o resultado da operação pode ser negativo. Para manter o resultado sempre positivo no contexto modular, você pode adicionar o módulo novamente antes de aplicar a operação final.
+
+5. **Tratamento de Entrada e Saída**:
+   - **Entrada**: O enunciado deve especificar como os números e o módulo são fornecidos. Geralmente, isso envolve fazer a leitura dos números de alguma estrutura, como uma lista ou diretamente do input.
+   - **Saída**: A saída será o resultado da operação utilizando a aritmética modular. Formate a saída de acordo com o que for pedido no enunciado (pode ser um valor de inteiro, uma string com algum texto adicional, etc.).
+
+   Exemplos de trechos de código em Python:
+   ```python
+   # Leitura de múltiplos valores
+   a, b, modulo = map(int, input().split())
+
+   # Exemplo de adição modular
+   resultado_adicao = (a + b) % modulo
+   print(resultado_adicao)
+
+   # Exemplo de subtração modular
+   resultado_subtracao = (a - b) % modulo
+   print(resultado_subtracao if resultado_subtracao >= 0 else resultado_subtracao + modulo)
+
+   # Exemplo de multiplicação modular
+   resultado_multiplicacao = (a * b) % modulo
+   print(resultado_multiplicacao)
+   ```
+
+6. **Estruturas Úteis em Python**: Você pode utilizar listas para armazenar múltiplas entradas, dicionários se precisar de associações entre valores, e sempre considere funções auxiliares para operações repetitivas, como calcular a adição, subtração e multiplicação modular.
+
+Seguindo estes passos e dicas, você poderá estruturar sua solução de forma organizada e eficiente, evitando equívocos comuns durante a implementação.

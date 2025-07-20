@@ -1,0 +1,35 @@
+Para resolver esta questão, siga os passos abaixo:
+
+1. **Leia atentamente o enunciado**: Identifique quais informações são dadas e quais são solicitadas. Quais operações precisam ser realizadas? Quais comparações devem ser feitas?
+
+2. **Identifique os desafios**: Determine qual parte do problema pode ser mais complexa. Isso pode envolver operações matemáticas, comparação de resultados ou mesmo conversões de tipo de dados.
+
+3. **Construção de equações**: Pense em como você pode representar o problema matematicamente. O que cada número envolve? Existem regras específicas que você deve seguir ao realizar operações?
+
+4. **Divida o problema em partes menores**: Se o problema envolver múltiplas etapas, analise cada etapa separadamente. Por exemplo, se você precisar calcular um valor antes de compará-lo com outro, faça primeiro o cálculo.
+
+5. **Entrada e Saída**: Considere como os dados serão fornecidos ao seu programa. Pense sobre:
+   - O formato de entrada: será uma lista, um único número, ou várias linhas de entrada?
+   - O que você precisa retornar como saída: um número, uma string, ou um booleano?
+
+6. **Tratamento da entrada**: Prepare-se para usar funções como `input()` para capturar dados. Se houver múltiplas entradas em uma única linha, como listas, você pode usar o método `split()` para dividir essa linha em partes.
+
+7. **Exemplo de manipulação de entrada**:
+   ```python
+   linha = input("Digite os números: ")
+   numeros = list(map(int, linha.split()))
+   ```
+   Isso lhe dará uma lista de inteiros a partir da entrada do usuário.
+
+8. **Formato da saída**: Pense sobre como deseja apresentar seus resultados. Você pode precisar usar `print()` e formatar a saída corretamente.
+   ```python
+   resultado = 42  # Exemplo de um resultado
+   print("O resultado é:", resultado)
+   ```
+
+9. **Estruturas úteis em Python**:
+   - **Listas**: Para armazenar coleções de números ou resultados intermediários.
+   - **Dicionários**: Se o problema envolver associações entre pares de dados (por exemplo, usar um valor para mapear um resultado).
+   - **Funções auxiliares**: Se você identificar uma operação repetitiva no seu raciocínio, considere criar uma função para simplificar seu código.
+
+Seguindo essas diretrizes, você deve ser capaz de estruturar seu pensamento e atacar a questão de forma lógica. Lembre-se de revisar cada etapa antes de avançar para garantir que a solução esteja coerente e correta.

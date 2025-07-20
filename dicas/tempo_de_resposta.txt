@@ -1,0 +1,29 @@
+Para resolver a questão proposta, siga os passos abaixo:
+
+1. **Leitura do Enunciado**: Comece por entender o que é solicitado. Identifique quais são as entradas e saídas, e quais operações precisam ser realizadas sobre os dados.
+
+2. **Identificação dos Desafios**: Determine quais são os principais desafios apresentados pelo problema. Isso envolve pensar sobre como manipular dicionários e o que é necessário para armazenar e acessar os dados de forma eficiente.
+
+3. **Análise Contextual**: Compare o uso de dicionários com situações do dia a dia, como um catálogo onde você tem chave (como um nome) e um valor associado (como um telefone). Isso vai ajudar a entender como estruturar os dados.
+
+4. **Passo a Passo na Lógica de Resolução**:
+   - **Inicialização**: Prepare os dicionários necessários no seu código.
+   - **Leitura das Entradas**: Decida como irá ler as entradas (podem ser linhas de texto, por exemplo) e como irá armazená-las no dicionário.
+   - **Processamento**: Realize as operações necessárias para manipular os dados armazenados no dicionário, que podem incluir inserções, buscas e condições.
+
+5. **Tratamento de Entrada e Saída**:
+   - **Entrada**: Pense em como você vai receber os dados. Se você tem múltiplas linhas de entrada, pode usar `input()` em um loop.
+   - **Saída**: Defina o formato de saída. Decida como vai exibir os dados, utilizando funções como `print()` para mostrar as informações de forma organizada.
+   - Exemplo de manipulação:
+     ```python
+     # Leitura de múltiplas entradas
+     n = int(input())
+     dados = {}
+     for _ in range(n):
+         chave, valor = input().split()
+         dados[chave] = valor
+     ```
+
+6. **Estruturas úteis**: Utilize dicionários para armazenar pares chave-valor, listas para manter dados de forma ordenada, e funções auxiliares para organizar sua lógica de processamento.
+
+Seguindo esses passos, você terá uma boa base para começar a resolver a questão sem pular diretamente para a solução. Boa sorte!

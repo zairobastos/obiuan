@@ -1,0 +1,46 @@
+Para abordar a questão de busca em profundidade (DFS) em grafos, siga os seguintes passos:
+
+1. **Leitura do enunciado**: Identifique qual é o objetivo da questão e quais são os dados de entrada. O enunciado geralmente especificará um grafo, que pode ser representado de diversas formas (lista de adjacência, matriz de adjacência, etc.).
+
+2. **Identificação dos desafios**: Verifique se a questão envolve encontrar um caminho, verificar a conecção entre vértices ou contar componentes conexos, entre outros. Esses são alguns dos desafios comuns em problemas que utilizam DFS.
+
+3. **Contextualização**: Pense no DFS como explorar um labirinto. Você começa em um ponto (vértice) e vai fundo (explora cada caminho até não haver mais opções) antes de voltar e tentar outro caminho. Essa analogia pode te ajudar a visualizar como a busca funciona.
+
+4. **Estrutura de dados**:
+   - **Grafo**: Poderá usar listas de adjacência (dicionários ou listas), onde cada vértice é uma chave que aponta para uma lista de vértices adjacentes.
+   - **Visitados**: Uma lista ou conjunto para marcar quais vértices já foram visitados durante a busca.
+
+5. **Implementação da DFS**:
+   - Defina uma função recursiva para DFS que recebe, entre outros parâmetros, o vértice atual e a estrutura que representa o grafo.
+   - Dentro dessa função, marque o vértice como visitado e, em seguida, itere pelos seus vizinhos (vértices adjacentes) para fazer chamadas recursivas.
+
+6. **Entrada e saída**:
+   - **Entrada**: Normalmente, a entrada pode ser dada em forma de um número de vértices e uma lista de arestas. Você precisará ler esses dados e construir a representação do grafo.
+   - **Saída**: A saída pode ser um resultado como uma lista de vértices em uma ordem específica. Pense em como formatar isso como uma string ou uma lista.
+
+7. **Exemplo de manipulação de entrada**:
+   ```python
+   n, m = map(int, input().split())  # número de vértices e arestas
+   grafo = {}
+   for _ in range(m):
+       u, v = map(int, input().split())
+       if u not in grafo:
+           grafo[u] = []
+       grafo[u].append(v)
+       # Se o grafo for não direcionado, adicione a aresta na direção oposta também
+       if v not in grafo:
+           grafo[v] = []
+       grafo[v].append(u)
+   ```
+
+8. **Exemplo de marcação de vértices visitados**:
+   ```python
+   visitados = set()
+   ```
+
+9. **Dicas para estruturar o código**:
+   - Use uma função principal que controla o fluxo.
+   - Separe a lógica da DFS em outra função para clareza.
+   - Considere construir uma lista ou dicionário para armazenar resultados intermediários, dependendo do que a questão pede.
+
+Sigam estes passos e estruturas para enfrentar a questão. Busque entender cada parte do grafo e a lógica por trás da busca em profundidade. Boa sorte!

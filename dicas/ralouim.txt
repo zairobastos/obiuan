@@ -1,0 +1,38 @@
+Para abordar a questão de programação dinâmica que você está enfrentando, vamos seguir um passo a passo que vai ajudá-lo a estruturar sua solução de forma eficaz:
+
+1. **Leitura do Enunciado**: Identifique claramente quais são os dados de entrada e o que você precisa calcular como saída. É crucial entender o problema antes de mais nada. Procure por palavras-chave que indiquem as operações a serem realizadas e os requisitos.
+
+2. **Identificação dos Desafios**: Pergunte a si mesmo:
+   - Quais são as subproblemas que precisam ser resolvidos?
+   - Como esses subproblemas se relacionam?
+   - Qual é a estrutura de decisão que será utilizada? 
+
+3. **Analogia com o Mundo Real**: Pense em como a programação dinâmica se assemelha a construir uma casa. Se você tiver peças (subproblemas) já montadas, pode usá-las como base para construir partes mais complexas da sua casa, economizando tempo e esforço.
+
+4. **Lógica de Resolução**:
+   - **Defina a Recursão**: Comece definindo uma função que represente seu subproblema. Quais são os parâmetros que você precisa passar?
+   - **Base da Recursão**: Determine quais são os casos base que encerram a recursão.
+   - **Construção do Problema**: Como você pode combinar os resultados de subproblemas para resolver o problema maior?
+
+5. **Tratamento de Entrada e Saída**:
+   - **Entrada**: Normalmente, suas entradas virão de funções como `input()` ou de arquivos. Você pode utilizar `map()` ou `split()` para processar múltiplos valores.
+   - **Saída**: Geralmente, você usará `print()` para exibir o resultado. Tenha cuidado para formatá-lo conforme as exigências do enunciado.
+
+   Exemplos de manipulação de entrada e saída:
+   ```python
+   # Exemplo de entrada
+   n = int(input())
+   valores = list(map(int, input().split()))
+   
+   # Exemplo de saída
+   print(resultado)
+   ```
+
+6. **Estruturas Úteis em Python**:
+   - **Listas**: Essenciais para armazenar os resultados de suas subsoluções.
+   - **Dicionários**: Úteis se você precisar armazenar pares de chaves e valores para acesso rápido.
+   - **Funções Auxiliares**: Crie funções que encapsulem subproblemas, simplificando sua lógica principal.
+
+7. **Otimização da Solução**: Após ter seu algoritmo funcional, pense em como você poderia otimizar o uso de memória e tempo. Isto pode envolver o uso de técnicas como memoização ou tabulação.
+
+Siga essas orientações e faça testes com casos simples antes de eventualmente avançar para casos mais complexos. Isso vai ajudá-lo a solidificar seu entendimento sobre o problema!

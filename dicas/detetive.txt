@@ -1,0 +1,43 @@
+Para abordar a questão que você mencionou sobre Algoritmos em Grafos, especificamente a Busca em Profundidade (DFS), siga as etapas abaixo:
+
+### 1. Leitura Atenta do Enunciado
+Identifique quais informações ou condições estão sendo apresentadas. Preste atenção especial a quais dados de entrada são fornecidos e quais saídas são esperadas.
+
+### 2. Os Principais Desafios
+Verifique quais partes do problema podem ser mais desafiadoras. Isso pode incluir a forma como os dados estão estruturados (grafo representado como lista de adjacências, matriz de adjacências, etc.) e o que exatamente deve ser alcançado com a DFS (por exemplo, encontrar um ciclo, verificar conexidade, etc.).
+
+### 3. Dicas Contextualizadas
+Pense em como a DFS pode ser comparada a explorar um labirinto. Você começa em um local e vai se aprofundando em uma direção até que não consiga mais avançar. Neste momento, você poderá voltar e tentar um novo caminho. Esse é o espírito da DFS.
+
+### 4. Passo a Passo para Resolver a Questão
+- **Modelo o Grafo**: Use uma estrutura como um dicionário onde as chaves representam os vértices e os valores podem ser listas de vértices adjacentes.
+- **Implemente a DFS**: Crie uma função que utilize recursão ou uma pilha para explorar os vértices do grafo.
+- **Marcação de Vértices Visitados**: Use um conjunto ou lista para acompanhar os vértices que já foram visitados. Isso ajuda a evitar ciclos e garantir que você não processe o mesmo vértice mais de uma vez.
+- **Determine o Objetivo**: Estabeleça claramente o que você precisa encontrar ou alcançar com a DFS. 
+
+### 5. Tratamento de Entrada e Formatação de Saída
+Você pode esperar que a entrada venha como um número de vértices, seguido por arestas. A saída pode ser um caminho, uma lista de vértices visitados, ou uma condição (como "conexo" ou "desconexo"). Aqui estão alguns trechos de código que podem ser úteis:
+
+#### Exemplo de Tratamento de Entrada
+```python
+n = int(input())  # número de vértices
+grafo = {i: [] for i in range(n)}  # inicializando o grafo
+
+for _ in range(int(input())):  # número de arestas
+    u, v = map(int, input().split())
+    grafo[u].append(v)
+    grafo[v].append(u)  # se o grafo for não direcionado
+```
+
+#### Exemplo de Formatação de Saída
+```python
+# Se você tem uma lista de vértices visitados
+print("Vértices visitados:", list(visitados))
+```
+
+### 6. Estruturas Úteis em Python
+- **Listas** para armazenar os vértices adjacentes.
+- **Dicionários** para representar o grafo, que facilitam o acesso rápido aos vizinhos.
+- **Conjuntos** para manter controle dos vértices visitados.
+
+Siga essas orientações e utilize estes componentes para estruturar sua solução. Lembre-se de desenvolver seu código passo a passo, testando cada parte à medida que avança. Boa sorte!

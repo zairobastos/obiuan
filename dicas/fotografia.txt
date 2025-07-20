@@ -1,0 +1,38 @@
+Para abordar a questão sobre polígonos, siga estes passos:
+
+1. **Leitura do Enunciado**: Analise cuidadosamente o que é solicitado. Identifique quantos vértices e lados o polígono possui e se ele é simples ou convexo. Isso será crucial para determinar a lógica.
+
+2. **Compreensão dos Polígonos**:
+   - **Vértices**: Pontos onde os lados se encontram. Para um polígono de 'n' lados, existem 'n' vértices.
+   - **Arestas/Lados**: São os segmentos que conectam os vértices. O número de lados é igual ao número de vértices.
+
+3. **Identificação dos Desafios**:
+   - Como calcular a área? Dependendo da forma do polígono (convexo ou não), a abordagem pode variar.
+   - Verifique se há pontos que precisam ser definidos como entrada para o cálculo da área, como coordenadas dos vértices.
+
+4. **Estratégia de Resolução**:
+   - Se o polígono é convexo, a área pode ser calculada usando a fórmula de Shoelace ou coordenadas. 
+   - Se for simples, certifique-se de que os lados não se cruzam e que você possa aplicar a lógica para o cálculo.
+
+5. **Tratamento da Entrada**:
+   - Espere receber as coordenadas dos vértices como entrada. Cuidado com o formato – verifique se é uma lista de tuplas, cada uma representando um vértice.
+
+Exemplo de como ler a entrada em Python:
+```python
+n = int(input("Digite o número de vértices: "))
+vertices = [tuple(map(int, input().split())) for _ in range(n)]
+```
+
+6. **Formatação da Saída**: 
+   - A saída provavelmente deve ser um valor numérico que representa a área calculada. Prepare-se para apresentar esse valor com uma determinada precisão, se necessário.
+
+Exemplo para imprimir a saída:
+```python
+print(f"A área do polígono é: {area:.2f}")  # Exemplo com duas casas decimais
+```
+
+7. **Estruturas Úteis**:
+   - Considere usar listas para armazenar os vértices.
+   - Funções auxiliares podem ser criadas para modularizar o código, como uma para calcular a área do polígono.
+
+Ao seguir esses passos, você terá uma compreensão clara de como abordar a questão sobre polígonos e poderá aplicar os conceitos matemáticos necessários de maneira eficaz.

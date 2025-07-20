@@ -1,0 +1,36 @@
+1. **Leitura Atenta do Enunciado**: Comece lendo o enunciado da questão com cuidado. Identifique quais são os dados de entrada, quais saídas são esperadas e quais são as restrições que podem influenciar a abordagem. Preste atenção nas estruturas que você deverá manipular, como um grafo ou uma matriz.
+
+2. **Desafios Principais**: Geralmente, os desafios principais em problemas que envolvem a Busca em Largura (BFS) são:
+   - Representar o grafo adequadamente em sua estrutura.
+   - Manter o controle de nós visitados para evitar ciclos e redundância.
+   - Implementar a lógica que permite percorrer o grafo de forma eficaz.
+
+3. **Dicas Contextualizadas**: Pense na BFS como uma busca em um labirinto. Você começa em um ponto e vai explorando todos os caminhos ao seu redor antes de avançar para o próximo nível. É fundamental que você mantenha registro de onde já esteve para não ficar preso em um ciclo. 
+
+4. **Passo a Passo**:
+   - **Passo 1**: Crie uma representação do grafo. Pode ser em forma de lista de adjacência ou matriz de adjacência, dependendo do que for mais conveniente para a questão.
+   - **Passo 2**: Prepare uma fila que ajudará a rastrear os nós a serem visitados e uma lista ou conjunto para armazenar os nós que já foram visitados.
+   - **Passo 3**: Inicie a BFS a partir do nó inicial, enfileirando-o e marcando-o como visitado.
+   - **Passo 4**: Enquanto houver nós na fila, desencadeie um loop que:
+     - Desenfileire um nó.
+     - Processe esse nó (pode incluir verificações ou cálculos dependendo do que a questão pede).
+     - Enfileire todos os seus nós adjacentes que ainda não foram visitados, marcando-os como visitados.
+   
+5. **Tratamento de Entrada e Saída**: Determine como os pontos de entrada serão fornecidos. Por exemplo, pode haver uma linha que especifica o número de nós e arestas, seguida de pares de nós que representam as arestas.
+   - Exemplo de leitura de entrada em Python:
+     ```python
+     n, m = map(int, input().split())
+     grafo = [[] for _ in range(n)]
+     for _ in range(m):
+         a, b = map(int, input().split())
+         grafo[a].append(b)
+         grafo[b].append(a)  # se o grafo for não direcionado
+     ```
+   - Para a saída, pense em como você irá imprimir ou retornar o resultado final. Isso pode depender de onde você precisa mostrar os resultados do processamento da BFS.
+
+6. **Estruturas Úteis em Python**: 
+   - **Listas** para representar o grafo, bem como para manter a fila da BFS.
+   - **Conjuntos** para rastrear os nós visitados.
+   - **Funções auxiliares** podem ser muito úteis para dividir sua lógica em partes menores, como uma função para processar um nó ou construir o grafo.
+
+Seguindo esse arcabouço, você conseguirá abordar a questão de forma estruturada e desenvolver sua solução gradualmente.

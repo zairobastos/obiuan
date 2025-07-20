@@ -1,0 +1,36 @@
+Para resolver uma questão que envolve o algoritmo de Busca em Largura (BFS) em grafos, siga estas etapas:
+
+1. **Leitura Atenta do Enunciado**: Comece analisando cuidadosamente o que é solicitado. Identifique os dados de entrada, o que você precisa calcular ou encontrar e quais são as saídas esperadas.
+
+2. **Identificação dos Desafios**: Os principais desafios geralmente incluem a representação do grafo, como realizar a travessia usando o BFS e como armazenar e recuperar informações relevantes (por exemplo, distâncias, predecessores, etc.).
+
+3. **Dicas Contextualizadas**: Pense na BFS como explorar um labirinto. Você começa em uma sala (nó) e explora todas as salas adjacentes antes de voltar e explorar outras áreas mais distantes. Essa analogia pode ajudar a entender o funcionamento do algoritmo, onde você usa uma fila para garantir a ordem de exploração.
+
+4. **Passo a Passo da Lógica**:
+   - **Representação do Grafo**: Use uma lista de adjacência ou uma matriz de adjacência para representar o grafo.
+   - **Fila para BFS**: Utilize uma fila (queue) para ajudar a gerenciar quais nós explorar a seguir.
+   - **Marcar Nós Visitados**: Mantenha um conjunto ou uma lista para rastrear quais nós já foram visitados.
+   - **Processamento dos Nós**: Para cada nó que você explora, adicione seus vizinhos não visitados à fila e marque-os como visitados.
+
+5. **Tratamento da Entrada e Saída**:
+   - **Entrada**: Normalmente, você terá que ler o número de nós e as arestas do grafo. Por exemplo, você pode usar `input()` para capturar dados e `split()` para dividir as entradas quando necessário.
+   - **Saída**: Formate a saída conforme exigido pelo enunciado. Utilize `print()` para mostrar os resultados finais.
+
+**Exemplo de Trechos de Código**:
+- Leitura da entrada:
+
+```python
+n, m = map(int, input().split())  # n para número de nós, m para número de arestas
+grafo = [[] for _ in range(n)]  # lista de adjacência
+for _ in range(m):
+    u, v = map(int, input().split())
+    grafo[u].append(v)  # aresta de u para v
+    grafo[v].append(u)  # se o grafo for não direcionado
+```
+
+- Estruturas úteis em Python:
+   - **Listas**: Para armazenar a lista de adjacência.
+   - **Conjuntos**: Para rastrear os nós visitados de maneira eficiente.
+   - **Deques**: Para implementar a fila de maneira eficiente, ao usar `collections.deque`.
+
+Seguindo essas orientações, você poderá desenvolver uma solução para a questão proposta utilizando a BFS.

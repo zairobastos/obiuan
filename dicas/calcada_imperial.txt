@@ -1,0 +1,28 @@
+Para abordar a questão, você deve primeiro realizar uma leitura atenta do enunciado e identificar os principais desafios que precisam ser enfrentados. Aqui estão algumas orientações sobre como você pode seguir em frente:
+
+1. **Compreender o Problema**: O primeiro passo é entender qual é o problema a ser resolvido. Pergunte a si mesmo quais são as entradas esperadas e quais saídas devem ser produzidas. Tente identificar se há algum padrão ou relação nos dados apresentados.
+
+2. **Identificar os Cases**: Considere diferentes casos de teste que possam vir a acontecer com as entradas. Isso é útil para entender melhor o comportamento do algoritmo em situações distintas.
+
+3. **Estratégia de Programação Dinâmica**: A programação dinâmica é muitas vezes utilizada quando o problema pode ser dividido em subproblemas menores que se sobrepõem. Comece a pensar em como você pode decompor o problema original em subproblemas. Pergunte-se: "Quais são os estados e como posso defini-los?"
+
+4. **Definir a Recorrência**: Uma parte crucial na programação dinâmica é estabelecer a relação de recorrência. Isso envolve formular como a solução para um problema é construída a partir das soluções de seus subproblemas. Tente esboçar essa relação em um papel.
+
+5. **Construir uma Tabela de Armazenamento**: Geralmente, na programação dinâmica utilizamos tabelas (ou arrays) para armazenar os resultados dos subproblemas já resolvidos. Pense em como você pode organizar esses dados de forma que possa acessá-los facilmente quando necessário.
+
+6. **Entrada e Saída**: A forma como você irá tratar a entrada e a saída é crucial. Analise o formato que a entrada terá (por exemplo, quantidades de números, listas, etc.) e desenhe um esboço de como você irá processar esses dados.
+
+   - **Entrada**: Considere como você pode ler e armazenar dados. Por exemplo:
+     ```python
+     dados = input().split()  # Ler uma linha e dividir em partes
+     ```
+   - **Saída**: Verifique como a saída deve ser formatada. Por exemplo:
+     ```python
+     print(resultado)  # Para imprimir o resultado final
+     ```
+
+7. **Use Estruturas Adequadas**: Pense nas estruturas de dados que podem ajudar na sua solução. Listas são frequentemente úteis em programação dinâmica para armazenar estados ou resultados intermediários. Se o problema lida com pares ou associações, considere o uso de dicionários.
+
+8. **Funções Auxiliares**: Se o seu algoritmo se torna muito complexo, talvez seja útil quebrá-lo em partes menores usando funções auxiliares, que podem simplificar a lógica principal.
+
+Ao seguir essas diretrizes, você pode abordar a questão de maneira estruturada e lógica, levando em consideração os elementos que compõem um problema típico de programação dinâmica. Lembre-se de testar seu algoritmo com casos de teste variados para garantir que ele funcione corretamente antes de finalizar sua solução.

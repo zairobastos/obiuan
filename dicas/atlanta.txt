@@ -1,0 +1,30 @@
+Para abordar a questão proposta, siga os passos abaixo, que ajudarão a organizar o seu raciocínio e a chegar à solução.
+
+### 1. Leitura Atenta
+Primeiro, faça uma leitura cuidadosa do enunciado. Preste atenção nos valores que são fornecidos e quais operações matemáticas são necessárias para resolver o problema. Identifique o que está sendo pedido, como cálculos com segmentos, ângulos ou áreas.
+
+### 2. Analogias
+Considere fazer analogias com objetos do dia a dia. Por exemplo, pense em um triângulo como uma fatia de pizza, onde os lados são as crostas e o ângulo no vértice é o ponto central. Isso pode ajudar a visualizar melhor o que cada parte representa e como elas interagem.
+
+### 3. Passo a Passo da Lógica
+- **Identifique os dados necessários**: Quais entradas você precisa? São lados, ângulos, ou radii? 
+- **Defina o que calcular**: Você precisa calcular uma área, perímetro, ou determinar uma relação entre figuras? 
+- **Combine conceitos**: Às vezes, você precisa aplicar mais de um conceito (por exemplo, calcular área usando a base e altura, mas também considerar os lados).
+- **Estruture seu raciocínio**: Pense em dividir sua solução em partes menores, como funções para calcular o perímetro de um triângulo ou a área de um círculo. Isso tornará seu código mais organizado.
+
+### 4. Tratamento da Entrada e Saída
+- **Entrada**: Determine como os dados irão entrar no seu código. Se você está lidando com múltiplos valores, use `input()` para capturá-los e `map()` para converter os dados em números.
+  ```python
+  a, b = map(int, input().split())
+  ```
+- **Saída**: Decida como você vai formatar a saída. A saída pode precisar de um número com um certo número de casas decimais ou apenas inteiro. Para isso, você pode usar formatação de strings.
+  ```python
+  print(f"{resultado:.2f}")
+  ```
+
+### 5. Estruturas Úteis em Python
+- **Listas**: Use listas para armazenar os comprimentos dos lados ou ângulos.
+- **Dicionários**: Se você precisa armazenar pares de valores, como comprimento e largura, considere usar um dicionário.
+- **Funções Auxiliares**: Crie funções para cálculos que você pode reutilizar, como calcular a área de um retângulo ou a soma dos ângulos internos de um triângulo.
+
+Ao seguir esses passos e dicas, você estará no caminho certo para resolver a questão com clareza e organização. Boa sorte!

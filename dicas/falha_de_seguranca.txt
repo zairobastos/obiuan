@@ -1,0 +1,40 @@
+
+Para abordar a questão relacionada a Árvores de Prefixos (Trie), vamos seguir um conjunto de passos lógicos que você pode usar para resolver o problema. 
+
+### 1. Leitura atenta do enunciado:
+Primeiramente, analise o enunciado da questão cuidadosamente. Identifique os principais desafios, como:
+- Quais operações você precisa implementar (inserção, busca, remoção)?
+- Existe alguma condição especial que deve ser considerada nas operações?
+- Quais limitações você precisa ter em mente, como a quantidade de dados que será processada?
+
+### 2. Dicas contextualizadas:
+Pense na Trie como uma forma de organizar palavras ou prefixos de maneira que você possa encontrar buscas de forma rápida. Por exemplo, se você estiver organizando um dicionário, você pode pensar que cada letra de uma palavra é como um degrau em uma escada. Você precisa subir uma escada letra por letra para chegar a uma palavra completa.
+
+### 3. Passo a passo para resolução:
+- **Construir a estrutura da Trie**: Comece definindo a classe da Trie, que deve incluir nós. Cada nó pode conter um dicionário onde as chaves são letras e os valores são subnós.
+  
+- **Inserção de palavras**: Para inserir uma palavra, você começaria na raiz da Trie e seguiria cada letra da palavra. Se a letra não existir em um nó, você a adiciona. Continue até ter inserido todas as letras.
+
+- **Busca de palavras**: Para buscar uma palavra, você segue o mesmo processo da inserção, mas em vez de inserir, você verifica se cada letra da palavra existe na Trie.
+
+- **Implementar operações adicionais**: Dependendo do que a questão pede, você pode precisar implementar funcionalidades de contagem de palavras ou remoção de palavras.
+
+### 4. Tratamento da entrada e saída:
+- **Entrada**: Você pode esperar várias palavras ou instruções. Uma maneira comum de ler isso em Python é usando `input()` em um loop, ou ler de um arquivo ou uma lista.
+  
+- **Exemplo de leitura**:
+  ```python
+  palavras = input().split()  # Lê uma linha e divide por espaços
+  ```
+
+- **Saída**: A saída pode variar dependendo das operações feitas. Um padrão comum é imprimir resultados de buscas ou contagens. Para isso, você pode usar `print()`:
+  ```python
+  print("Resultado da busca")
+  ```
+
+### 5. Sugestões de estruturas úteis:
+- **Dicionários**: Use dicionários para armazenar os nós da Trie. Eles tornam fácil a busca e inserção de letras.
+- **Classes**: Considere criar uma classe para representar seus nós e outra para a Trie em si, facilitando a estrutura e separação de responsabilidades.
+- **Funções auxiliares**: Pode ser útil ter funções auxiliares para as operações de inserção e busca. Isso mantém o código organizado e facilita a manutenção.
+
+Com esses passos e orientações, você deverá ter um bom ponto de partida para enfrentar a questão de forma estruturada e metódica. Boa sorte!

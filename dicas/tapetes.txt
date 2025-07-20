@@ -1,0 +1,27 @@
+Para abordar uma questão de programação dinâmica, siga este passo a passo:
+
+1. **Compreenda o Problema**: Comece lendo o enunciado várias vezes para entender o problema completamente. Identifique as entradas, saídas e as restrições. Pergunte-se: qual é o objetivo final?
+
+2. **Identifique Subproblemas**: A programação dinâmica se baseia na ideia de resolver subproblemas menores e usar suas soluções para construir a solução do problema maior. Pense em como você pode quebrar o problema em partes menores. 
+
+3. **Defina a Estrutura de Armazenamento**: Decida como você irá armazenar as soluções dos subproblemas. Isso pode ser feito usando listas ou dicionários em Python. Por exemplo, você pode ter uma lista onde o índice representa um estado ou uma configuração específica.
+
+4. **Estabeleça a Recursão**: Formule uma relação de recorrência que descreva como construir as soluções a partir dos subproblemas. Esse passo envolve frequentemente pensar em como a solução para o problema maior pode ser obtida a partir das soluções dos subproblemas.
+
+5. **Considere as Condições de Base**: Determine os casos base para sua relação de recorrência. Esses são os pontos iniciais que você conhece a solução.
+
+6. **Implementação**: Quando estiver pronto para implementar, comece definindo a estrutura de dados que irá usar e como as entradas serão lidas. Por exemplo:
+   ```python
+   n = int(input())  # Leitura da entrada
+   dp = [0] * (n + 1)  # Inicialização de uma lista para armazenar resultados
+   ```
+   Pense em como você irá preencher essa estrutura baseando-se nas relações de recorrência que definiu anteriormente.
+
+7. **Saída**: Ao final, você terá que exibir a saída. Certifique-se de que os resultados armazenados na sua estrutura de dados estejam no formato correto. Por exemplo:
+   ```python
+   print(dp[n])  # Imprimindo o resultado que é o último estado a ser calculado
+   ```
+
+8. **Teste com Casos de Uso**: Após implementar, teste com diferentes entradas para verificar se a lógica está correta e se o algoritmo lida bem com os limites de entrada e saída.
+
+Lembre-se que a programação dinâmica é sobre reutilizar soluções, então mantenha-se focado em otimizar a solução para evitar o recalculo desnecessário.

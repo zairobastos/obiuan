@@ -1,0 +1,34 @@
+Para resolver essa questão, siga estes passos:
+
+1. **Leitura do Enunciado**: Comece por ler atentamente o enunciado para identificar o que está sendo solicitado. Tente destacar as operações matemáticas que devem ser realizadas e as comparações que precisam ser feitas.
+
+2. **Identificação de Desafios**: Após a leitura, faça uma lista dos desafios principais. Por exemplo, se a questão envolve operações com números inteiros, pense em como isso pode afetar os valores (positivo, negativo, zero).
+
+3. **Contextualização**: Tente relacionar o problema com situações do dia a dia. Por exemplo, se a questão envolve somar ou multiplicar, você pode pensar em calcular o total de itens ou o preço total de vários produtos.
+
+4. **Estrutura do Problema**:
+   - Identifique os números que você precisa trabalhar e as operações que deve realizar entre eles.
+   - Pense em como você pode usar variáveis para armazenar esses números.
+
+5. **Entrada e Saída**: 
+   - A entrada provavelmente requer que você leia números. Em Python, você pode usar `input()` para obter dados do usuário. Lembre-se de que a entrada deve ser convertida para o tipo de dado correto, como `int` para números inteiros.
+   - Para a saída, use `print()` para mostrar o resultado, formatando-o de acordo com as instruções do enunciado.
+
+   Exemplo de tratamento de entrada e saída em Python:
+   ```python
+   # Leitura da entrada
+   numero1 = int(input("Digite o primeiro número: "))
+   numero2 = int(input("Digite o segundo número: "))
+
+   # Lógica para calcular algo
+   resultado = numero1 + numero2  # Exemplo de operação
+
+   # Saída do resultado
+   print("O resultado é:", resultado)
+   ```
+
+6. **Estruturas Úteis**: Você pode utilizar listas para armazenar múltiplos números se a questão requerer. Dicionários podem ser úteis para associar valores a chaves, caso isso se aplique. Funções auxiliares também podem tornar o código mais organizado se você tiver operações repetitivas.
+
+7. **Teste seu raciocínio**: Uma vez que você entender as operações e como manipular as entradas e saídas, teste seu código com diferentes conjuntos de números para garantir que ele funcione conforme esperado.
+
+Seguindo esses passos, você estará no caminho certo para resolver a questão proposta. Boa sorte!

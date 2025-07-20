@@ -1,0 +1,31 @@
+Para abordar a questão proposta, vamos seguir um procedimento estruturado que pode ajudar você a desenvolver a lógica necessária:
+
+1. **Leitura Atenta do Enunciado**: É essencial que você compreenda todos os detalhes do problema. Faça anotações sobre as entradas fornecidas, as saídas esperadas e qualquer condição especial mencionada. Tente identificar exatamente o que está sendo pedido.
+
+2. **Identificação dos Desafios**: Uma parte importante ao resolver problemas é reconhecer os elementos complicados. Perceba quais são os pontos que requerem mais atenção, como a quantidade de possíveis combinações a serem verificadas e como isso pode sobrecarregar o seu algoritmo se não for bem gerenciado.
+
+3. **Dicas Contextualizadas**: Pense em analogias do dia a dia. Por exemplo, imagine que você está tentando encontrar uma combinação de ingredientes para uma receita específica usando um conjunto limitado de itens. Logo, será necessário experimentar várias combinações até encontrar a que funciona. Assim é a força bruta: testar todas as opções.
+
+4. **Passo a Passo**:
+   - **Defina as Variáveis**: Comece definindo quais variáveis você usará para armazenar dados de entrada. 
+   - **Crie um Loop de Busca**: Para implementar a busca exaustiva, você precisará de loops que percorram todas as possíveis combinações ou estados. Pense em como você pode estruturar esses loops de forma que cubram todas as possibilidades sem deixar exemplos de fora.
+   - **Condições de Parada**: Considere qual condição fará com que o seu algoritmo interrompa as buscas. Isso pode ser quando encontrar a solução ou quando todas as opções tiverem sido testadas.
+
+5. **Tratamento de Entrada e Saída**:
+   - **Entrada**: Analise como os dados chegam, quais são os tipos (inteiros, strings, listas) e como você pode armazená-los. Um exemplo para ler múltiplas entradas pode ser:
+     ```python
+     n = int(input())
+     dados = list(map(int, input().split()))
+     ```
+   - **Saída**: Verifique o formato da saída esperada e como você pode apresentar os resultados. Um exemplo de como imprimir pode ser:
+     ```python
+     print(resultado)
+     ```
+
+6. **Estruturas Úteis em Python**: Considere usar listas para armazenar combinações, dicionários para contar ou armazenar frequências de elementos, e até mesmo funções auxiliares para dividir a lógica em partes mais gerenciáveis. Por exemplo:
+   - Para armazenar resultados intermediários, você pode usar uma lista:
+     ```python
+     resultados = []
+     ```
+
+Seguindo esse guia passo a passo, você estará no caminho certo para desenvolver a solução da questão usando a estratégia de força-bruta. Boa sorte!

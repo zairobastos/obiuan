@@ -1,0 +1,34 @@
+Para abordar uma questão de algoritmos gulosos, siga os passos abaixo:
+
+1. **Leitura do Enunciado**: Compreenda o que está sendo solicitado. Identifique as entradas e saídas esperadas, além das restrições e condições a serem atendidas.
+
+2. **Identificação dos Desafios**: Pergunte-se quais são os elementos-chave do problema e como eles se relacionam. Questões podem envolver decisões em etapas onde você deve escolher a melhor opção com base em critérios específicos.
+
+3. **Exemplo do Mundo Real**: Considere uma situação cotidiana, como decidir a melhor forma de gastar um orçamento limitado em compras. Cada decisão deve maximizar algum objetivo (como a quantidade de produtos comprados). Isso é similar à abordagem gulosa, onde a cada passo você faz a melhor escolha localmente, esperando que isso leve a uma solução global boa.
+
+4. **Lógica da Solução**:
+   - **Defina uma estratégia gulosa**: O que você deve escolher em cada etapa? Quais critérios você usará para tomar essa decisão? 
+   - **Progresso incremental**: Pense sobre como a solução se constrói ao longo do tempo. Quais estados intermediários você poderá encontrar?
+  
+5. **Tratamento de Entrada e Saída**:
+   - **Entrada**: Identifique como os dados são formatados na entrada. O que você precisa ler? Crie estruturas adequadas para armazenar essa informação (ex: listas ou dicionários). 
+   - **Saída**: Defina como você quer que os resultados sejam apresentados. A saída deve ser clara e em um formato específico, como uma lista ou um número.
+
+   Exemplos de trechos de código (sem resolução da questão):
+   ```python
+   # Para ler uma lista de inteiros de uma linha
+   entrada = list(map(int, input().split()))
+   
+   # Para armazenar pares de chave-valor em um dicionário
+   dicionario = {}
+   for i in range(n):  # onde n é o número de entradas
+       chave, valor = input().split()
+       dicionario[chave] = valor
+   ```
+
+6. **Estruturas Úteis em Python**:
+   - **Listas**: Para armazenar e manipular sequências de dados.
+   - **Dicionários**: Para armazenar pares chave-valor e permitir buscas rápidas.
+   - **Funções**: Crie funções auxiliares para dividir a lógica em partes mais gerenciáveis, facilitando a solução do problema.
+
+Seguindo esses passos de forma organizada, você conseguirá estruturar seu pensamento e, possivelmente, chegar à solução correta para o problema apresentado.

@@ -1,0 +1,34 @@
+Para resolver uma questão de programação dinâmica, siga os passos abaixo:
+
+1. **Leia o Enunciado com Atenção**: Identifique o que está sendo pedido. Compreenda as variáveis envolvidas e como elas se relacionam. Os problemas de programação dinâmica frequentemente envolvem a otimização de algum valor ou a contagem de possibilidades.
+
+2. **Entenda a Estrutura do Problema**: 
+   - Pense em como você pode dividir o problema em subproblemas menores. A programação dinâmica geralmente envolve uma abordagem de "resolver uma parte e usar essa solução para resolver o todo".
+   - Pergunte-se: Existe uma relação de recursão que posso usar? Ou seja, se eu resolver o problema para um tamanho menor, posso utilizá-lo para resolver o problema maior?
+
+3. **Identifique o Estado e a Transição**:
+   - Defina quais são os estados do seu problema. Por exemplo, se você está computando algo como a soma máxima de uma sequência, o estado pode ser o índice atual no array.
+   - Determine como você vai transitar entre esses estados. Quais operações você vai realizar para passar de um estado para outro?
+
+4. **Construa a Tabela de Memorização**: 
+   - Se o seu problema envolve recursos que podem ser reutilizados, considere criar uma tabela (normalmente um array ou uma matriz) onde você armazenará os resultados já calculados para evitar cálculos repetidos.
+   - Assim que você calcular uma solução para um subproblema, armazene-a na tabela para que possa ser usada novamente.
+
+5. **Trate as Entradas e Saídas**:
+   - Digite as variáveis necessárias usando `input()`. Use `map()` e `split()` para manipular entradas que são listas ou múltiplos valores.
+   - Para as saídas, mantenha um formato claro e conciso, utilizando `print()`.
+
+Exemplo de manipulação de entradas:
+```python
+n = int(input())
+dados = list(map(int, input().split()))
+```
+
+6. **Estruturas Úteis**:
+   - **Listas**: Útil para armazenar a memória dos estados já calculados.
+   - **Dicionários**: Pode ser usado se o problema envolve chaves não sequenciais para estados.
+   - **Funções Recursivas com Memorização**: Crie funções que calculam e armazenam resultados para subproblemas.
+
+7. **Teste com Exemplos Simples**: Antes de implantar sua solução completa, teste as partes individuais e os estados da tabela com exemplos simples para garantir que você compreendeu a lógica.
+
+Seguindo essas orientações, você estará bem posicionado para abordar a questão e desenvolver uma solução que utiliza a programação dinâmica de maneira eficaz.

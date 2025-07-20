@@ -1,0 +1,39 @@
+Para resolver a questão relacionada a conceitos de aritmética e geometria, siga os passos abaixo:
+
+1. **Leitura Atenta do Enunciado**:
+   - Comece identificando quais figuras geométricas estão sendo mencionadas (reta, segmento de reta, ângulo, triângulo, retângulo, quadrado e círculo).
+   - Preste atenção às operações matemáticas que podem ser necessárias para comparar ou calcular áreas, perímetros ou outras propriedades dessas figuras.
+
+2. **Desafios Principais**:
+   - Entenda como as propriedades de cada figura se relacionam entre si.
+   - Determine quais fórmulas você precisará utilizar (ex.: área de um triângulo, perímetro de um retângulo, etc.).
+
+3. **Dicas Contextualizadas**:
+   - Compare a relação entre figuras geométricas com a organização de objetos em uma prateleira. Cada objeto tem um espaço e dimensão, e suas propriedades podem ser utilizadas para otimizar espaço ou volume.
+
+4. **Passo a Passo de Resolução**:
+   - **Identificação**: Enumere quais figuras estão presentes no problema.
+   - **Fórmulas**: Liste as fórmulas que você sabe que podem ser aplicadas a cada figura.
+   - **Cálculo de Propriedades**: Se necessário, calcule áreas ou perímetros utilizando as fórmulas listadas.
+   - **Condições do Problema**: Verifique as condições apresentadas na questão (ex.: se dois triângulos são semelhantes, se um círculo está contido dentro de um quadrado, etc.).
+   - **Comparação**: Utilize as propriedades calculadas para fazer comparações entre as figuras, se isso for parte do problema.
+
+5. **Tratamento de Entrada e Saída**:
+   - **Entrada**: Determine como os dados serão recebidos. Para cada figura, você pode receber parâmetros como comprimento, largura, ou coordenadas. Utilize a função `input()` para capturar esses valores. 
+     Exemplo:
+     ```python
+     comprimento = float(input("Informe o comprimento: "))
+     largura = float(input("Informe a largura: "))
+     ```
+   - **Saída**: Formate a saída para apresentar os resultados calculados, utilizando a função `print()`.
+     Exemplo:
+     ```python
+     print(f"A área do retângulo é: {area:.2f}")
+     ```
+
+6. **Estruturas Úteis em Python**:
+   - Considere usar listas para armazenar dados de múltiplas figuras.
+   - Funções auxiliares podem ser criadas para calcular a área ou o perímetro de cada figura de forma organizada e reutilizável.
+   - Dicionários podem ser utilizados para mapear nomes de figuras às suas respectivas fórmulas.
+
+Com estes passos, você estará em um bom caminho para resolver a questão, entendendo cada parte do problema sem precisar de uma solução pronta.

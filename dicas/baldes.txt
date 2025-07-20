@@ -1,0 +1,46 @@
+
+Para abordar a questão sobre árvores de segmentos (Segment Trees) 1D, siga os passos abaixo:
+
+### 1. Leitura do Enunciado
+Primeiramente, compreenda o que a questão está pedindo. Verifique quais operações precisam ser realizadas usando a árvore de segmentos, como consultas de intervalo (range queries) ou atualizações de elementos. Identifique os dados de entrada e o que a saída deve fornecer.
+
+### 2. Desafios Principais
+Os principais desafios na construção e manipulação de uma árvore de segmentos incluem:
+- A construção inicial da árvore a partir de um array.
+- A implementação de operações de consulta e atualização eficientes.
+- Entender como as diferentes partes da árvore se relacionam entre si (nós pai e filhos).
+
+### 3. Dicas Contextualizadas
+Considere a árvore de segmentos como uma maneira de dividir uma grande coleção de dados em partes menores, semelhante a como um escritório pode organizar pastas em uma estante. Quando uma nova informação chega (atualização), somente a pasta (nó) correspondente precisa ser refletida enquanto o restante da estante permanece intacto. Da mesma forma, as consultas buscam informações em determinadas partes da árvore.
+
+### 4. Passo a Passo
+- **Estrutura Inicial**: Comece definindo a estrutura que irá representar sua árvore de segmentos.
+- **Construção da Árvore**: Crie uma função que construa a árvore a partir do array inicial. Pense em como mapear elementos do array para os nós da árvore.
+- **Operação de Consulta**: Desenvolva uma função que permita consultar valores em um intervalo específico. Leve em conta como dividir o problema conforme a estrutura da árvore.
+- **Operação de Atualização**: Implemente uma função para atualizar um valor em uma posição específica do array e, consequentemente, refletir essa alteração na árvore.
+
+### 5. Tratamento de Entrada e Saída
+Para lidar com a entrada:
+- Use a função `input()` para capturar dados do usuário e `split()` para separar valores se necessário.
+- Converta esses valores em inteiros ou floats, conforme a natureza dos dados.
+
+Exemplo de captura de entrada:
+```python
+n = int(input())  # le o número de elementos
+array = list(map(int, input().split()))  # le os elementos da árvore
+```
+
+Para formatar a saída:
+- Utilize `print()` para retornar os resultados de suas consultas ou atualizações.
+
+Exemplo de saída:
+```python
+print(resultado)  # onde resultado é a saída da consulta ou atualização
+```
+
+### 6. Estruturas Úteis em Python
+- **Listas**: Para armazenar a árvore de segmentos.
+- **Funções**: Considere criar funções auxiliares para consultas e atualizações, facilitando o entendimento e a manutenção do código.
+- **Recursão**: Examinando a criação e as operações com nós da árvore baseada em uma abordagem recursiva.
+
+Ao seguir esse guia, você poderá construir sua solução passo a passo e entender melhor as operações com árvores de segmentos.

@@ -1,0 +1,32 @@
+Para resolver a questão apresentada, siga os passos abaixo:
+
+1. **Leitura do Enunciado**: Comece por ler o enunciado atentamente e identifique quais informações são fornecidas. Normalmente, uma questão de algoritmos terá variáveis de entrada, um objetivo e, possivelmente, restrições. Tente resumi-las em suas próprias palavras.
+
+2. **Identificação dos Desafios**: Pense sobre o que pode ser difícil de resolver. A questão menciona iteração e repetição, então considere como você pode utilizar essas estruturas. Quais partes do problema podem exigir múltiplas iterações ou condições específicas?
+
+3. **Divisão do Problema**: Tente quebrar o problema em partes menores que você consegue entender individualmente. Pergunte a si mesmo: qual seria a primeira coisa que eu faria? Com isso, você poderá analisar a lógica em um nível mais granular.
+
+4. **Sugestões de Abordagem**:
+   - **Iteração**: Pense em como você pode usar laços (loops) para repetir operações. Quais condições são necessárias para continuar ou parar essas iterações?
+   - **Armazenamento de Dados**: Considere que tipo de estruturas de dados você pode precisar. Uma lista pode ser útil para armazenar resultados intermediários ou um dicionário para contagens e associações.
+
+5. **Tratamento de Entrada e Saída**: 
+   - **Entrada**: Geralmente, você precisará ler dados do usuário ou de um arquivo. Considere usar a função `input()` para capturar entradas, e `split()` para separar diferentes valores quando necessário.
+   - **Saída**: A saída deve ser formatada conforme o especificado no enunciado. Use a função `print()` para exibir resultados e formate strings se necessário (por exemplo, usando f-strings).
+
+6. **Exemplo de Trecho de Código**: 
+   - Para entrada:
+     ```python
+     dados = input("Digite os dados: ").split()
+     ```
+   - Para saída:
+     ```python
+     print("Resultado:", resultado)
+     ```
+
+7. **Estruturas Úteis**: 
+   - **Listas**: Para armazenar sequências de dados.
+   - **Dicionários**: Para armazenar pares chave-valor, se aplicável ao problema.
+   - **Funções Auxiliares**: Considere criar funções para tarefas repetidas, como calcular um valor ou verificar condições.
+
+Siga esses passos e mantenha a lógica clara em cada etapa. Boa sorte!

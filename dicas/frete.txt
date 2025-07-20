@@ -1,0 +1,27 @@
+1. **Leitura Atenta do Enunciado**:
+   - Analise o problema apresentado no enunciado, identificando quais informações são fornecidas e quais são necessárias para a solução. Preste atenção às condições que precisam ser atendidas e às saídas desejadas.
+
+2. **Dicas Contextualizadas**:
+   - Pense em uma situação do dia a dia em que você precisa tomar decisões com base em condições. Por exemplo, se você decidir o que vestir dependendo do clima (frio ou calor). Essa analogia pode ajudar a visualizar como as estruturas condicionais funcionam.
+
+3. **Passo a Passo de Resolução**:
+   - **Identifique as Condições**: Comece listando as condições que o enunciado menciona. O que acontece se uma condição for verdadeira? E se for falsa?
+   - **Estruture as Decisões**: Use estruturas condicionais (if, else) para organizar as decisões. Uma boa prática é resolver primeiro os casos mais simples e depois os mais complexos.
+   - **Teste as Condições**: Crie cenários de teste para cada condição identificada. Isso vai ajudá-lo a validá-las uma a uma.
+   - **Conecte as Saídas**: Para cada condição, conecte a saída correspondente. Isso pode ser feito através de variáveis que armazenam os resultados ou através de prints diretamente.
+
+4. **Tratamento da Entrada e Saída**:
+   - **Leitura da Entrada**: Use a função `input()` do Python para capturar os dados. Considere como os dados estão estruturados (números, texto) e como você os converterá se necessário.
+   - **Formatação da Saída**: Utilize `print()` para exibir as respostas, garantindo que o formato esteja conforme o enunciado.
+   - Exemplo de captura e conversão de entrada:
+     ```python
+     dado = input("Digite o dado: ")  # Captura dado
+     numero = int(dado)  # Converte para inteiro, se necessário
+     ```
+
+5. **Sugestões de Estruturas Úteis em Python**:
+   - **Listas**: Se você precisa armazenar múltiplos valores.
+   - **Dicionários**: Se você quiser mapear chaves a valores, é uma boa escolha para armazenar decisões baseadas em condições.
+   - **Funções Auxiliares**: Crie funções para encapsular partes da sua lógica que podem ser reutilizadas, como checar se uma condição é verdadeira.
+
+Essas orientações devem ajudá-lo a entender e trabalhar na questão sem resolver diretamente o problema. Boa sorte!

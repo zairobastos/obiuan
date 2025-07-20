@@ -1,0 +1,35 @@
+1. **Leitura Atenta do Enunciado:**
+   - Analise os requerimentos da questão, prestando atenção especial aos operadores binários e à representação binária de inteiros.
+   - Identifique os operadores que deverão ser utilizados e como eles se relacionam.
+
+2. **Dicas Contextualizadas:**
+   - Pense em como os bits funcionam como interruptores de on/off. Por exemplo, em um sistema onde cada bit é um interruptor: 1 poderia ser "ligado" e 0 "desligado". Assim, as operações binárias transformam esses "interruptores".
+
+3. **Passo a Passo para Resolver a Questão:**
+   - Primeiro, identifique qual a operação binária que você deve realizar (e, ou, ou-exclusivo, etc.) e como isso se aplicará aos números envolvidos.
+   - Após determinar qual operação aplicar, converta os inteiros para sua forma binária.
+   - Aplique a operação bit a bit, respeitando as regras do operador escolhido.
+   - Converta o resultado de volta para a forma decimal.
+
+4. **Tratamento de Entrada e Saída:**
+   - Os inteiros geralmente são fornecidos como entrada.
+   - A entrada pode ser feita com a função `input()` no Python, e você precisará convertê-los de strings para inteiros usando `int()`.
+   - Também é importante pensar em como formatar a saída. A saída pode ser exibida usando `print()`.
+
+   Exemplo de como manejar a entrada:
+   ```python
+   a = int(input("Digite o primeiro número: "))
+   b = int(input("Digite o segundo número: "))
+   ```
+
+5. **Estruturas Úteis em Python:**
+   - Listas podem ser utilizadas para armazenar os bits, se você optar por manipular a representação binária.
+   - Funções auxiliares podem simplificar o processo, como uma para converter inteiros em binário e outra para aplicar operações entre dois números binários.
+   - Sinta-se à vontade para utilizar o operador “bin()” para a conversão de um número para binário e “int(…, 2)” para a conversão de volta.
+  
+   Exemplo de uso do `bin()`:
+   ```python
+   bin_a = bin(a)  # Converte a para binário
+   ```
+
+Com isso, você terá uma base sólida para começar a trabalhar na questão proposta!

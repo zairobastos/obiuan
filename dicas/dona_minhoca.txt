@@ -1,0 +1,34 @@
+Para abordar a questão do diâmetro e centro de uma árvore, siga os seguintes passos:
+
+1. **Leitura Atenta do Enunciado**: Compreenda a definição de "diâmetro" em uma árvore, que é a maior distância entre dois nós. Entenda o que significa encontrar o "centro" da árvore, que é o nó que minimiza a distância máxima até os outros nós.
+
+2. **Divisão de Desafios**: Identifique que o primeiro desafio é calcular o diâmetro da árvore, que pode ser feito com uma busca em profundidade (DFS) ou busca em largura (BFS). O segundo desafio é encontrar o centro após determinar o diâmetro.
+
+3. **Dicas Contextualizadas**: Pense na árvore como uma cidade com estradas. O diâmetro é como encontrar o caminho mais longo entre duas cidades, enquanto o centro é a cidade mais "central", que minimiza a distância para todas as outras.
+
+4. **Passo a Passo da Resolução**:
+   - **Passo 1**: Realizar uma busca (DFS ou BFS) a partir de um nó arbitrário para encontrar o nó mais distante a partir desse ponto. Vamos chamá-lo de `A`.
+   - **Passo 2**: Realizar uma nova busca (DFS ou BFS) a partir de `A` para encontrar o nó mais distante a partir de `A`. O resultado será o diâmetro e o nó final será chamado de `B`.
+   - **Passo 3**: Para encontrar o centro, você deve rastrear o caminho de `A` a `B` e identificar o ponto médio desse caminho.
+
+5. **Tratamento de Entrada e Saída**:
+   - **Entrada**: A árvore pode ser dada na forma de uma lista de arestas ou como uma lista de adjacências. Por exemplo:
+     ```python
+     n = int(input())  # número de nós
+     edges = [tuple(map(int, input().split())) for _ in range(n - 1)]  # n-1 arestas
+     ```
+   - **Saída**: No final, você deve imprimir o diâmetro e a lista de nós que formam o centro.
+     ```python
+     print(diameter)
+     print(centers)  # onde centers é uma lista com o(s) nó(s) centrais
+     ```
+
+6. **Estruturas Úteis em Python**:
+   - Utilize listas para representar as adjacências da árvore:
+     ```python
+     adjacency_list = [[] for _ in range(n)]
+     ```
+   - Considere usar dicionários para armazenar a profundidade dos nós se necessário.
+   - Funções auxiliares podem ser úteis para realizar buscas e para calcular o comprimento do caminho.
+
+Com essas etapas e sugestões, você deve estar preparado para desenvolver sua solução para a questão do diâmetro e do centro da árvore.

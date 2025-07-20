@@ -1,0 +1,28 @@
+Para resolver a questão proposta, que envolve programação dinâmica em intervalos de vetores/matrizes, siga os passos e dicas abaixo:
+
+1. **Compreensão do Problema**: Faça uma leitura atenta do enunciado para entender os dados de entrada e o que é solicitado na saída. Muitas vezes, um problema de programação dinâmica envolve dividir o problema em subproblemas menores para encontrar uma solução ótima.
+
+2. **Identificação de Desafios**: Identifique como quebrar o problema em partes menores. Os desafios podem incluir a definição de estados, a relação entre eles e a construção de uma solução a partir de soluções de subproblemas.
+
+3. **Passo a Passo da Abordagem**:
+   - **Definição dos Estados**: Determine como você pode representar o estado do problema em uma tabela (matriz ou vetor). Pergunte-se: o que cada elemento dessa tabela representa em relação ao problema original?
+   - **Transição de Estados**: Pense na fórmula de recorrência que conecta os estados, ou seja, como um estado pode ser construído a partir de estados anteriores.
+   - **Base da Recursão**: Pense nos casos base, que são fundamentais para iniciar a construção da solução.
+
+4. **Tratamento de Entrada e Saída**:
+   - **Entrada**: Analise como os dados serão recebidos (por exemplo, como listas ou matrizes) e como você pode iterar através deles. Exemplo em Python para leitura de entrada:
+     ```python
+     n = int(input())
+     lista = list(map(int, input().split()))
+     ```
+   - **Saída**: Considere como a saída deverá ser formatada. Muitas vezes, será uma lista ou um único valor inteiro. Exemplo em Python para saída:
+     ```python
+     print(resultado)
+     ```
+
+5. **Estruturas Úteis**:
+   - **Listas e Matrizes**: Utilize listas ou matrizes para armazenar resultados dos subproblemas. Isso é essencial na programação dinâmica para evitar cálculos repetidos.
+   - **Dicionários**: Se o problema envolver estados que não são sequenciais, um dicionário pode ser útil para armazenar estados de forma mais flexível.
+   - **Funções Auxiliares**: Considere criar funções auxiliares para lidar com partes do problema, como a inicialização de estados ou a realização de cálculos específicos.
+
+Essas dicas e orientações servirão como um guia para você desenvolver sua solução sem a necessidade de resolver o problema completo à frente. É importante praticar e testar diferentes aspectos do seu raciocínio durante a implementação. Boa sorte!

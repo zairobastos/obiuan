@@ -1,0 +1,27 @@
+Para abordar essa questão sobre Árvores de Índices Binários (BIT ou Fenwick Tree) de forma eficaz, siga estas etapas:
+
+1. **Compreensão do Problema**: 
+   Leia o enunciado atentamente e identifique quais operações você precisa implementar (por exemplo, somas prefixadas, atualizações de valores). Anote as partes críticas que indicam como as entradas são dadas e como a saída deve ser formatada.
+
+2. **Analogia do Mundo Real**:
+   Pense na BIT como uma prateleira de livros onde você pode ter diferentes seções (níveis) e cada seção armazena uma parte do total de livros. Quando você precisa saber quantos livros tem até uma certa prateleira, você pode “somar” a quantidade de livros das seções anteriores.
+
+3. **Passo a Passo de Resolução**:
+   - **Inicialização**: Comece criando uma estrutura para armazenar os dados (como uma lista para armazenar os valores da BIT).
+   - **Atualização**: Implemente um método que permita atualizar um valor em uma posição específica, ajustando os valores conforme necessário em posições de índice apropriadas.
+   - **Consulta**: Crie uma função que, a partir de um índice dado, some todos os valores até esse ponto, utilizando a lógica da BIT para navegar efetivamente pela estrutura de dados.
+   - **Operações**: Combine as duas funções principais (atualização e consulta) para resolver as operações conforme especificado no enunciado.
+
+4. **Tratamento de Entrada e Saída**:
+   - Utilize `input()` para leitura das entradas e `print()` para formatar a saída.
+   - Exemplo de como ler múltiplas entradas:
+     ```python
+     n = int(input())
+     valores = list(map(int, input().split()))
+     ```
+
+5. **Estruturas Úteis**:
+   - Considere usar listas para representar a BIT e para armazenar os valores originais, uma vez que você precisará acessar elementos por índice frequentemente.
+   - Crie funções auxiliares para encapsular a lógica de atualização e de consulta. Isso tornará seu código mais organizado e fácil de entender.
+
+Com esses passos e orientações, você terá uma boa base para começar a desenvolver sua solução. Lembre-se de verificar e testar cada parte da lógica cuidadosamente ao implementá-la.

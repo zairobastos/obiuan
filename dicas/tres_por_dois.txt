@@ -1,0 +1,31 @@
+Para resolver a questão proposta, siga as etapas abaixo:
+
+1. **Leitura Atenta do Enunciado**: Comece por ler o enunciado com calma, identificando as principais informações. Quais são os dados de entrada? O que é solicitado na saída? Tente visualizar o que cada parte do enunciado significa.
+
+2. **Identificação dos Desafios**: Os algoritmos gulosos geralmente envolvem a escolha de uma solução localmente ótima em cada etapa, na esperança de que essas escolhas levem a uma solução global ótima. Determine onde isso pode ser aplicado no problema, observando quais decisões devem ser tomadas em cada passo.
+
+3. **Analogias do Mundo Real**: Pense em uma situação cotidiana onde você precisa fazer escolhas sequenciais. Por exemplo, imagine que você está planejando uma viagem e quer visitar várias cidades. Sempre que você chega a uma cidade, decide visitar a atração mais próxima para otimizar seu tempo. Isso se alinha com a ideia de fazer escolhas locais para um benefício global.
+
+4. **Passo a Passo**:
+   - **Identificação das Escolhas**: Liste quais decisões precisam ser tomadas em cada passo do algoritmo. Quais critérios você irá utilizar para fazer a melhor escolha neste momento?
+   - **Construção do Algoritmo**: Esboce um pseudocódigo onde você simula fazer essas escolhas, lembrando-se de armazenar resultados intermediários se necessário.
+   - **Checagem de Corretude**: Após pensar como você quer estruturar o algoritmo, analise se as escolhas feitas em cada passo realmente levarão a uma solução ótima. Que condições você pode olhar para confirmar isso?
+
+5. **Tratamento de Entrada e Saída**:
+   - **Entrada**: Defina como você vai ler os dados que o programa precisa. Eles virão de um arquivo, de um input do usuário ou em um formato específico (como uma lista)?
+     - Exemplo de tratamento de entrada:
+       ```python
+       linhas = input().split()  # para múltiplas entradas em uma linha
+       ```
+   - **Saída**: Pense sobre como você quer que os resultados sejam exibidos. Qual é o formato correto?
+     - Exemplo de saída:
+       ```python
+       print(resultado)  # onde resultado é a variável que guarda o que você deseja exibir
+       ```
+
+6. **Estruturas Úteis**: 
+   - Considere usar listas para armazenar informações necessárias durante o processo.
+   - Dicionários podem ser úteis se você precisar associar dados a chaves específicas.
+   - Funções auxiliares podem ajudar a tornar seu código mais limpo e modular, especialmente se você tiver lógica que se repete.
+
+Ao seguir esses passos, você estará no caminho certo para resolver a questão de forma eficiente, utilizando a estratégia gulosa apropriada. Lembre-se de revisar sua abordagem e validar suas suposições ao longo do processo!

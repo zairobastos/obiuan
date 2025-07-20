@@ -1,0 +1,34 @@
+Para abordar essa questão que envolve Pilhas e Filas, siga os passos abaixo:
+
+1. **Leitura Atenta do Enunciado**: Identifique quais operações devem ser realizadas sobre as estruturas (por exemplo, push, pop para pilhas, enfileirar, desenfileirar para filas) e quais condições devem ser atendidas.
+
+2. **Desafios Principais**:
+   - Entender quando usar pilhas e filas de maneira adequada com base no contexto da questão.
+   - Implementar as operações corretamente respeitando a lógica dessas estruturas.
+
+3. **Dicas Contextualizadas**:
+   - Pense em uma fila como uma linha de pessoas esperando para entrar em um cinema: você entra no final da fila e sai pela frente.
+   - Para uma pilha, imagine uma pilha de pratos: você coloca um novo prato em cima da pilha e retira o prato que está no topo.
+
+4. **Passo a Passo para a Resolução**:
+   - **Entenda as operações**: Faça uma lista das operações que você precisa implementar.
+   - **Defina a estrutura**: Decida se você usará listas, classes ou alguma outra estrutura para representar pilhas e filas.
+   - **Implemente as operações**: Comece a codificar cada operação separadamente e teste se elas funcionam na parte de manipulação das estruturas.
+
+5. **Tratamento de Entrada e Saída**:
+   - Consulte o enunciado para entender o formato da entrada (quantidade de operações, entradas específicas) e faça um exemplo prático.
+   - Para saída, verifique se precisa imprimir estados intermediários ou resultados finais após as operações.
+
+   Trechos úteis de código podem incluir:
+   ```python
+   # Exemplo de como ler a entrada
+   n = int(input())  # lê a quantidade de operações
+   for _ in range(n):
+       comando = input().split()  # lê cada operação e suas possíveis variáveis
+   ```
+
+6. **Estruturas Úteis em Python**:
+   - Utilize listas para implementar pilhas (`append` para push e `pop` para remover).
+   - Para filas, considere usar `collections.deque`, que permite operações de adição e remoção eficiente tanto do início quanto do fim.
+
+Seguindo essas orientações, você conseguirá desenvolver uma solução sólida e organizada para a questão. Boa sorte!

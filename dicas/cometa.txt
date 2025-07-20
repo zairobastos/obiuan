@@ -1,0 +1,28 @@
+Para abordar essa questão de programação competitiva, siga os passos abaixo:
+
+1. **Leitura Atenta:** Comece lendo o enunciado cuidadosamente, identificando os números envolvidos e as operações que você precisa realizar. Anote quais operações precisam ser feitas e quais resultados você está procurando.
+
+2. **Identificar Desafios:** Os principais desafios provavelmente envolvem entender as operações matemáticas e como elas se relacionam com os inteiros. Pense sobre como os diferentes operadores afetam os valores.
+
+3. **Dicas Contextualizadas:** Considere a aritmética como algo cotidiano. Por exemplo, pense em como você soma e multiplica valores no dia a dia, como o preço de várias compras, ou como a exponenciação pode ser comparada a calcular o crescimento de uma planta ao longo do tempo.
+
+4. **Passo a Passo para Resolução:**
+   - **Passo 1:** Decida como você vai representar as entradas (os números inteiros) em seu código.
+   - **Passo 2:** Determine como você irá realizar as operações necessárias (soma, subtração, multiplicação, divisão, exponenciação).
+   - **Passo 3:** Implemente cada operação uma a uma, verificando se os resultados estão corretos após cada passo.
+   - **Passo 4:** Compare os resultados que você obteve com o que é solicitado no enunciado.
+
+5. **Tratamento de Entrada e Formatação de Saída:**
+   - **Entrada:** Utilize a função `input()` para capturar valores na entrada padrão. Convertendo as entradas em inteiros, você pode utilizá-las em operações.
+   ```python
+   x = int(input("Digite o primeiro número: "))
+   y = int(input("Digite o segundo número: "))
+   ```
+   - **Saída:** Use a função `print()` para formatar a saída do resultado. Dependendo do que você precisa mostrar, você pode formatar a string dos resultados de várias maneiras.
+   ```python
+   print("O resultado é:", resultado)
+   ```
+
+6. **Estruturas Úteis:** Considere usar variáveis simples para armazenar seus números e resultados. Se achar necessário, pode também usar listas se você estiver lidando com múltiplos números, mas para uma questão fácil de aritmética básica, variáveis simples são o caminho a seguir.
+
+Seguindo essas orientações, você estará bem preparado para abordar a resolução da questão. Boa sorte!

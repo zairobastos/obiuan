@@ -1,0 +1,31 @@
+Para resolver a questão sobre coordenadas no plano, siga estas etapas:
+
+1. **Leitura do Enunciado**: Compreenda qual é o objetivo principal da questão. Normalmente isso envolve calcular a distância entre dois pontos, verificar posições relativas, ou encontrar o ponto médio, entre outras coisas. Identifique os dados que você terá como entrada.
+
+2. **Identificação dos Desafios**: Os principais desafios podem incluir cálculos de distâncias ou coordenadas, dependerá do que a questão pede especificamente. 
+
+3. **Contextualização**: Pense em como no mundo real você poderia usar coordenadas. Por exemplo, imagine um mapa onde cada ponto representa uma localização. Se você tem duas cidades, a distância entre elas poderia ser calculada para entender quão longe estão uma da outra.
+
+4. **Passo a Passo**:
+   - **Análise das Entradas**: Veja como os pontos são apresentados. Normalmente, você terá as coordenadas em formato (x, y). Verifique se são fornecidas em uma única linha ou separadas.
+   - **Cálculo Necessário**: Determine qual cálculo você precisará fazer. Se for a distância, você precisará usar a fórmula da distância euclidiana: \(\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\). Para isso, pode ser útil armazenar os valores em variáveis.
+   - **Armazenamento das Coordenadas**: Considere usar uma lista ou tupla para armazenar as coordenadas dos pontos, facilitando a manipulação.
+
+5. **Tratamento de Entrada**:
+   - Você pode usar a função `input()` para receber as coordenadas. Se os dados forem fornecidos em uma única linha, você poderá usar o método `split()` para separar os valores.
+   - Exemplo de como capturar entradas:
+     ```python
+     entrada = input()  # "3 4" ou "3, 4"
+     coordenadas = entrada.split()  # Para separar numa lista
+     ```
+
+6. **Formatando Saída**:
+   - A saída geralmente precisa estar em um formato específico. Pense em qual informação é relevante e como será apresentada.
+   - Por exemplo, se você calcular uma distância, isso pode ser apresentado como um número com duas casas decimais. Utilize o formato `"{:.2f}".format(distancia)` para isso.
+
+7. **Estruturas Úteis**:
+   - Considere usar listas ou tuplas para guardar as coordenadas dos pontos.
+   - Dicionários podem ser úteis se você for trabalhar com mais de dois pontos e precisar referenciá-los por um nome ou chave específica.
+   - Funções auxiliares podem ajudar a separar os cálculos do fluxo principal do seu código. Isso torna o código mais organizado e fácil de entender.
+
+Lembre-se de seguir esse guia de forma lógica e estruturada para que consiga chegar à solução desejada!

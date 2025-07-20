@@ -1,6 +1,8 @@
 import streamlit as st
 from pathlib import Path
-from streamlit.components.v1 import html
+import sys
+sys.path.append('./pages')  # Caminho absoluto
+from variavel import dados
 
 st.set_page_config(
     layout="wide",
@@ -259,6 +261,7 @@ with col1:
     st.markdown("[Mancha](https://olimpiada.ic.unicamp.br/pratique/p2/2018/f3/mancha/)")
 
     st.subheader("Sua resposta")
+    st.markdown("A resposta da questão na aplicação é em ***cpp***.")
     resposta = st.text_area("", 
                             placeholder="Escreva aqui...",
                             height=150)

@@ -1,0 +1,31 @@
+1. **Identificação dos Desafios**:
+   - Ler e entender o enunciado é crucial. Normalmente, as questões de algoritmos simples de iteração requerem que você faça um loop sobre uma ou mais coleções de dados, adotando uma abordagem sistemática para processar cada item.
+   - Atenção às condições de parada e como os dados estão organizados.
+
+2. **Dicas Contextualizadas**:
+   - Pense em um exemplo do dia a dia, como contar maçãs em uma cesta. Você começaria olhando uma maçã, contando-a e, em seguida, moveria para a próxima até que todas as maçãs fossem contadas. Isso se assemelha à maneira de iterar sobre uma lista de números ou elementos.
+
+3. **Passo a Passo**:
+   - **Passo 1**: Compreende o que a questão pede. Identifique as variáveis que você precisa monitorar (por exemplo, totais, contagens).
+   - **Passo 2**: Prepare-se para iterar. Para cada elemento da sua entrada, determine o que você precisa fazer com ele (soma, contagem, comparação).
+   - **Passo 3**: Considere se você precisa de uma estrutura condicional dentro de seu loop para atender a qualquer critério específico que a pergunta define, como contar apenas números pares ou ímpares.
+   - **Passo 4**: Ao final de sua iteração, pense em como você pode compilar seus resultados e a lógica que você deve usar para apresentá-los.
+
+4. **Tratamento de Entrada e Saída**:
+   - **Entrada**: A entrada pode ser de múltiplas linhas ou uma única linha. Use `input()` para ler. Lembre-se de que pode ser necessário dividir a string em partes, utilizando o método `.split()`.
+   - **Saída**: Formate sua saída conforme necessário, talvez usando `print()`. Considere como você deseja que a saída apareça, se precisa de alguma sequência específica de dados.
+
+   **Exemplo**:
+   ```python
+   # Para ler uma linha e dividir em partes
+   dados = input().split()  # Recebe a entrada e divide em uma lista
+
+   # Para imprimir um resultado
+   print(result)  # Onde result seria a variável que você está calculando
+   ```
+
+5. **Estruturas Úteis em Python**:
+   - **Listas**: Para armazenar uma coleção de números ou strings.
+   - **Dicionários**: Se você precisa associar chaves a valores, como contar ocorrências de elementos.
+   - **Laços**: `for` e `while` são essenciais para percorrer elementos de listas ou executar uma ação repetidamente.
+   - **Funções auxiliares**: Se a lógica começar a ficar complexa, considere dividir em funções que realizem tarefas específicas.

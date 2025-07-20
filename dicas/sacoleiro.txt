@@ -1,0 +1,38 @@
+Para entender como abordar a questão do Problema da Mochila, siga as etapas abaixo:
+
+1. **Leitura do Enunciado**: Comece por ler atentamente o enunciado da questão. Identifique quais são os itens disponíveis, seus valores, seus pesos e as restrições relacionadas à capacidade da mochila. 
+
+2. **Identificação dos Desafios**: Os principais desafios geralmente incluem: 
+   - Determinar a melhor combinação de itens que maximiza o valor total sem ultrapassar a capacidade da mochila.
+   - Considerar se os itens podem ser repetidos ou não, pois isso altera a abordagem de resolução.
+
+3. **Analogias do Dia a Dia**: Pense na mochila como uma mala em que você precisa escolher quais itens levar para uma viagem. Se você tem espaço limitado (capacidade da mochila), você precisa selecionar com atenção os itens que trazem maior valor (são mais úteis ou agradáveis) e que se encaixam na sua mala (peso).
+
+4. **Passo a Passo para a Resolução**:
+   - **Defina o que você precisa calcular**: Foque em encontrar o valor máximo que pode ser alcançado com a combinação de itens.
+   - **Crie uma tabela (matriz)**: Para o algoritmo de Programação Dinâmica, você geralmente usa uma tabela onde as filas representam itens e as colunas representam as capacidades. Você irá preencher essa tabela considerando cada item e a capacidade atual.
+   - **Atualize valores**: Ao considerar um item, você precisa atualizar o valor máximo que pode ser obtido para cada capacidade considerando se você escolhe incluir ou não o item.
+   - **Repetições ou não**: Se a questão permite repetição de itens, a abordagem ao preencher a tabela será ligeiramente diferente do caso em que não permite.
+
+5. **Tratamento de Entrada e Saída**:
+   - **Entrada**: Geralmente, a entrada consiste na quantidade de itens, os respectivos pesos e valores, e a capacidade máxima da mochila. Você pode tratar isso em Python usando uma leitura das linhas, convertendo-as em listas.
+   - **Saída**: A saída deve ser o valor máximo que pode ser obtido. Isso pode ser retornado como um único número.
+
+   Exemplos de trechos de código para manipular entrada e saída em Python:
+   ```python
+   # Tratamento da entrada
+   n = int(input("Digite o número de itens: "))
+   valores = list(map(int, input("Digite os valores dos itens: ").split()))
+   pesos = list(map(int, input("Digite os pesos dos itens: ").split()))
+   capacidade = int(input("Digite a capacidade da mochila: "))
+
+   # A saída pode ser simplesmente:
+   print(valor_maximo)
+   ```
+
+6. **Estruturas Úteis**: 
+   - Utilize listas (ou arrays) para armazenar os valores e pesos dos itens.
+   - Uma lista bidimensional pode ser útil para a tabela de DP, onde uma dimensão pode representar a capacidade da mochila e a outra, os itens disponíveis.
+   - Considere criar funções auxiliares para encapsular a lógica de preenchimento da tabela, que pode facilitar a legibilidade do seu código.
+
+Esses passos devem ajudar a direcionar seu pensamento para a resolução do problema sem entregar a resposta final. Concentre-se nas abordagens e na organização do seu código para uma implementação eficaz.

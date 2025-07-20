@@ -1,0 +1,31 @@
+Para resolver a questão envolvendo conceitos de pontos e coordenadas no plano, siga as diretrizes abaixo:
+
+1. **Leitura Atenta do Enunciado**: Identifique qual é a pergunta central e quais dados estão sendo fornecidos. Preste atenção nos exemplos que podem ajudar a entender as operações que você precisa realizar.
+
+2. **Desafio Principal**: Normalmente, a dificuldade em questões desse tipo está em entender como trabalhar com coordenadas e como aplicar as operações solicitadas (como distância, comparação de posições, etc.). 
+
+3. **Dicas Contextualizadas**: Pense em como locais em uma cidade são representados por mapas. Cada local pode ser definido por um par de coordenadas (x, y). Isso pode ajudar a visualizar a relação entre os pontos no plano.
+
+4. **Passo a Passo para Resolução**:
+   - **Identifique as Coordenadas**: Comece identificando quais são as coordenadas que você precisa trabalhar.
+   - **Determine o que precisa ser calculado**: Se a questão envolver distância, por exemplo, você precisará usar a fórmula da distância entre dois pontos.
+   - **Implemente Operações**: Considere como as operações matemáticas são aplicadas às coordenadas. Isso pode incluir somas, subtrações, e até mesmo operações mais complexas como integrais ou derivadas, dependendo do avanço do problema.
+
+5. **Tratamento de Entrada e Saída**:
+   - **Entrada**: Geralmente, você irá ler as coordenadas que podem ser fornecidas pelo usuário, por exemplo, usando `input()`. Essas coordenadas podem ser fornecidas como pares de números, então talvez você precise converter esses inputs de strings para números.
+   - **Saída**: A saída deve ser formatada de acordo com o que a questão pede - pode ser um número, uma string, ou até mais de um valor. Use `print()` para exibir o resultado.
+
+   Exemplo de trechos úteis:
+   ```python
+   # Lendo coordenadas
+   x1, y1 = map(float, input("Insira as coordenadas do primeiro ponto (x1 y1): ").split())
+   x2, y2 = map(float, input("Insira as coordenadas do segundo ponto (x2 y2): ").split())
+
+   # Exemplo de cálculo de distância (sem revelação da fórmula)
+   distancia = ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+   print(distancia)
+   ```
+
+6. **Estruturas Úteis em Python**:
+   - **Listas**: Para armazenar coordenadas, você pode usar listas como `ponto1 = [x1, y1]` e `ponto2 = [x2, y2]`.
+   - **Funções Auxiliares**: Considere criar funções para calcular a distância ou qualquer outra operação que você precisar, assim seu código ficará mais organizado e reutilizável.

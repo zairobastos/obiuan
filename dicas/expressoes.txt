@@ -1,0 +1,41 @@
+Para resolver a questão apresentada, siga os passos a seguir:
+
+1. **Leitura do Enunciado**: Comece lendo o enunciado atentamente e identifique os principais desafios. Tente destacar as operações que estão sendo solicitadas e o objetivo final.
+
+2. **Identificação dos Desafios**: 
+   - Quais números estão envolvidos?
+   - Quais operações matemáticas precisam ser realizadas?
+   - Existem condições específicas ou comparações a serem feitas?
+
+3. **Conceito e Estrutura Lógica**: 
+   - Pense na ordem das operações e como elas se relacionam. Essa é uma boa analogia no dia a dia: se você for cozinhar, precisa seguir uma receita na sequência correta para que o prato fique bom. 
+   - Pense em como quebrar o problema em partes menores (por exemplo, se envolvem somas, multiplicações ou outras operações).
+
+4. **Tratamento da Entrada**: 
+   - Determine como a entrada será fornecida. 
+   - Pergunte-se: os números virão em uma linha? Eles serão separados por espaços ou vírgulas? 
+
+   Exemplo de código para leitura de entrada:
+   ```python
+   entrada = input("Digite os números: ")  # Captura a entrada do usuário
+   numeros = list(map(int, entrada.split()))  # Converte a entrada em uma lista de inteiros
+   ```
+
+5. **Formato da Saída**: 
+   - Como sua saída deve ser apresentada? Haverá apenas um número? Uma lista? 
+   - Certifique-se de que a saída esteja no formato correto, conforme solicitado no enunciado.
+
+   Exemplo de código para saída:
+   ```python
+   print("Resultado:", resultado)  # Substitua 'resultado' pela variável do seu cálculo
+   ```
+
+6. **Estruturas Úteis**: 
+   - Considere usar listas para armazenar números e realizar operações sequenciais.
+   - Dicionários poderão ser úteis caso você precise mapear valores ou situações específicas.
+   - Funções auxiliares podem ser criadas para organizar seu código, especialmente se houver várias etapas no cálculo.
+
+7. **Testes e Validação**: 
+   - Sempre valide sua solução com exemplos fornecidos e também crie casos próprios para garantir que todos os aspectos foram cobertos.
+
+Seguindo estes passos, você será capaz de estruturar seu raciocínio e desenvolver a solução para a questão proposta. Boa sorte!

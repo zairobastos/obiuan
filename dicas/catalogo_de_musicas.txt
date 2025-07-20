@@ -1,0 +1,29 @@
+Para resolver a questão apresentada sobre administração básica de arquivos, sigamos um passo a passo para facilitar o entendimento dos conceitos e a aplicação prática.
+
+1. **Leitura do enunciado:** Comece analisando cuidadosamente o enunciado para identificar o que é solicitado. Faça anotações sobre os comandos de arquivo mencionados, como criar, copiar e mover.
+
+2. **Identificação dos desafios:** Os principais desafios podem incluir entender as operações de manipulação de arquivos e como interagir com o sistema de arquivos de um computador.
+
+3. **Dicas Contextualizadas:** Pense em como você gerenciaria arquivos no seu computador. Por exemplo, se você quiser guardar uma foto em uma nova pasta ou se precisar mover um documento para outro local, quais ações você tomaria? Essas analogias ajudam a conectar as operações de programação às ações do dia a dia.
+
+4. **Passo a Passo Lógico:**
+   - **Criar arquivos/pastas:** Familiarize-se com como criar um novo arquivo ou pasta em uma determinada localização.
+   - **Copiar arquivos:** Entenda que a cópia envolve selecionar um arquivo existente e criar uma duplicata em outro local.
+   - **Mover arquivos:** Aprenda que mover um arquivo significa transferi-lo de um lugar para outro, enquanto a cópia mantém o original em seu lugar.
+   - **Manipulação de caminhos:** Tenha em mente como construir corretamente os caminhos para os arquivos, considerando diretórios e suas estruturas.
+
+5. **Tratamento de Entradas e Saídas:**
+   - **Entrada:** Considere como o programa vai receber informações sobre o que criar, copiar ou mover. Normalmente, isso poderia ser feito através de comandos de texto ou parâmetros na execução do programa.
+   - **Saída:** Pense em como confirmar a operação realizada, exibindo mensagens como "Arquivo criado com sucesso" ou "Arquivo movido".
+
+   Exemplos de trechos úteis de código em Python que podem ajudar:
+   - Para criar uma pasta, você pode utilizar `os.makedirs(caminho_do_diretorio)`.
+   - Para copiar arquivos, você pode usar `shutil.copy(caminho_origem, caminho_destino)`.
+   - Para mover arquivos, `shutil.move(caminho_origem, caminho_destino)` pode ser útil.
+
+6. **Estruturas úteis em Python:** 
+   - **Listas:** Para armazenar múltiplos arquivos ou caminhos.
+   - **Dicionários:** Úteis para mapear comandos a funções específicas de manipulação de arquivos.
+   - **Funções auxiliares:** Considere escrever funções que encapsulem a lógica para criar, copiar e mover, facilitando a reutilização do código.
+
+Seguindo essas orientações, você poderá estruturar uma solução lógica e saudável para a questão apresentada, desenvolvendo as habilidades necessárias para manipulação de arquivos em programação.

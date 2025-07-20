@@ -1,0 +1,32 @@
+Para abordar a questão proposta, vamos primeiro identificar quais são os principais desafios que você deve resolver. Vamos falar sobre pilhas e filas, entender suas características e como elas podem ser aplicadas à resolução do problema.
+
+### Desafios Principais:
+1. **Entender o funcionamento de pilhas e filas**: Pilhas operam em um princípio "último a entrar, primeiro a sair" (LIFO) enquanto filas operam em "primeiro a entrar, primeiro a sair" (FIFO).
+2. **Identificar as operações a serem realizadas**: Saber como inserir (push/enqueue) e remover (pop/dequeue) elementos de cada uma dessas estruturas de dados.
+3. **Gerenciar a entrada e saída de dados**: Saber como ler a informação desejada e formatá-la da maneira correta.
+
+### Dicas Contextualizadas:
+Pense nas pilhas como em uma pilha de pratos; você só pode retirar o prato do topo. Para filas, imagine uma linha de pessoas esperando para entrar em um cinema, onde a primeira pessoa na fila é a primeira a ser atendida.
+
+### Passo a Passo:
+1. **Escolha uma estrutura de dados**: Determine se o problema pode ser resolvido mais eficientemente usando uma pilha ou uma fila.
+2. **Defina as operações necessárias**: Liste quais operações você precisará realizar com a estrutura de dados escolhida. Isso pode incluir adicionar ou remover elementos, verificar se a estrutura está vazia, entre outros.
+3. **Implemente a lógica para as operações**: Comece a implementar as operações básicas de inserção e remoção. Lembre-se de que as operações devem estar de acordo com a definição de pilha ou fila.
+4. **Gerencie entrada e saída**: Prepare seu código para lidar com a entrada de dados, processando cada elemento conforme necessário, e formatando a saída após todas as operações.
+
+### Tratamento de Entrada e Saída:
+- **Entrada**: Você pode usar `input()` ou `sys.stdin.read()` para ler a entrada. Por exemplo:
+    ```python
+    linha = input()  # lida uma linha de entrada
+    ```
+- **Saída**: Utilize `print()` para mostrar os resultados. Lembre-se de formatar a saída conforme solicitado pelo enunciado.
+    ```python
+    print(elemento)  # para mostrar um elemento na saída
+    ```
+
+### Estruturas Úteis em Python:
+- **Listas**: Podem ser usadas tanto como pilha (com `.append()` e `.pop()`) quanto como fila (com `.append()` e `.pop(0)`).
+- **Deques**: A coleção `collections.deque` é uma alternativa ideal para filas, pois permite inserção e remoção de ambos os extremos de forma eficiente.
+- **Funções auxiliares**: Considere criar funções para encapsular a lógica de inserção e remoção, que tornarão o código mais organizado e modular.
+
+Agora, você tem um guia claro de como progredir nessa questão. Boa sorte!

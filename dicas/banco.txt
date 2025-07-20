@@ -1,0 +1,29 @@
+Ao abordar esta questão, que se insere no contexto de fundamentos de computação com foco em estruturas de repetição, é importante seguir um passo a passo que permitirá a você entender e resolver o problema adequadamente. Aqui estão algumas orientações:
+
+1. **Leitura atenta do enunciado**: O primeiro passo é entender exatamente o que está sendo solicitado. Identifique quais são as entradas e saídas esperadas e qualquer condição especial mencionada.
+
+2. **Identificação dos desafios**: Determine quais partes do problema podem ser difíceis. Se há condições que precisam ser verificadas repetidamente ou se você precisa realizar alguma operação em um conjunto de dados.
+
+3. **Dicas de analogia**: Tente imaginar a situação descrita no enunciado em um cenário do dia a dia. Por exemplo, se o problema envolve contar objetos, você poderia pensar em contar maçãs em uma cesta. Quantas maçãs você tem? Se você tiver um número individual de cestas, quantas maçãs estão em cada cesta?
+
+4. **Passo a passo da lógica**:
+   - Primeiro, decida como você vai coletar as entradas. O uso de um laço (como `while` ou `for`) pode ser importante aqui.
+   - Em seguida, pense em como você vai armazenar ou processar os dados coletados.
+   - Considere se você precisará de condições (`if` ou `else`) para controlar o fluxo do seu programa.
+
+5. **Tratamento de entrada e saída**:
+   - Para a entrada, use a função `input()` para receber dados do usuário. Por exemplo:
+     ```python
+     dado = input("Digite algo: ")
+     ```
+   - Para formatar a saída, use a função `print()`. Por exemplo:
+     ```python
+     print("Resultado:", resultado)
+     ```
+
+6. **Estruturas úteis**:
+   - Considere usar listas para armazenar múltiplos valores, especialmente se precisar realizar ações repetidas com esses valores.
+   - Se houver a necessidade de associar chaves a valores, dicionários podem ser uma boa escolha.
+   - Não esqueça de funções auxiliares para dividir a lógica em partes mais gerenciáveis.
+
+Com essas dicas, você estará bem posicionado para abordar a resolução da questão em questão. Lembre-se de se concentrar na estrutura de repetição e na organização dos dados enquanto desenvolve sua solução. Boa sorte!

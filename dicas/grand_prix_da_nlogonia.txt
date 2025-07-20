@@ -1,0 +1,50 @@
+Para abordar a questão sobre componentes fortemente conexas em um grafo, é importante seguir um processo estruturado. Aqui estão as etapas que você pode considerar:
+
+1. **Compreensão do Problema**:
+   - Leia o enunciado atentamente. Identifique o que são componentes fortemente conexas e como elas se relacionam com os vértices e as arestas do grafo.
+   - Entenda o que se espera como saída e como a resposta deve ser interpretada.
+
+2. **Escolha do Algoritmo**:
+   - Você pode optar entre os algoritmos de Kosaraju ou Tarjan. Ambos têm suas particularidades.
+   - Pense nas diferenças: Kosaraju utiliza duas passagens pelo grafo, enquanto Tarjan utiliza uma abordagem de profundidade (DFS) e um conjunto de estruturas de dados.
+
+3. **Estruturas de Dados**:
+   - Considere usar listas ou dicionários para representar seu grafo. Exemplifique como armazenar informações sobre os vértices e suas conexões.
+   - Prepare para usar uma lista (ou pilha) para armazenar a ordem de visita dos vértices. Isso será importante em ambos os algoritmos.
+
+4. **Processamento das Entradas**:
+   - Especifique como você vai ler as entradas. Normalmente, um grafo é representado por uma lista de adjacências.
+   - Considere um trecho de código que permita ler a entrada e criar a estrutura do grafo.
+
+5. **Lógica do Algoritmo**:
+   - Para o algoritmo de Kosaraju, pense em duas etapas principais: uma para fazer um DFS no grafo original e outra no grafo transposto.
+   - Para o algoritmo de Tarjan, foque em como você vai usar um índice temporal e um valor de baixo (low-link) para identificar componentes.
+
+6. **Preparação da Saída**:
+   - Pense em como você irá estruturar sua saída. Quantas componentes fortemente conexas serão retornadas e como os vértices de cada componente devem ser agrupados.
+   - Considere um exemplo simples e como seria a formatação da resposta.
+
+7. **Teste e Validação**:
+   - Após implementar a lógica, faça testes com diferentes configurações de grafos para garantir que sua solução está correta.
+   - Verifique se a implementação atende aos casos de borda.
+
+### Exemplo de Trecho de Código:
+- Para leitura de grafo:
+
+```python
+grafo = {}
+n, m = map(int, input().split()) # onde n é o número de vértices e m o número de arestas
+for _ in range(m):
+    u, v = map(int, input().split())
+    if u not in grafo:
+        grafo[u] = []
+    grafo[u].append(v)
+```
+
+- Para estruturação da saída:
+
+```python
+resultados = [] # lista para armazenar as componentes
+```
+
+Estes passos e dicas devem ajudar você a estruturar a solução para a questão de componentes fortemente conexas. Boa sorte!

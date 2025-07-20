@@ -1,0 +1,61 @@
+Para abordar a questão sobre ordenação topológica utilizando o algoritmo de Kahn, vamos seguir uma estrutura que ajudará você a compor sua solução passo a passo.
+
+### Leitura do Enunciado
+Identifique os principais desafios que a questão apresenta. Normalmente, você vai precisar compreender como representar o grafo, como identificar os graus dos vértices e seguir a lógica do algoritmo de Kahn.
+
+### Dicas Contextualizadas
+Imagine que você tem um grupo de tarefas que precisam ser realizadas numa sequência específica, onde algumas dependem da conclusão de outras. O algoritmo de Kahn é como um plano que garante que você conclua as tarefas na ordem certa, evitando que você comece uma tarefa antes de terminar as que são necessárias.
+
+### Passo a Passo para Resolução
+
+1. **Representação do Grafo**: 
+   - Utilize uma lista de adjacência ou uma matriz de adjacência para representar as conexões entre os nós do grafo.
+   - Considere um dicionário onde as chaves são os nós e os valores são listas de nós adjacentes.
+
+2. **Cálculo dos Graus de Entrada**:
+   - Crie um dicionário para armazenar o grau de entrada (in-degree) de cada nó. Inicialmente, defina o grau de entrada para todos os nós como 0.
+   - Para cada aresta do grafo, incremente o grau de entrada do nó de destino.
+
+3. **Inicialização da Fila**:
+   - Use uma estrutura de fila (pode ser uma `deque` do módulo `collections`) para armazenar os nós que têm grau de entrada igual a 0, pois esses podem ser processados primeiro.
+
+4. **Processamento dos Nós**:
+   - Continue enquanto a fila não estiver vazia:
+     - Retire um nó da fila (este será o próximo nó na ordenação topológica).
+     - Adicione-o ao resultado.
+     - Para cada nó adjacente, diminua seu grau de entrada e, se o grau de entrada se tornar 0, adicione-o à fila.
+
+5. **Verificação de Ciclos**:
+   - Após processar todos os nós, verifique se o tamanho do resultado é igual ao número total de nós no grafo. Se não forem iguais, significa que o grafo tem ciclos.
+
+### Tratamento da Entrada e Saída
+
+- **Entrada**: A entrada pode vir na forma de:
+  - Um número inteiro `N`, que representa o número de vértices.
+  - Um número inteiro `E`, que representa o número de arestas.
+  - Os pares de vértices que representam as arestas.
+
+Exemplo de como lidar com a entrada:
+```python
+n = int(input("Número de vértices: "))
+e = int(input("Número de arestas: "))
+grafo = {i: [] for i in range(n)}
+for _ in range(e):
+    u, v = map(int, input().split())
+    grafo[u].append(v)
+```
+
+- **Saída**: A saída deve ser uma lista dos vértices em ordem topológica. Pense em como você pode formatar isso (por exemplo, juntando os nós em uma string separada por espaços).
+
+Exemplo de como imprimir a saída:
+```python
+print(" ".join(map(str, resultado)))
+```
+
+### Sugestões de Estruturas Úteis
+- **Listas** para representação do grafo.
+- **Dicionários** para armazenar o grau de entrada dos nós.
+- **Deque** da biblioteca `collections` para a fila de nós a serem processados.
+- Funções auxiliares para calcular o grau de entrada e processar a fila, se necessário.
+
+Seguindo esse guia, você terá uma boa base para implementar o algoritmo de Kahn e resolver a questão apresentada.

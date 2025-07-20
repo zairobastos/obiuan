@@ -1,0 +1,30 @@
+
+Para abordar a questão de aritmética modular básica, comece lendo atentamente o enunciado para identificar as operações que devem ser realizadas. Lembre-se de que a aritmética modular envolve trabalhar com restos de divisões inteiras. Aqui estão algumas dicas sobre como você pode lidar com essa questão:
+
+1. **Entenda o conceito de módulo**: O módulo é a operação que obtém o resto de uma divisão. Por exemplo, ao calcular \( a \mod b \), você está procurando o resto da divisão de \( a \) por \( b \).
+
+2. **Identifique as operações necessárias**: O enunciado pode pedir para realizar adições, subtrações ou multiplicações com números modulares. Certifique-se de saber como cada operação se comporta sob o módulo. Por exemplo:
+   - Para a adição: \((a + b) \mod m\)
+   - Para a subtração: \((a - b) \mod m\)
+   - Para a multiplicação: \((a \times b) \mod m\)
+
+3. **Passo a passo para resolver**:
+   - Comece definindo os números e o módulo que você precisa usar.
+   - Realize cada operação conforme solicitado no enunciado, aplicando o módulo após cada resultado.
+   - Lembre-se de que, se um resultado negativo ocorrer, você deve ajustar para mantê-lo dentro do intervalo de 0 a \( m-1 \).
+
+4. **Tratamento de entrada e saída**:
+   - A entrada deve ser lida com cuidado, talvez usando `input()` para capturar os valores necessários. Por exemplo:
+     ```python
+     a = int(input("Digite o primeiro número: "))
+     b = int(input("Digite o segundo número: "))
+     m = int(input("Digite o módulo: "))
+     ```
+   - A saída deve ser formatada conforme o que é solicitado na questão, usando `print()` para apresentar o resultado final. Por exemplo, se a saída for um único valor, utilize:
+     ```python
+     print(resultado)
+     ```
+
+5. **Estruturas úteis**: Dicionários podem ser úteis se você estiver lidando com pares de números, e listas podem ajudar na organização dos resultados, se houver várias operações a serem executadas.
+
+Seguindo essas diretrizes, você poderá desenvolver uma solução passo a passo sem perder o foco nos conceitos de aritmética modular envolvidos. Boa sorte!

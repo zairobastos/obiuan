@@ -1,0 +1,33 @@
+Para abordar a questão sobre a estrutura básica de um computador e seus componentes, siga os passos abaixo:
+
+1. **Leitura Atenta do Enunciado**:
+   - Identifique quais componentes da estrutura do computador precisam ser discutidos. Geralmente, isso inclui a CPU, memória (RAM), disco rígido, etc. 
+
+2. **Identificação de Desafios**:
+   - Compreender a função de cada componente e como eles interagem entre si. Por exemplo, saber que a CPU é o "cérebro" do computador, que executa instruções, e a memória é onde os dados temporários são armazenados.
+
+3. **Dicas Contextualizadas**:
+   - Pense na estrutura do computador como uma grande orquestra. A CPU é o maestro, coordenando todos os instrumentos (componentes). A memória é como as partitura, onde estão as informações que cada instrumentista (componente) precisa tocar.
+
+4. **Passo a Passo**:
+   - **Passo 1**: Faça uma lista dos componentes principais que você precisa descrever.
+   - **Passo 2**: Para cada componente, escreva brevemente sua função. Por exemplo:
+     - CPU: Executa operações e processa dados.
+     - Memória: Armazena dados temporariamente durante a execução de programas.
+   - **Passo 3**: Considere como esses componentes se comunicam. Por exemplo, a CPU envia e recebe dados da memória.
+
+5. **Tratamento da Entrada e Saída**:
+   - Ao estruturar suas descrições, considere criar um layout que seja claro e fácil de seguir. Por exemplo, em Python você pode usar `print()` para mostrar cada componente:
+     ```python
+     print("Componentes do computador:")
+     print("1. CPU - Executa as instruções.")
+     print("2. Memória - Armazena dados temporários.")
+     ```
+
+6. **Estruturas Úteis em Python**:
+   - Use listas para organizar suas informações. Por exemplo, uma lista contendo os componentes:
+     ```python
+     componentes = ["CPU", "Memória", "Disco rígido"]
+     ```
+
+Seguindo esses passos, você pode estruturar suas respostas de forma clara e lógica, ajudando a explicar os pontos-chave sobre a estrutura básica de um computador.

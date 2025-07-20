@@ -1,0 +1,38 @@
+Para resolver uma questão que envolve programação dinâmica em grafos direcionados acíclicos (DAGs), siga os passos abaixo:
+
+1. **Entenda o Problema**: Primeiramente, leia o enunciado atentamente e identifique o que é solicitado. As questões em DAGs frequentemente envolvem encontrar o caminho mais longo, o que significa que você pode precisar otimizar uma sequência de decisões.
+
+2. **Identifique os Desafios Principais**: Nos problemas de caminhos em DAGs, os principais desafios incluem:
+   - Representação do grafo (como armazenar os vértices e arestas).
+   - Como aplicar programação dinâmica para calcular o resultado desejado (neste caso, o caminho mais longo).
+
+3. **Analogias**: Pense no problema como um percurso em uma cidade onde você deve decidir a melhor rota para chegar ao seu destino, considerando que alguns caminhos são mais longos (ou têm mais custos) do que outros. Assim como você pode calcular a melhor rota em um mapa, você precisa calcular as melhores arestas do grafo.
+
+4. **Passo a Passo de Resolução**:
+   - **Representação do Grafo**: Crie uma estrutura que represente o grafo. Em Python, você pode usar um dicionário ou listas de adjacência.
+   - **Topologicamente Ordenar o Grafo**: Uma das etapas fundamentais para resolver problemas em DAGs é ordenar os vértices de forma que para cada aresta direcionada \(u \to v\), \(u\) apareça antes de \(v\) na ordem.
+   - **Configurar a Programação Dinâmica**: Crie uma lista ou dicionário para armazenar os valores dos caminhos mais longos a partir de cada vértice. Inicialize esses valores de maneira apropriada.
+   - **Iterar pelos Vértices**: Utilize a ordem topológica para ter certeza de que você calcula o caminho mais longo de cada vértice, baseando-se nos vértices que foram processados anteriormente.
+
+5. **Tratamento de Entrada e Saída**:
+   - **Entrada**: O grafo pode ser fornecido como uma lista de arestas ou uma matriz de adjacências. Certifique-se de como o formato da entrada estará estruturado.
+   - **Saída**: Defina claramente qual informação você precisa retornar (como o comprimento do caminho mais longo ou os próprios vértices que compõem esse caminho).
+   - Exemplo de como tratar a entrada:
+     ```python
+     n = int(input())  # número de vértices
+     edges = []
+     for _ in range(m):
+         u, v = map(int, input().split())  # cada aresta do grafo
+         edges.append((u, v))  # armazenando a aresta
+     ```
+   - Exemplo de como formatar a saída:
+     ```python
+     print(max_length)  # imprimindo o comprimento do caminho mais longo
+     ```
+
+6. **Sugestões de Estruturas em Python**:
+   - Use **listas** para armazenar os vértices e seus caminhos.
+   - Use **dicionários** para armazenar os comprimentos dos caminhos mais longos de cada vértice.
+   - Considere definir **funções auxiliares** para ajudar na ordenação topológica e na atualização dos caminhos mais longos.
+
+Ao seguir esses passos, você terá uma boa abordagem para resolver a questão proposta, utilizando conceitos de programação dinâmica em grafos direcionados acíclicos.

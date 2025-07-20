@@ -1,0 +1,42 @@
+Primeiro, é importante ler o enunciado da questão atentamente para identificar quais são os parâmetros que você precisa considerar e quais desafios podem surgir. Como esta questão se relaciona com pontos e coordenadas no plano, você deve se familiarizar com o sistema de coordenadas cartesianas (eixos X e Y).
+
+**Dicas Contextualizadas:**
+Imagine que você está em um mapa e precisa determinar a localização de diferentes pontos. Assim como você pode usar coordenadas (como latitude e longitude) para encontrar um local, nesta questão, você utilizará pares de números (coordenadas) para identificar a posição de pontos em um plano.
+
+**Passo a Passo para Resolução:**
+
+1. **Identifique as Coordenadas:** Entenda como as coordenadas (x, y) funcionam. O primeiro número representa a movimentação ao longo do eixo X (horizontal) e o segundo número ao longo do eixo Y (vertical).
+   
+2. **Entenda a Relação entre os Pontos:** Se a questão envolve mais de um ponto, pense em como calcular distâncias entre eles ou como determinar se eles estão alinhados. Faça analogias com aeronaves em um aeroporto; para saber se duas estão alinhadas, uma linha reta pode ser desenhada entre elas.
+
+3. **Verifique as Operações Necessárias:** Dependendo do que a questão pede (como calcular distâncias, somar coordenadas, encontrar o ponto médio, entre outros), faça uma lista das operações que você pode precisar realizar.
+
+4. **Planeje as Saídas:** Pense em como você vai formatar as saídas. Você pode precisar de coordenadas em um formato específico ou de uma lista de resultados, por exemplo.
+
+**Tratamento de Entrada e Saída:**
+
+- A entrada geralmente será por meio de comandos que permitem ao usuário inserir coordenadas. Você pode utilizar `input()` para capturar valores do usuário.
+  
+- Para processar entradas, considere dividir a string em números que representam as coordenadas. Você poderá usar `split()` para separar valores que estão inseridos em uma única linha.
+
+- Para a saída, usar `print()` para retornar as informações formatadas é uma boa prática.
+
+**Trechos Úteis de Código Python:**
+
+```python
+# Capturando coordenadas do usuário
+entrada = input("Digite as coordenadas x e y separadas por espaço: ")
+coordenadas = entrada.split()  # Isso vai separar os valores em uma lista
+x = float(coordenadas[0])  # primeiro número
+y = float(coordenadas[1])  # segundo número
+# Exibindo a saída
+print(f"As coordenadas são: ({x}, {y})")
+```
+
+**Estruturas Úteis em Python:**
+
+- **Listas:** Úteis para armazenar várias coordenadas.
+- **Dicionários:** Podem ser usados se você precisar nomear pontos específicos (por exemplo, {"A": (x1, y1), "B": (x2, y2)}).
+- **Funções Auxiliares:** Criar funções para realizar cálculos frequentemente pode ajudar a organizar seu código e torná-lo mais legível.
+
+Siga esses passos e utilize as dicas fornecidas para desenvolver sua solução. Boa sorte!

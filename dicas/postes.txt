@@ -1,0 +1,36 @@
+Claro! Vamos abordar a resolução da questão com as orientações necessárias.
+
+### 1. Leitura do Enunciado
+Primeiro, você deve ler o enunciado várias vezes. Identifique as variáveis e os elementos principais que compõem o problema. Pergunte-se: quais são as condições dadas e o que se espera como resultado?
+
+### 2. Identificação dos Principais Desafios
+Considere as estruturas condicionais que podem ser necessárias para resolver o problema. Pense nas decisões que precisam ser tomadas com base nas diferentes entradas. É uma questão de verdadeiro ou falso? Você precisa mais de uma condição para determinar a saída?
+
+### 3. Passo a Passo de Resolução
+- **Passo 1:** Liste as condições que você precisa considerar. Quais são os casos distintos? 
+- **Passo 2:** Para cada condição, pense no que deve acontecer. Quais são os resultados esperados?
+- **Passo 3:** Escreva um pseudocódigo ou a lógica por trás da sua solução, utilizando `if`, `elif` e `else` para fortalecer seu pensamento lógico.
+
+### 4. Tratamento de Entrada e Saída
+- **Entrada:** Compreenda qual o formato da entrada. É um único número, um texto ou mais de um valor? 
+- **Formato da Entrada:** Utilize a função `input()` para capturar dados do usuário. Lembre-se de que os dados capturados como string podem precisar ser convertidos usando `int()` ou `float()`.
+  
+  Exemplo:
+  ```python
+  valor = int(input("Digite um número: "))
+  ```
+
+- **Saída:** Defina o que você precisa imprimir no final. Formate a saída corretamente utilizando `print()`. 
+
+  Exemplo:
+  ```python
+  print("Resultado:", resultado)
+  ```
+
+### 5. Sugestões de Estruturas Úteis
+- **Listas:** Se você precisa armazenar múltiplos valores, considere usar uma lista.
+- **Dicionários:** Pode ser útil para mappings, onde você armazena pares de chave-valor.
+- **Funções Auxiliares:** Se o problema for dividido em subproblemas, crie funções pequenas e específicas para lidar com cada um.
+
+### Conclusão
+Ao seguir esses passos e considerar estas estruturas, você estará bem preparado para encarar a questão proposta. Construa sua solução gradualmente, testando cada parte para garantir que a lógica esteja correta ao final. Boa sorte!

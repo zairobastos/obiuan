@@ -1,0 +1,33 @@
+Para resolver questões de aritmética modular básica, é importante entender os conceitos fundamentais de operações aritméticas, como adição, subtração e multiplicação, no contexto de um sistema modular.
+
+### Passo a Passo para Resolver a Questão
+
+1. **Entender o que é aritmética modular**: A aritmética modular lida com restos da divisão. Por exemplo, ao dizer "5 mod 3", estamos nos perguntando qual é o resto quando 5 é dividido por 3, que é 2.
+
+2. **Leia atentamente a questão**: Identifique quais operações (adição, subtração ou multiplicação) estão envolvidas e qual é o módulo que está sendo utilizado. Isso é crucial para aplicar corretamente a aritmética modular.
+
+3. **Definir a lógica para cada operação**:
+   - **Adição**: Para somar dois números em módulo, você realiza a soma normalmente e, em seguida, aplica o módulo ao resultado.
+   - **Subtração**: Similar à adição, mas você precisa garantir que o resultado não seja negativo. Se for, você deve ajustar para que fique dentro do intervalo do módulo.
+   - **Multiplicação**: Multiplica os números e, em seguida, aplica o módulo ao resultado.
+
+4. **Entrada e saída**: Verifique como os números serão dados (por exemplo, em uma única linha ou várias linhas) e como a saída deve ser formatada (um número ou múltiplos números). 
+
+5. **Exemplos de manipulação de entradas e saídas**:
+   - Para ler a entrada:
+     ```python
+     entrada = input().strip().split()
+     a = int(entrada[0])
+     b = int(entrada[1])
+     modulo = int(entrada[2])
+     ```
+   - Para produzir a saída:
+     ```python
+     print(resultado_modular)
+     ```
+
+6. **Sugestões de estruturas úteis**:
+   - Utilize variáveis para armazenar os resultados das operações antes de aplicar o módulo.
+   - Se precisar realizar operações repetidamente, considere usar uma função auxiliar para organizar o código.
+
+A prática com exemplos e a mentalidade de "modular" qualquer resultado ao aplicar as operações ajudará a desenvolver a intuição necessária para trabalhar com aritmética modular.

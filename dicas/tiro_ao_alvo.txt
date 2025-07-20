@@ -1,0 +1,36 @@
+Primeiro, é importante ler atentamente o enunciado da questão para identificar quais aspectos específicos estão sendo abordados. Muitas vezes, questões sobre pontos e coordenadas no plano envolvem conceitos básicos de geometria, como distância entre pontos, determinação de pontos em relação a um eixo ou quadrantes.
+
+**Dicas Contextualizadas:**
+Pense em pontos no plano como locais em uma cidade. Cada ponto possui um endereço específico ou coordenadas que indicam sua posição exata em relação a uma grade (eixos x e y). Assim como você poderia usar um mapa para encontrar a distância entre diferentes locais, pode ser necessário calcular distâncias entre pontos nas questões.
+
+**Passo a Passo:**
+1. **Entenda as Coordenadas**: Revise o que são coordenadas (x, y) e como elas se posicionam no plano cartesiano. Considere os quatro quadrantes e a posição dos eixos.
+  
+2. **Identifique o que é pedido**: Determine se a questão pede uma operação específica (por exemplo, calcular distância, encontrar um ponto médio, comparar posições, etc.).
+
+3. **Aplique a Fórmula Apropriada**: Muitas questões sobre coordenadas envolvem fórmulas básicas, como a fórmula da distância entre dois pontos. Tenha isso em mente.
+
+4. **Organize os Dados**: Se a questão fornece múltiplos pontos, pense em como armazená-los. Uma lista ou tupla pode ser útil para manter as coordenadas de forma organizada.
+
+**Tratamento de Entrada e Saída:**
+- **Entrada**: Conheça o formato de entrada. Muitas vezes, as coordenadas são dadas em formato de string. Você pode usar `input()` para lê-las e depois transformá-las em números (inteiros ou floats).
+  
+  Exemplo de leitura:
+  ```python
+  entrada = input()  # Exemplo: "3 4"
+  coordenadas = list(map(int, entrada.split()))  # Converte a string em uma lista de inteiros
+  ```
+
+- **Saída**: Pense em como formatar a saída. Se a sua resposta deve ser um número decimal, certifique-se de formatá-lo corretamente. O uso de `print()` pode ajudar.
+
+  Exemplo de saída formatada:
+  ```python
+  print(f"{resultado:.2f}")  # Isso imprime o resultado com duas casas decimais
+  ```
+
+**Estruturas Úteis em Python:**
+- **Listas**: Para armazenar coordenadas de pontos.
+- **Tuplas**: Para pontos imutáveis, se preferir não mudar as coordenadas após a definição.
+- **Funções**: Considere criar funções auxiliares para cálculos, como distância ou ponto médio, para manter seu código mais organizado e legível.
+
+Seguindo esta abordagem, você estará no caminho certo para entender e resolver a questão, utilizando uma lógica clara e estruturada.

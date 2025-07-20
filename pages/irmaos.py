@@ -272,6 +272,7 @@ with col1:
     st.markdown("&emsp; • N ≤ M ≤ 40")
 
     st.subheader("Sua resposta")
+    st.markdown("A resposta da questão na aplicação é em ***python***.")
     resposta = st.text_area("", 
                             placeholder="Escreva aqui...",
                             height=150)

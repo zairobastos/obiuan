@@ -1,0 +1,31 @@
+Para resolver a questão apresentada, siga as etapas abaixo:
+
+1. **Leitura do Enunciado**: Antes de tudo, é essencial que você compreenda bem o que está sendo pedido. Identifique quais são os dados de entrada e qual é a saída esperada. Tente destacar palavras-chave ou frases que indiquem operações específicas que você precisa realizar.
+
+2. **Identificação dos Desafios**: Pense nos aspectos que podem ser desafiadores na questão, como manipulação de dados, iterações, condições e formatos de saída. Estabeleça quais são os pontos que você não está muito certo de como abordar.
+
+3. **Estratégia de Solução**: Comece a pensar em como você pode estruturar sua solução. Uma boa analogia para iteração é imaginar que você está contando dinheiro: você precisa verificar cada nota ou moeda (que pode ser uma parte da lista ou conjunto de dados) para saber o valor total. Considere que você pode precisar de um loop (um tipo de 'contagem') para ir através de todos os elementos.
+
+4. **Passo a Passo para a Resolução**:
+   - **Inicialização**: Comece definindo variáveis que você vai precisar.
+   - **Iteração**: Pense em um loop que percorra os dados de entrada. Isso pode ser um `for` ou `while`.
+   - **Condições**: Use estruturas condicionais para lidar com diferentes casos que podem ocorrer durante a iteração.
+   - **Acumulação de Resultados**: Se necessário, você pode guardar resultados intermediários em uma lista ou variável.
+
+5. **Tratamento da Entrada e Saída**:
+   - **Entrada**: Verifique se os dados de entrada estão em um formato que facilita o processamento, como listas ou inteiros. Utilize funções como `input()` para ler dados e `split()` para separá-los, quando necessário.
+   - **Saída**: Certifique-se de formatar a saída conforme o pedido no enunciado. Muitas vezes, você pode usar `print()` para mostrar resultados, garantindo que eles estejam no formato correto (como strings, inteiros, etc.).
+
+**Exemplo de Manipulação de Entrada e Saída em Python**:
+```python
+# Exemplo de tratamento de entrada
+entrada = input("Digite os números separados por espaço: ")
+numeros = list(map(int, entrada.split()))
+
+# Exemplo de saída
+print("Resultado:", resultado)
+```
+
+6. **Estruturas Úteis**: Considere usar listas para armazenar dados, variáveis para acumular resultados e dicionários se precisar mapear pares de chave-valor. Funções auxiliares podem ajudá-lo a organizar melhor o código.
+
+Com essas orientações, você estará mais preparado para enfrentar a questão e aplicar suas habilidades de programação competitiva de forma eficaz. Boa sorte!

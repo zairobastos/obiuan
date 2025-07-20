@@ -1,0 +1,32 @@
+Para abordar uma questão de programação competitiva que envolve grafos, especialmente utilizando o algoritmo de Busca em Largura (BFS), é importante seguir um plano organizado. Aqui estão alguns passos recomendados e dicas:
+
+1. **Leia o Enunciado com Atenção**: Identifique quais são os dados de entrada, o que é solicitado na saída, e quais condições ou restrições estão presentes.
+
+2. **Identifique os Principais Desafios**:
+   - A estrutura do grafo pode ser representada de várias maneiras (listas de adjacência, matrizes de adjacência).
+   - Verifique como os nós estão conectados e se há pesos ou direções nas arestas.
+
+3. **Dicas Contextualizadas**:
+   - Pense em BFS como uma busca em um labirinto, onde você explora cada corredor antes de ir mais fundo. Você começa de um ponto e vai descobrindo todos os pontos adjacentes antes de mover-se para o próximo nível.
+
+4. **Passo a Passo para Resolver a Questão**:
+   - **Modelo de Entrada**: Comece definindo como você irá receber os dados sobre o grafo. Normalmente, eles vêm na forma de um número de vértices e, em seguida, pares de vértices que representam as arestas.
+   - **Estrutura de Dados**: Considere usar uma lista de adjacência (dicionário de listas) para representar o grafo. Isso facilita a adição e a consulta de vizinhos de um vértice.
+   - **Inicialização**: Para BFS, você precisará de uma fila (queue) e de um conjunto (set) ou lista para manter o controle dos vértices visitados.
+   - **Iteração**: A partir do vértice inicial, adicione-o à fila e marque como visitado. Enquanto a fila não estiver vazia, extraia o vértice da frente da fila, processe-o e adicione todos os vizinhos não visitados à fila.
+   - **Condicional de Saída**: Pense em como você vai armazenar os resultados obtidos durante a travessia do grafo e o que exatamente a questão está pedindo em termos de saída.
+
+5. **Tratamento de Entradas e Saídas**:
+   - Use `input()` para ler os dados. Para múltiplas entradas, considere usar `sys.stdin` para eficiência. Para a saída, use `print()` para enviar a resposta formatada.
+   - Exemplo de como manipular a entrada:
+     ```python
+     n = int(input())  # número de vértices
+     edges = [tuple(map(int, input().split())) for _ in range(n)]
+     ```
+
+6. **Estruturas Úteis em Python**:
+   - Listas para armazenar a estrutura do grafo.
+   - Dicionários para listas de adjacência.
+   - Queues da biblioteca `collections` para implementação da BFS.
+
+Seguindo esses passos e dicas, você desenvolverá uma compreensão sólida de como aplicar o algoritmo de BFS na solução da questão proposta. Boa sorte!

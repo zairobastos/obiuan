@@ -1,0 +1,37 @@
+Para abordar a questão relacionada à programação dinâmica com máscara de bits, siga os passos abaixo, que irão ajudá-lo a entender como iniciar a resolução do problema:
+
+1. **Leitura e Identificação dos Desafios**:
+   - Comece lendo atentamente o enunciado da questão, identificando quais informações foram fornecidas e quais resultados são esperados. Questões de programação dinâmica geralmente envolvem decisões otimizadas sobre o estado atual e as transições entre esses estados.
+
+2. **Entendimento da Abordagem com Máscara de Bits**:
+   - A programação com máscara de bits é útil quando você precisa acompanhar um subconjunto de elementos. Pense nela como uma forma de representar a presença ou ausência de itens de maneira compacta. Por exemplo, se você tem 3 itens, poderia usar um número de 3 bits (como 101) para indicar que o primeiro e o terceiro itens estão presentes, enquanto o segundo não está.
+
+3. **Estrutura do Algoritmo**:
+   - Identifique os estados que você precisa armazenar. Cada estado pode ser representado como um número (que atua como uma máscara de bits) e um valor associado (por exemplo, o custo ou distância acumulada).
+   - Pense em como você pode construir a solução para um estado a partir de estados anteriores. Isso pode ser feito por meio de transições, geralmente envolvendo um loop que itera sobre possíveis estados anteriores e verifica condições de transição.
+
+4. **Tratamento de Entrada e Saída**:
+   - Para lidar com as entradas, você provavelmente receberá dados em forma de listas ou matrizes. Use funções Python como `input()` para capturar dados, e `map()` ou compreensão de listas para convertê-los em formatos apropriados.
+   - Para a saída, é essencial formatá-la corretamente. Use `print()` para exibir os resultados e considere o uso de formatação f-string para tornar a saída mais legível.
+
+5. **Estruturas Úteis no Python**:
+   - Utilize listas ou dicionários para armazenar os estados. Uma lista pode funcionará bem para manter a simplicidade, enquanto um dicionário pode ser útil se os estados forem não contíguos ou muito esparsos.
+   - Considere implementar funções auxiliares para dividir a lógica, como uma função que calcula o custo de transição entre estados ou verifica se um estado foi visitado.
+
+6. **Exemplo de Trechos de Código**:
+   - Aqui estão alguns trechos úteis que podem ajudar em várias partes:
+     ```python
+     # Lendo a entrada
+     n = int(input())
+     matriz = [list(map(int, input().split())) for _ in range(n)]
+     
+     # Definindo o estado usando máscara de bits
+     estado = 0  # máscara de bits inicial
+     
+     # Exemplo de iteração sobre estados
+     for i in range(1 << n):  # iterando sobre todos os subconjuntos
+         if condition:  # condição para transição de estado
+             # ... fazer a transição
+     ```
+
+Seguindo esses passos e orientações, você deve conseguir construir uma solução para o problema proposto de forma eficaz. Boa sorte!

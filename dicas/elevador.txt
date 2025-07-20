@@ -1,0 +1,37 @@
+Para abordar a questão de programação dinâmica, siga estas etapas:
+
+1. **Leia o Enunciado com Atenção**: Identifique as variáveis envolvidas, os objetivos finais e as relações entre as partes do problema. Muitas vezes, um problema pode ser dividido em subproblemas que ajudam na construção da solução geral.
+
+2. **Identifique os Desafios Principais**: Geralmente, os desafios em problemas de programação dinâmica incluem:
+   - Definir um estado que represente uma subsolução do problema.
+   - Estabelecer a relação de recorrência entre essas subsoluções.
+   - Decidir sobre a inicialização das condições base.
+
+3. **Analogias com o Mundo Real**: Pense em como resolver um quebra-cabeça. Cada peça pode ser vista como um subproblema, onde você precisa saber onde cada peça se encaixa antes de resolver o quebra-cabeça inteiro. Isso é semelhante à forma como a programação dinâmica trabalha com subproblemas.
+
+4. **Passo a Passo para a Solução**:
+   - **Definir o Estado**: Determine como representará a solução do seu problema. Muitas vezes, isso pode ser feito usando uma matriz ou um dicionário.
+   - **Estabelecer a Recorrência**: Pense sobre como a solução para um problema pode ser construída a partir da solução de subproblemas. Pergunte-se: "Como posso usar soluções anteriores para resolver esse problema?"
+   - **Inicialização**: Considere quais são as condições base. Quais são os casos mais simples que podem ser resolvidos diretamente?
+
+5. **Tratamento da Entrada e Saída**:
+   - Normalize a entrada. Se você estiver lidando com várias entradas, considere usar um loop para ler múltiplas linhas ou valores. 
+   - Para a saída, pense em como você vai formatar os resultados, especialmente se a saída precisa ser impressa em um formato específico. Use `print()` para saídas simples e configure o formato como necessário.
+
+6. **Exemplo de Trechos de Código**:
+   - Para ler a entrada em um formato útil:
+     ```python
+     n = int(input())  # Para ler um número inteiro
+     arr = list(map(int, input().split()))  # Para ler vários inteiros em uma linha
+     ```
+   - Para inicializar uma tabela de programação dinâmica:
+     ```python
+     dp = [0] * (n + 1)  # Inicializa uma lista de tamanho n+1
+     ```
+
+7. **Estruturas Úteis**:
+   - Considere usar listas para armazenar subsoluções.
+   - Dicionários podem ser úteis se os estados não forem sequenciais.
+   - Funções auxiliares podem ajudar a dividir o problema em partes menores.
+
+Com essas diretrizes, você poderá abordar a questão de programação dinâmica de forma mais estruturada e facilitar a construção da solução!

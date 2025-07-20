@@ -1,0 +1,36 @@
+Para resolver a questão apresentada, siga os passos abaixo:
+
+1. **Leitura do enunciado**: Certifique-se de entender todas as partes do problema. Identifique o que está sendo pedido, quais os parâmetros ou variáveis relevantes e quais operações precisam ser realizadas.
+
+2. **Identificação dos desafios**: Analise quais operações matemáticas e comparações são necessárias. Pense sobre como os números inteiros e as operações com eles se relacionam no contexto do problema.
+
+3. **Dicas contextuais**: Considere analogias com situações do dia a dia. Por exemplo, se o problema envolve comparar números, pense em como você compara diferentes quantidades no seu dia a dia, como números de maçãs em sacolas ou a altura de diferentes plantes.
+
+4. **Passo a passo da lógica**:
+   - **Defina as variáveis**: Comece delimitando quais variáveis você precisa usar e o que cada uma representa.
+   - **Realize as operações**: Liste as operações matemáticas que devem ser executadas em cada etapa.
+   - **Faça comparações necessárias**: Determine quais comparações entre os resultados precisam ser feitas e como elas afetam a saída.
+
+5. **Tratamento da entrada**: 
+   - A entrada pode ser recebida em uma única linha ou em múltiplas linhas. Use a função `input()` para capturar esses dados.
+   - Exemplo de tratamento: se a entrada for uma linha com múltiplos números, use o método `split()` para separar os números e convertê-los para inteiros.
+
+```python
+dados = input().split()  # Leitura dos dados
+numeros = [int(num) for num in dados]  # Conversão para inteiro
+```
+
+6. **Formatação da saída**:
+   - Estabeleça qual formato de saída é esperado. Pode ser um número, uma série de números, ou uma mensagem.
+   - Utilize a função `print()` para exibir os resultados.
+
+```python
+print(resultado)  # Exibir o resultado final
+```
+
+7. **Estruturas úteis em Python**:
+   - **Listas**: Úteis para armazenar os números que você precisa manipular.
+   - **Dicionários**: Podem ser usados se houver necessidade de relacionar valores ou contar frequências.
+   - **Funções auxiliares**: Considere dividir seu código em funções que realizem operações específicas, como calcular um resultado ou fazer uma comparação.
+
+Esses passos o ajudarão a estruturar sua solução e a abordar o problema de forma eficaz.

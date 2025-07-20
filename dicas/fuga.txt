@@ -1,0 +1,38 @@
+Para resolver uma questão de programação sobre backtracking com podas, siga estes passos:
+
+1. **Leia atentamente o enunciado**: Identifique quais são os objetivos e restrições da questão. Preste atenção especial a condições que podem permitir podas, pois esse é um ponto chave.
+
+2. **Entenda o problema**: Pergunte-se:
+   - Quais são as condições em que você pode parar a busca imediatamente?
+   - Quais são as soluções possíveis que precisam ser exploradas?
+
+3. **Analogias do mundo real**: Pense em um quebra-cabeça que precisa ser montado. Cada peça que você coloca pode ou não se encaixar. Se você perceber que uma peça não se encaixa (um caminho sem solução), você pode desistir de explorá-la mais, assim como na poda.
+
+4. **Desenvolva uma estratégia passo a passo**:
+   - **Escolha um ponto de partida**: Determine onde começará sua busca.
+   - **Defina as possíveis escolhas**: Crie uma lista ou um conjunto com as opções disponíveis.
+   - **Verifique soluções parciais**: Ao construir uma solução, verifique frequentemente se ela pode se tornar um resultado válido. Se não, você deve "podar" essa opção.
+   - **Recursão**: Use chamadas recursivas para explorar cada escolha, voltando quando uma escolha se mostrar inválida.
+
+5. **Tratamento de entrada e saída**: 
+   - **Entrada**: Planeje como irá receber as informações. Se a entrada for uma lista ou matriz, use `input()` e `split()` para transformar a entrada em uma estrutura que pode ser manipulada.
+   - **Saída**: Pense em como formatar a saída que seu programa deve produzir. Muitas vezes, isso pode ser feito com `print()` formatado.
+
+6. **Dicas de Python**:
+   - Use **listas** para armazenar as escolhas disponíveis ou as soluções parciais.
+   - Considere usar **dicionários** se precisar rastrear estado e contagem de soluções.
+   - Funções auxiliares são muito úteis para quebrar tarefas em partes menores, facilitando a recursão. 
+
+Um exemplo de trechos úteis de código para manipulação de entrada e saída:
+
+```python
+# Para iniciar a leitura da entrada
+entrada = input("Digite os dados: ").split()
+# Para trabalhar com listas
+dados = [int(x) for x in entrada]
+
+# Para formatar a saída
+print("Resultado:", resultado)
+```
+
+Seguindo essas diretrizes e abordagens, você estará bem preparado para trabalhar na resolução dessa questão de backtracking com podas.

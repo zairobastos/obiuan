@@ -1,0 +1,33 @@
+Para resolver uma questão sobre o Problema da Mochila (Knapsack), especialmente no contexto da programação dinâmica, você deve seguir diferentes etapas. Vamos abordar isso de maneira estruturada:
+
+1. **Identificação dos Desafios**:
+   - Compreenda a diferença entre o problema da mochila com e sem repetições. No primeiro, você pode selecionar um item várias vezes; no segundo, apenas uma vez.
+   - Identifique as variáveis principais, como o peso e o valor dos itens, bem como a capacidade total da mochila.
+
+2. **Dicas Contextualizadas**:
+   - Pense na história do problema da mochila: você tem uma mochila com uma capacidade limitada e deseja maximizar o valor dos itens que consegue carregar. Semelhante a selecionar quais itens levar para um acampamento, considerando o peso e a importância de cada item.
+
+3. **Passo a Passo para a Resolução**:
+   - **Definir a Tabela**: Crie uma tabela (ou matriz) onde as linhas representam os itens e as colunas representam as capacidades de peso. Isso vai ajudá-lo a armazenar resultados intermediários.
+   - **Inicialização**: Preencha a primeira linha e a primeira coluna da tabela, representando um cenário onde não há itens ou a capacidade é zero.
+   - **Construir a Solução**: Comece a preencher a tabela comparando cada item com as capacidades. Para cada item, decida se ele deve ser incluído ou não, com base no peso e valor, atualizando a tabela conforme necessário.
+     - **Recursão ou Iteração**: Considere se vai implementar uma solução recursiva ou se vai iterar para preencher a tabela, cada um com sua lógica e complexidade.
+
+4. **Tratamento de Entrada e Saída**:
+   - A entrada geralmente será composta de dois arrays: um para os valores dos itens e outro para os seus pesos, além de um valor para a capacidade da mochila.
+   - A saída é tipicamente o valor máximo que pode ser obtido com os itens selecionados.
+   - Exemplos de manipulação:
+     ```python
+     # Recebendo a entrada
+     n = int(input())  # Número de itens
+     valores = list(map(int, input().split()))  # Lista de valores
+     pesos = list(map(int, input().split()))  # Lista de pesos
+     capacidade = int(input())  # Capacidade da mochila
+     ```
+
+5. **Sugestões de Estruturas Úteis em Python**:
+   - Listas: Para armazenar os valores e pesos.
+   - Matrizes: Para implementar a tabela necessária na programação dinâmica.
+   - Funções auxiliares: Considere criar funções que possam ajudar a calcular subproblemas, o que vai facilitar a modularização do seu código.
+
+Lembre-se de focar nas etapas, analisando cada parte do problema e como os elementos interagem entre si. Boa sorte com o seu raciocínio e implementação!

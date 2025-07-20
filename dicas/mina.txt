@@ -1,0 +1,37 @@
+Para abordar esta questão de programação competitiva que envolve algoritmos em grafos e a técnica de Busca em Largura (BFS), vamos seguir um passo a passo detalhado para ajudar na resolução.
+
+### 1. Compreensão do Problema
+Primeiro, leia atentamente o enunciado para identificar os principais desafios. Geralmente, questões sobre BFS em grafos envolvem explorar todos os nós a partir de um nó inicial, enquanto mantendo o controle de visitados e possivelmente armazenando distâncias ou caminhos.
+
+### 2. Dicas Contextualizadas
+Imagine que você está em uma grande cidade e deseja encontrar o caminho mais curto para uma loja. Você pode fazer isso explorando cada rua que se conecta a sua posição atual, um passo de cada vez, até que chegue ao seu destino. Isso é similar ao que a BFS faz em um grafo, explorando todos os vizinhos antes de avançar para os vizinhos dos vizinhos.
+
+### 3. Passo a Passo de Resolução
+- **Inicialização:** Comece criando uma estrutura para armazenar o grafo, que pode ser representado por um dicionário ou lista de adjacência.
+- **Leitura da Entrada:** Realize a leitura das entradas, seguindo o formato especificado no enunciado. Identifique o número de nós e arestas, assim como as conexões entre eles.
+- **Estrutura necessária para BFS:** Prepare uma fila para a BFS e uma lista ou um dicionário para rastrear os nós visitados.
+- **Execução da BFS:** Implemente um loop que continua até que a fila esteja vazia, retirando elementos e explorando os vizinhos não visitados, marcando-os como visitados e adicionando-os à fila.
+- **Coleta de Resultados:** Dependendo do que o problema pede (por exemplo, o caminho, as distâncias ou uma árvore de caminhos), armazene os resultados adequadamente.
+
+### 4. Tratamento da Entrada e Saída
+- **Entrada:** Certifique-se de que os dados de entrada são tratados corretamente. Por exemplo:
+  ```python
+  n, m = map(int, input().split())  # n para nós e m para arestas
+  grafo = {i: [] for i in range(n)}  # inicializa o grafo
+  for _ in range(m):
+      u, v = map(int, input().split())  # pega cada par de arestas
+      grafo[u].append(v)
+      grafo[v].append(u)  # se o grafo for não direcionado
+  ```
+
+- **Saída:** A formatação da saída deve seguir o que é pedido, que pode ser um caminho ou uma coleção de distâncias. Por exemplo:
+  ```python
+  print("Caminho encontrado: ", caminho)  # ou qualquer outro formato específico
+  ```
+
+### 5. Sugestões de Estruturas em Python
+- **Listas:** Útil para manter a fila na BFS.
+- **Dicionários:** Pode ser usado para representar o grafo e para rastrear nós visitados.
+- **Funções auxiliares:** Considere usar funções para modularizar a lógica da BFS e a leitura do grafo.
+
+Seguindo essas diretrizes, você será capaz de construir uma solução estruturada para este problema, utilizando a técnica de BFS de forma eficaz.

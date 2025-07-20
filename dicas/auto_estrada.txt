@@ -1,0 +1,27 @@
+Para resolver a questão sobre distâncias euclidianas, siga os passos abaixo:
+
+1. **Entendimento do Enunciado**: Leia atentamente o enunciado para identificar quais pontos estão sendo considerados e qual é a relação entre eles. O foco deve ser nas coordenadas desses pontos, que geralmente são dadas em um espaço bidimensional (2D) ou tridimensional (3D).
+
+2. **Desafios Principais**: Identifique como calcular a distância entre os pontos. Essa é a essência da questão. Tenha clareza sobre as fórmulas que envolvem coordenadas e como elas se aplicam ao contexto da questão.
+
+3. **Dicas Contextualizadas**: Pense na distância como uma linha reta entre dois pontos em um mapa. Se você deseja ir de um lugar a outro, a distância é a medida mais direta entre eles. Para calcular isso em termos matemáticos, você usará a fórmula da distância euclidiana, que é essencialmente uma aplicação do Teorema de Pitágoras.
+
+4. **Passo a Passo**:
+   - Primeiro, anote as coordenadas dos pontos que você precisa considerar.
+   - Se for em 2D, você trabalhará com pares de coordenadas (x1, y1) e (x2, y2). Para 3D, você terá (x1, y1, z1) e (x2, y2, z2).
+   - Aplique a fórmula da distância que associa essas coordenadas. Para 2D, é algo como a raiz quadrada da soma dos quadrados das diferenças das coordenadas. Pense no conceito de "delta", que representa a diferença em cada direção.
+   - Certifique-se de dominar a manipulação de raízes quadradas e potências.
+
+5. **Tratamento de Entrada e Saída**:
+   - Para a entrada, você pode usar a função `input()` para coletar as coordenadas. Considere recebê-las como strings e, em seguida, dividi-las em partes, convertendo-as para inteiro ou float, conforme necessário. Um exemplo de como pode ser feito:
+     ```python
+     x1, y1 = map(float, input("Digite as coordenadas x1 y1: ").split())
+     ```
+   - Para a saída, utilize `print()` para mostrar a distância calculada. Talvez você queira formatar a saída para até duas casas decimais, o que pode ser feito assim:
+     ```python
+     print(f"A distância é: {distancia:.2f}")
+     ```
+
+6. **Estruturas Úteis**: Considere o uso de listas para armazenar as coordenadas ou até mesmo dicionários, se você desejar associar etiquetas aos pontos. Funções auxiliares para calcular a distância podem ajudar a manter seu código mais organizado e fácil de entender.
+
+Seguindo esses passos, você terá uma base sólida para compreender e solucionar a questão sobre distâncias euclidianas. Boa sorte!

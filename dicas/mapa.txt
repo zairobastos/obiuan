@@ -1,0 +1,37 @@
+Para abordar a questão sobre Busca em Profundidade (DFS) em grafos, siga esse passo a passo:
+
+1. **Leitura do Enunciado**:
+   - Identifique qual é a estrutura do grafo (direcionado ou não) e quais informações estão sendo solicitadas (nós, arestas, caminhos, etc.).
+
+2. **Compreensão do Problema**:
+   - Entenda bem o que significa "buscar em profundidade". É como escalar uma árvore: você vai o mais fundo possível antes de retroceder para explorar outras opções.
+
+3. **Representação do Grafo**:
+   - Pense em como você pode representar o grafo em Python. Listas de adjacência e matrizes de adjacência são duas abordagens comuns. Se o grafo for pequeno, uma lista pode ser mais intuitiva.
+
+4. **Definindo a DFS**:
+   - A DFS pode ser implementada de forma recursiva ou usando uma pilha. Pense em como cada método opera e em situações onde um pode ser mais eficiente que o outro.
+
+5. **Construção do Algoritmo**:
+   - Comece esboçando a função que executa a DFS. Configure uma estrutura para manter controle dos nós visitados. Você pode usar um conjunto para isso.
+
+6. **Tratamento de Entrada**:
+   - Garanta que você está lidando com a entrada corretamente, convertendo-a em uma forma utilizável para a sua estrutura de grafo. Por exemplo:
+     ```python
+     n, m = map(int, input().split())  # onde n é o número de nós e m é o número de arestas
+     grafo = {i: [] for i in range(n)}  # cria um dicionário para a lista de adjacência
+     ```
+
+7. **Tratamento de Saída**:
+   - Quando você gerar sua saída, considere o formato desejado no enunciado. Pode ser uma lista de nós visitados em uma sequência, ou talvez um resultado booleano. Um exemplo de saída pode ser:
+     ```python
+     print(" ".join(map(str, resultado)))  # para imprimir uma lista
+     ```
+
+8. **Testes e Exemplos**:
+   - Antes de finalizar, pense em casos de teste simples. Por exemplo, um grafo com 3 nós e 2 arestas, onde você pode fraudar facilmente as possíveis saídas.
+
+9. **Estruturas Úteis**:
+   - Considere usar listas para suas pilhas (se opcional), conjuntos para gerenciar nós visitados, e dicionários para armazenar a lista de adjacências.
+
+Seguindo essas etapas, você poderá configurar uma solução organizada para o problema de DFS em grafos. Boa sorte!

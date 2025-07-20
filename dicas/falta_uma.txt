@@ -1,0 +1,32 @@
+Para abordar a questão de forma eficaz, siga estes passos:
+
+1. **Leitura Atenta do Enunciado**: Comece por ler o enunciado com atenção, identificando o que está sendo solicitado. Anote os dados que você possui e o que precisa ser encontrado.
+
+2. **Identificação dos Desafios**: Perceba quais são os principais desafios. Por exemplo, verifique se há restrições em relação ao tempo ou à quantidade de dados que você pode processar. Isso ajudará a entender se uma abordagem de força-bruta é viável.
+
+3. **Dicas Contextualizadas**: Para visualizar a força-bruta, pense em algo como procurar um livro em uma estante. Se você tiver muitos livros e não souber onde está o que procura, você precisaria verificar cada livro um por um até encontrar o certo. Este é o conceito básico por trás da abordagem de força-bruta.
+
+4. **Passo a Passo para Resolução**:
+   - Defina claramente o problema. O que você está tentando resolver?
+   - Liste todos os possíveis casos ou combinações que você precisa considerar. Isso pode ser feito usando loops para percorrer cada possibilidade.
+   - Para cada possibilidade, execute a lógica que você precisa aplicar. Pergunte a si mesmo: "O que eu faço com cada caso que encontro?"
+   - Mantenha uma variável para armazenar o resultado que você deseja produzir.
+
+5. **Tratamento de Entrada e Saída**:
+   - A entrada deve ser lida de forma que você tenha todos os dados necessários em um formato manipulável. Use `input()` para ler dados e `split()` para separá-los se necessário.
+   - Armazene as entradas em listas ou dicionários, conforme a necessidade.
+   - A saída deve ser formatada de acordo com o que é solicitado no enunciado. Certifique-se de que o resultado final está na forma correta, usando `print()`.
+   - Exemplos de trechos de código:
+     ```python
+     # Para ler múltiplos valores de entrada
+     data = input().split()
+     # Para armazenar os dados em uma lista
+     lista = [int(x) for x in data]  # converte cada entrada em um inteiro
+     ```
+
+6. **Estruturas Úteis em Python**:
+   - Utilize listas para armazenar combinações ou resultados temporários.
+   - Dicionários são úteis se precisar contar ou armazenar pares de valores.
+   - Considere criar funções auxiliares que tratem partes do problema para manter o código organizado e mais fácil de entender.
+
+Seguindo esses passos, você estará no caminho certo para chegar à solução da questão, utilizando uma abordagem de força-bruta e manipulando adequadamente a entrada e a saída. Boa sorte!

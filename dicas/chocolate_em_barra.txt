@@ -1,0 +1,24 @@
+Para abordar a questão relacionada a pontos e coordenadas no plano, siga os passos abaixo:
+
+1. **Leitura do Enunciado**: Analise cuidadosamente o enunciado da questão. Identifique quais pontos específicos precisam ser considerados, e quais operações matemáticas ou conceitos geométricos são necessários.
+
+2. **Identificação dos Desafios**: Os principais desafios podem incluir entender como calcular distâncias entre pontos, determinar a posição relativa entre eles (por exemplo, se estão em um determinado quadrante), ou realizar operações envolvendo pontos (como soma ou subtração de coordenadas).
+
+3. **Estratégia de Resolução**:
+   - **Definição de Pontos**: Defina claramente os pontos no plano cartesiano. Normalmente, esses são representados em uma forma (x, y). As distâncias entre os pontos podem ser calculadas usando a fórmula da distância euclidiana.
+   - **Verificações Básicas**: Se a questão requer verificar propriedades geométricas, pense em como classificar os pontos em diferentes quadrantes ou como verificar se três pontos estão alinhados.
+
+4. **Tratamento de Entrada e Saída**:
+   - **Entrada**: A entrada pode ser feita em uma única linha ou em múltiplas linhas. Considere como você pode usar a função `input()` para capturar esses dados. Por exemplo, se houver dois pontos, você pode ler cada par de coordenadas.
+     ```python
+     ponto1 = input("Digite as coordenadas do primeiro ponto (x1 y1): ")
+     ponto2 = input("Digite as coordenadas do segundo ponto (x2 y2): ")
+     ```
+   - **Saída**: A saída deve formatar corretamente os resultados de acordo com o que a questão pede. Use `print()` para mostrar os resultados, e assegure-se de seguir o formato exigido no enunciado. Pode ser necessário arredondar números ou formatar strings.
+
+5. **Estruturas Úteis**:
+   - Considere o uso de listas para armazenar as coordenadas de pontos, caso tenha múltiplos pontos a serem manipulados.
+   - Se a questão envolver muitas operações matemáticas com os pontos, fazer uso de funções auxiliares para calcular distâncias ou verificar propriedades pode ser repleto de eficiência.
+   - Um dicionário pode ser usado se precisar mapear pontos a suas descrições ou propriedades.
+
+Seguindo esse passo a passo e utilizando as dicas fornecidas, você poderá resolver a questão de forma organizada e lógica. Lembre-se sempre de validar seus dados e verificar a consistência da saída com o que foi solicitado no enunciado.

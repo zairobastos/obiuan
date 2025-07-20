@@ -1,0 +1,42 @@
+Para resolver essa questão, siga os seguintes passos:
+
+1. **Leitura Atenta**: Comece lendo cuidadosamente o enunciado da questão. Identifique quais as entradas que você receberá e o que precisa ser produzido como saída. Anote as restrições que podem impactar sua abordagem.
+
+2. **Identificação dos Desafios**: Compreenda as condições que dão forma ao problema. Quais dados precisam ser analisados? Existe um limite na entrada? Há situações especiais que você deve considerar, como valores duplicados ou totais máximos?
+
+3. **Planejamento**: Antes de implementar qualquer código, esboce um plano de como você pretende abordar o problema. Pense:
+
+   - Que estruturas de dados podem ser úteis?
+   - Você pode armazenar informações de uma maneira que facilite a busca?
+   - Quais combinações ou iterações precisam ser feitas?
+
+4. **Estratégia de Força Bruta**: Dado que o subassunto é força-bruta, você deve considerar todas as combinações possíveis. Pense em como você vai iterar sobre esses dados:
+
+   - Utilize loops aninhados para verificar todas as possíveis combinações.
+   - Se você for usar listas, lembre-se que pode ser útil criar uma listagem de elementos que você deseja verificar.
+
+5. **Manipulação de Entrada e Saída**: Concentre-se em como tratar a entrada e saída:
+
+   - Utilize `input()` para ler dados e `split()` para separar esses dados caso sejam fornecidos como uma linha.
+   - Quando você estiver pronto para produzir a saída, use `print()` para exibir os resultados no formato solicitado pelo enunciado.
+
+Exemplo de trechos úteis em Python:
+```python
+# Para leitura da entrada
+entrada = input().strip()
+dados = list(map(int, entrada.split()))
+
+# Para iteração sobre dados
+for i in range(len(dados)):
+    for j in range(i + 1, len(dados)):
+        # Lógica da força bruta aqui
+        pass
+```
+
+6. **Estruturas Úteis**: Considere o uso de listas para armazenar seus dados, tais como:
+
+   - Listas para todos os elementos de entrada.
+   - Dicionários se você precisar de contagem ou buscas rápidas.
+   - Funções auxiliares que podem encapsular partes da lógica para tornar seu código mais organizado e compreensível.
+
+Seguindo esses passos e orientações, você será capaz de desenvolver uma solução para a questão de forma estruturada e lógica. Boa sorte!

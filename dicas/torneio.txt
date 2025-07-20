@@ -1,0 +1,40 @@
+Para abordar a questão sobre árvores enraizadas, você deve primeiro entender os conceitos fundamentais sobre como as árvores são estruturadas e suas propriedades.
+
+1. **Leitura do Enunciado**: Identifique as partes principais do enunciado. Preste atenção no que é solicitado: pode ser sobre verificar propriedades da árvore, calcular profundidades, encontrar filhos ou ancestrais, etc.
+
+2. **Desafios Principais**: Os maiores desafios podem incluir como percorrer a árvore, entender a relação entre pais e filhos, e a maneira de representar a estrutura.
+
+3. **Analogias**: Pense na árvore como uma família. A raiz é como o avô, enquanto os filhos e netos são os descendentes. As folhas são aqueles que não têm filhos, como os netos que não têm filhos próprios. Compreender isso pode ajudar a visualizar como você deve trabalhar com as relações entre os nós.
+
+4. **Passo a Passo**:
+   - **Estruturalização**: Comece definindo como você vai representar a árvore. Pode ser através de listas ou dicionários, onde cada nó possui uma referência aos seus filhos.
+   - **Percurso**: Decida como você irá navegar pela árvore. Usar uma abordagem de busca em profundidade (DFS) pode ser útil. Pense em como você entraria e sairia de cada nível da "família".
+   - **Cálculos Necessários**: Identifique quais informações precisam ser extraídas (ex.: profundidade de um nó, número de folhas).
+   - **Implementação**: Crie funções auxiliares para calcular a profundidade de um nó a partir da raiz ou para contar as folhas.
+
+5. **Entrada e Saída**:
+   - **Entrada**: Decida como você estará recebendo a estrutura da árvore. Pode ser um conjunto de pares onde cada par indica uma relação pai/filho.
+   - **Saída**: Determine qual será a forma de apresentar suas respostas, como a profundidade de um nó ou uma lista de folhas.
+
+Exemplo de trechos de código úteis:
+- Para ler a entrada:
+    ```python
+    n = int(input())
+    for _ in range(n):
+        # leia as relações pai/filho
+    ```
+
+- Para armazenar a árvore:
+    ```python
+    arvore = {}
+    # ao ler cada relação, preencha o dicionário
+    ```
+
+- Para buscar profundidade ou folhas:
+    ```python
+    def profundidade(nó):
+        # lógica para calcular a profundidade
+        return profundidade_nó
+    ```
+
+Esses passos e exemplos devem guiá-lo no processo de resolver a questão de maneira estruturada, garantindo que você compreenda os conceitos envolvidos.

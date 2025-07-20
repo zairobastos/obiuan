@@ -1,0 +1,37 @@
+Para resolver a questão sobre histogramas (ou vetores de frequências), siga este guia passo a passo:
+
+1. **Leitura do Enunciado:**
+   - Identifique as entradas que você recebe e o que precisa ser computado quanto às frequências dos elementos.
+
+2. **Identificação dos Desafios:**
+   - Resumidamente, os principais desafios podem envolver como organizar os dados de entrada e como calcular a frequência de cada elemento eficientemente.
+
+3. **Dicas Contextualizadas:**
+   - Pense em um histograma como um painel que mostra quantas vezes cada item aparece, como um gráfico de barras de notas de estudantes. Cada barra representa a frequência de uma nota específica.
+
+4. **Passo a Passo da Lógica:**
+   - **Etapa 1:** Receber os dados de entrada e armazená-los de forma acessível.
+   - **Etapa 2:** Para cada elemento dos dados recebidos, você precisará contar quantas vezes ele aparece.
+   - **Etapa 3:** Organizar esses contadores de forma que o resultado final mostre, de maneira clara, a frequência de cada elemento.
+
+5. **Tratamento da Entrada e da Saída:**
+   - A entrada pode ser uma lista de números (ou outro tipo de dados), então você pode usar uma estrutura como uma lista ou dicionário para armazenar esses dados.
+   - A saída deve ser formatada para mostrar cada elemento e sua respectiva frequência. Por exemplo, algo como:
+     ```
+     elemento: frequência
+     ```
+   - Para manipular a entrada e saída, considere o seguinte trecho em Python:
+     ```python
+     # Exemplo de como ler a entrada
+     dados = input().split()  # Lê a entrada como uma lista de strings
+     
+     # Exemplo de como armazenar as frequências
+     frequencias = {}  # Dicionário para armazenar contagens
+     ```
+
+6. **Sugestões de Estruturas Úteis:**
+   - Use um dicionário para mapear cada elemento à sua frequência. Essa estrutura é eficiente para contagens.
+   - Listas podem ser úteis para armazenar os dados se você precisar preservar a ordem original.
+   - Considere funções auxiliares para separar a lógica de leitura dos dados e a lógica de contagem de frequências, tornando seu código mais organizado.
+
+Seguindo essas etapas, você estará no caminho certo para construir uma solução eficaz para a questão sobre histogramas. Lembre-se de testar seu código com diferentes entradas para garantir que sua lógica funcione para todos os casos.

@@ -1,0 +1,29 @@
+Para abordar a questão proposta sobre a estrutura básica de um computador, você deve seguir um processo estruturado. Aqui estão os passos que você pode seguir para resolver a questão:
+
+1. **Leitura Atenta do Enunciado**: Comece lendo o enunciado várias vezes. Identifique quais componentes ou aspectos da estrutura básica de um computador estão sendo abordados, como CPU, memória, dispositivos de entrada/saída e armazenamento.
+
+2. **Identificação dos Desafios**: Determinar o que a pergunta está pedindo. Pode ser uma definição, comparação entre componentes ou a função de cada parte. Pergunte a si mesmo: "Quais são os principais componentes? Como eles interagem?"
+
+3. **Analogias do Mundo Real**: Pense em como a estrutura de um computador pode ser comparada a uma organização. Por exemplo, a CPU pode ser vista como o gerente, que toma decisões, enquanto a memória é como o arquivo onde as informações são armazenadas temporariamente. Isso pode ajudar a entender melhor as funções de cada componente.
+
+4. **Lógica de Resolução**:
+   - **Organize as Informações**: Crie categorias para os componentes do computador. Por exemplo, você pode listar CPU, memória RAM, disco rígido, etc.
+   - **Descreva Funções**: Para cada categoria, escreva breves descrições de suas funções e como elas se relacionam entre si. 
+
+5. **Tratamento de Entrada e Saída**: Pense em como você irá coletar informações necessárias para responder a questão:
+   - A entrada pode ser um texto que descreve características ou funções dos componentes.
+   - A saída deve ser formatada de maneira clara. Você pode usar listas ou tabelas para apresentar suas respostas de forma organizada.
+
+6. **Estruturas Úteis**: Use listas em Python para armazenar informações sobre cada um dos componentes. Dicionários também podem ser úteis para associar funções a cada componente.
+   - Exemplo de uso de lista:
+     ```python
+     componentes = ['CPU', 'Memória', 'Disco rígido', 'Placa-mãe']
+     ```
+   - Exemplo de utilização de dicionário:
+     ```python
+     funcoes = {'CPU': 'Executa instruções', 'Memória': 'Armazena dados temporariamente'}
+     ```
+
+7. **Revisão e Refinamento**: Depois de organizar suas ideias, revise o que você escreveu. Certifique-se de que cada descrição está clara e precisa. 
+
+Seguindo esse passo a passo, você conseguirá entender e responder à questão sobre a estrutura básica de um computador de forma clara e estruturada.

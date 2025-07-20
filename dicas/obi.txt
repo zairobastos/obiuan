@@ -1,0 +1,39 @@
+### Leitura Atenta do Enunciado
+Primeiramente, é fundamental entender o contexto da questão. A estrutura básica de um computador envolve compreender os componentes principais: a CPU (Unidade Central de Processamento), a memória (RAM e armazenamento) e outros periféricos. Identifique quais são esses componentes e como eles interagem entre si.
+
+### Dicas Contextualizadas
+Imagine um computador como um corpo humano. A CPU é o cérebro, que processa todas as informações e toma decisões. A memória é como nossa memória de curto e longo prazo, onde armazenamos informações temporariamente e permanentemente. Os outros componentes são como os órgãos que realizam funções específicas. Essa analogia pode ajudar a visualizar o papel de cada parte.
+
+### Passo a Passo de Resolução
+1. **Identifique os Componentes**: Liste todos os componentes fundamentais do computador mencionados na questão. Discuta brevemente a função de cada um.
+  
+2. **Entenda as Interações**: Considere como esses componentes se conectam e interagem. Por exemplo, como a CPU usa a memória para realizar tarefas.
+
+3. **Analise as Funcionalidades**: Procure entender quais operações são realizadas por cada parte. Por exemplo, qual o papel da memória RAM em comparação com o armazenamento em disco.
+
+4. **Conceitos de Desempenho**: Pense em termos de desempenho. Como a velocidade da CPU e a quantidade de RAM afetam a eficiência de um computador?
+
+### Tratamento de Entrada e Saída
+- Considere como a questão pode pedir que você apresente informações sobre os componentes. A entrada pode ser uma lista de perguntas ou um conjunto de dados sobre os componentes.
+- A saída deve ser formatada de forma clara, talvez como uma sequência de definições ou um resumo das funções dos componentes.
+
+Exemplos de trechos úteis:
+```python
+# Exemplo de estrutura para armazenar informações dos componentes
+componentes = {
+    "CPU": "Responsável pelo processamento das informações.",
+    "Memória": "Armazena temporariamente dados que a CPU utiliza.",
+    # Adicione outros componentes aqui
+}
+
+# Exemplo de iteração para apresentar informações
+for componente, funcao in componentes.items():
+    print(f"{componente}: {funcao}")
+```
+
+### Sugestões de Estruturas Úteis
+- **Listas**: Podem ser usadas para armazenar os nomes dos componentes.
+- **Dicionários**: Úteis para associar cada componente com sua respectiva função.
+- **Funções Auxiliares**: Você pode criar funções que expliquem melhorias de desempenho ao adicionar mais RAM ou uma CPU mais rápida.
+
+Esses passos e sugestões devem guiá-lo na resolução da questão sobre a estrutura básica de um computador sem revelar a solução final.

@@ -1,0 +1,30 @@
+Para abordar a questão apresentada, siga os passos a seguir:
+
+1. **Leitura do Enunciado**: Comece lendo o enunciado atentamente. Identifique quais são os dados de entrada e qual a saída esperada. Tome nota de quaisquer condições ou restrições específicas que precisam ser respeitadas.
+
+2. **Identificação dos Desafios**: Determine quais são os principais desafios do problema. Pergunte-se: Isso requer alguma forma de iteração? Você precisará lidar com listas ou outros tipos de coleções? Há uma relação entre os dados que precisa ser considerada?
+
+3. **Contextualizando com o Mundo Real**: Para facilitar a compreensão, faça analogias. Por exemplo, se o problema envolve contar pessoas em filas, pense em como você contaria as pessoas em uma fila de supermercado. Isso ajudará a visualizar a lógica que você precisa implementar.
+
+4. **Passo a Passo Lógico**:
+
+   - **Início da Solução**: Defina uma estrutura que você vai usar para armazenar os dados. Pode ser uma lista ou dicionário, dependendo da natureza dos dados.
+   
+   - **Iteração**: Determine como você irá iterar através dos dados. Considere se você precisará de um loop `for` ou `while` e quais são as condições de parada.
+
+   - **Processamento de Dados**: Enquanto itera, que operações você precisará realizar em cada elemento? Pense em como as informações podem ser acumuladas ou transformadas em uma nova forma, conforme necessário.
+
+   - **Saída dos Resultados**: Finalmente, considere como você vai retornar ou imprimir os resultados. Você precisa formatar os dados de uma maneira específica?
+
+5. **Tratamento da Entrada e Saída**:
+
+   - Para **entrada**: Use `input()` para receber dados do usuário. Se a entrada é uma lista de números, você pode convertê-los usando `map(int, input().split())` por exemplo.
+   
+   - Para **saída**: Quando for imprimir, use `print()`. Pense se a saída deve ser uma linha única ou várias linhas, ou se você precisa formatá-la de uma forma específica, como usando `join()` para juntar strings.
+
+6. **Estruturas Úteis**: Durante a implementação, considere usar:
+   - Listas para armazenar elementos sequenciais.
+   - Dicionários se você precisar mapear uma chave a um valor.
+   - Funções auxiliares para dividir a lógica em partes menores e mais gerenciáveis.
+
+Seguir esses passos irá ajudá-lo a estruturar sua solução de maneira lógica e organizada, facilitando a resolução da questão apresentada.

@@ -1,0 +1,33 @@
+Para abordar a resolução da questão, siga estas orientações:
+
+1. **Leitura Atenta do Enunciado**: Comece por ler o enunciado com calma e destaque os pontos principais. Identifique quais dados você possui como entrada, o que é solicitado como saída e quais condições ou restrições devem ser consideradas.
+
+2. **Identificação dos Desafios**: Foque nos desafios que a questão apresenta. Quais dados precisam ser processados? Quais combinações ou condições precisam ser verificadas? Isso ajudará a definir a abordagem que você deve adotar.
+
+3. **Dicas Contextualizadas**: Pense em uma analogia. Por exemplo, se a questão envolve encontrar uma combinação de elementos para atingir um determinado objetivo, imagine como você buscaria as combinações de ingredientes para criar uma nova receita. Isso pode ajudá-lo a visualizar melhor o problema.
+
+4. **Passo a Passo para Resolução**:
+   - **Defina o Problema**: Escreva em suas próprias palavras qual é a pergunta que você precisa responder.
+   - **Estrutura de Ataque**: Identifique quais elementos você precisa combinar ou examinar. Será útil criar uma lista ou um conjunto para armazenar estes elementos.
+   - **Implementação da Força Bruta**: Comece pensando em todas as possibilidades. Em uma busca exaustiva, normalmente se tenta verificar todos os casos. Se for o caso, pense em como você pode usar loops aninhados ou recursão.
+   - **Condições de Parada**: Pense em quando deve parar a busca. Existe um critério que determina o sucesso ou o fracasso na sua busca?
+
+5. **Tratamento de Entrada e Saída**:
+   - **Leitura da Entrada**: Estabeleça como os dados de entrada devem ser coletados. Em Python, você pode usar `input()` para coletar strings e transformá-las em listas ou outros tipos conforme necessário.
+   - **Formatando a Saída**: Defina como os resultados precisarão ser apresentados. Você pode usar `print()` para exibir os resultados, mas preste atenção ao formato específico que a questão solicita. Por exemplo, você pode precisar juntar elementos em uma string ou imprimir resultados em linhas separadas.
+   - **Exemplo de Como Manipular Entrada e Saída**: 
+     ```python
+     # Exemplo de como ler uma linha de entrada e converter em lista
+     entrada = input().strip()  # lê a entrada
+     dados = list(map(int, entrada.split()))  # transforma em lista de inteiros
+
+     # Para a saída
+     print(resultado)  # onde 'resultado' é o que você precisa imprimir
+     ```
+
+6. **Sugestões de Estruturas Úteis**:
+   - **Listas**: Podem ser usadas para armazenar elementos que você irá combinar ou verificar.
+   - **Dicionários**: Útil se você precisar armazenar contagens ou relacionamentos entre elementos.
+   - **Funções Auxiliares**: Considere dividir seu código em funções que podem lidar com partes específicas do problema, como gerar combinações ou verificar condições.
+
+Ao longo desse processo, mantenha sua lógica organizada e faça anotações à medida que você desenvolver seu raciocínio. Isso facilitará a implementação e ajuste à medida que você avança na solução do problema.

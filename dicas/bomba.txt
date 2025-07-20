@@ -1,0 +1,56 @@
+Primeiramente, vamos fazer uma leitura atenta do enunciado e identificar os principais desafios relacionados à busca em largura (BFS) em grafos. A BFS é uma técnica de exploração de grafos que envolve a visita a todos os nós de um grafo em camadas, começando a partir de um nó inicial e explorando todos os seus vizinhos antes de passar para os vizinhos desses vizinhos.
+
+### Dicas Contextualizadas
+
+Para entender a BFS, você pode pensar em uma abordagem semelhante à maneira como se busca uma palavra em um livro. Você começa pela primeira página (nó inicial) e lê linha por linha (explora os vizinhos) antes de passar para a próxima página (próxima camada de nós).
+
+### Passo a Passo para Resolver a Questão
+
+1. **Entenda o Problema**: Leia o enunciado várias vezes e identifique o que é solicitado. Quais são as entradas? O que você precisa calcular e retornar?
+
+2. **Modelagem do Grafo**: Representar o grafo é fundamental. Você pode usar uma lista de adjacência ou uma matriz de adjacência. Decida qual estrutura se adapta melhor ao problema específico.
+
+3. **Inicialização da BFS**:
+   - Comece pelo nó inicial. Para isso, você pode usar uma fila (estrutura FIFO) para armazenar os nós a serem explorados.
+   - Mantenha uma lista ou conjunto de nós visitados para evitar revisitas.
+
+4. **Execução da BFS**:
+   - Enquanto houver nós na fila, retire um nó da fila e processe-o (isso geralmente envolve visitar os vizinhos).
+   - Para cada vizinho não visitado, marque como visitado e adicione à fila.
+
+5. **Armazenamento da Saída**: Conforme você vai explorando o grafo, pense em como armazenar os resultados que você precisa. Serão contagens, caminhos ou outra informação?
+
+### Tratamento das Entradas e Saídas
+
+- **Entrada**: Normalmente, a entrada pode ser lida em um formato estruturado (como listas ou pares de arestas). Use `input()` para coletar dados e processe-os para construir seu grafo.
+  
+  Exemplo de como ler os dados:
+
+  ```python
+  # Lendo número de vértices e arestas
+  n, m = map(int, input().split())
+  # Criando lista de adjacência
+  grafo = [[] for _ in range(n)]
+  for _ in range(m):
+      u, v = map(int, input().split())
+      grafo[u].append(v)
+      grafo[v].append(u)  # se o grafo for não direcionado
+  ```
+
+- **Saída**: A saída deve seguir o formato solicitado no enunciado da questão. Prepare-se para imprimir resultados, que podem ser uma lista, um inteiro ou outros formatos.
+
+  Exemplo de como imprimir a saída:
+
+  ```python
+  # Suponha que você tenha armazenado resultados em uma lista
+  print(*resultado)  # Multiplica valores da lista, separados por espaço
+  ```
+
+### Estruturas Úteis em Python
+
+- **Listas**: Para representar a estrutura do grafo.
+- **Fila (collections.deque)**: Para a implementação da BFS.
+- **Conjuntos**: Para manter o controle dos nós já visitados e evitar ciclos.
+- **Dicionários**: Se precisar armazenar informações adicionais, como distâncias ou predecessores.
+
+Siga essas etapas e dicas, e utilize as estruturas mencionadas para implementar a solução de forma organizada e lógica. Boa sorte!

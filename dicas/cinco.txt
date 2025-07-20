@@ -1,0 +1,29 @@
+Para resolver a questão mencionada, siga os passos abaixo:
+
+1. **Leitura do Enunciado**: Comece lendo o enunciado da questão com atenção. Identifique quais são os dados de entrada e os resultados esperados. Quais são as condições ou restrições que precisam ser consideradas?
+
+2. **Identificação de Desafios**: Liste os principais desafios que a questão apresenta. Por exemplo, pode haver muitas combinações possíveis, ou talvez seja necessário verificar várias condições antes de encontrar uma solução.
+
+3. **Analogia do Mundo Real**: Pense em uma situação do dia a dia que se assemelha ao que a questão está pedindo. Por exemplo, se a questão envolve encontrar um caminho em um labirinto, você pode pensar em como escolher caminhos em uma cidade nova.
+
+4. **Desenvolvimento de um Passo a Passo**:
+   - **Defina o problema**: Clarifique o que você precisa encontrar ou calcular.
+   - **Organize os dados**: Como você vai representar os dados? Por exemplo, listas ou dicionários podem ser úteis.
+   - **Estratégia de força-bruta**: Pense na abordagem de testar todas as combinações possíveis. Como você pode estruturar isso? Poderia criar laços aninhados para percorrer as opções?
+   - **Validação das Soluções**: Como você irá verificar se uma solução é válida? Quais condições precisam ser atendidas?
+
+5. **Manipulação de Entrada e Saída**:
+   - Veja como os dados de entrada serão apresentados. Por exemplo, se eles vêm em várias linhas ou em uma única linha.
+   - Exemplo de código para manipulação de entrada:
+     ```python
+     entrada = input("Insira os dados: ")
+     dados = entrada.split()  # Supondo que os dados estão separados por espaço
+     ```
+   - Para formatar a saída, pense em como você vai apresentar o resultado final. Exemplo:
+     ```python
+     print("Resultado:", resultado)
+     ```
+
+6. **Estruturas Úteis**: Considere quais estruturas de dados em Python podem ajudar. Listas podem ser boas para armazenar múltiplos valores; dicionários são úteis para acessar dados rapidamente por chave. Funções auxiliares podem ser criadas para organizar o código.
+
+Seguindo esses passos, você terá uma abordagem organizada e lógica para resolver a questão apresentada.

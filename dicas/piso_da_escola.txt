@@ -1,0 +1,33 @@
+Para abordar a questão apresentada, vamos seguir um passo a passo organizado e lógico. 
+
+1. **Leitura Atenta do Enunciado**:
+   - É fundamental que você leia o enunciado com atenção, identificando quais informações são fornecidas e o que está sendo solicitado. Busque entender bem os conceitos de geometria e aritmética que a questão envolve, como reta, ângulo, triângulo, retângulo, quadrado e círculo.
+
+2. **Identificação dos Desafios**:
+   - Tenha em mente quais são os principais desafios da questão: isso pode envolver cálculos de áreas, perímetros ou relações entre diferentes figuras geométricas.
+
+3. **Dicas Contextualizadas**:
+   - Pense em um exemplo prático, como medir a área de um jardim que tem a forma de um quadrado ou um retângulo. Isso pode te ajudar a entender como aplicar fórmulas de geometria na sua solução.
+
+4. **Passo a Passo para Resolução**:
+   - **Identificar os Dados**: Comece anotando todas as informações que você precisa para resolver a questão. Quais são as medidas que você possui? 
+   - **Fórmulas Relevantes**: Revise as fórmulas relacionadas às figuras mencionadas (por exemplo, área e perímetro de um retângulo, propriedades de triângulos, etc.).
+   - **Organização dos Cálculos**: Decida a ordem em que os cálculos precisam ser realizados. Às vezes, o resultado de uma operação é necessário para outra.
+   - **Verificação**: Após calcular, é sempre bom revisar se os resultados fazem sentido, considerando as propriedades geométricas e aritméticas.
+
+5. **Tratamento de Entrada e Saída**:
+   - **Entrada**: A entrada pode consistir em várias linhas com valores numéricos. Um exemplo simples de como ler esses dados em Python é:
+     ```python
+     entrada = input().split()  # para ler múltiplas entradas na mesma linha
+     ```
+   - **Saída**: Certifique-se de formatar a saída de acordo com o pedido do enunciado. Por exemplo, se você precisa apresentar um número específico de casas decimais, pode utilizar:
+     ```python
+     print(f"{resultado:.2f}")  # para formatar o resultado com duas casas decimais
+     ```
+
+6. **Estruturas Úteis em Python**:
+   - Considere usar **listas** para armazenar valores de diferentes figuras, como as coordenadas de um triângulo.
+   - **Funções auxiliares** podem ser úteis para calcular áreas e perímetros separadamente, tornando seu código mais organizado.
+   - Se for necessário armazenar dados de forma associativa (como o nome da figura e suas propriedades), um **dicionário** pode ser uma boa escolha.
+
+Seguindo esses passos, você estará bem posicionado para resolver a questão! Boa sorte!

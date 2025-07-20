@@ -276,6 +276,7 @@ with col1:
     st.text("Seu programa deve imprimir, na saída padrão, uma única linha, contendo a letra S se for possível fazer um arquivamento perfeito ou N caso contrário.")
 
     st.subheader("Sua resposta")
+    st.markdown("A resposta da questão na aplicação é em ***c***.")
     resposta = st.text_area("", 
                             placeholder="Escreva aqui...",
                             height=150)

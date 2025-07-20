@@ -1,0 +1,37 @@
+Para abordar a questão de programação que envolve o uso de Busca em Profundidade (DFS) em Grafos, siga os passos abaixo:
+
+1. **Leitura Atenta do Enunciado**: Certifique-se de entender o que está sendo solicitado. Identifique quais são as entradas esperadas e o que a saída deve conter. Atenção aos detalhes sobre o formato das entradas, as características do grafo, e quais propriedades ou operações devem ser realizadas.
+
+2. **Desafios Principais**: Identifique os possíveis obstáculos que podem surgir. Por exemplo, lidar com estruturas cíclicas em grafos ou a necessidade de marcar os nós visitados para evitar loops infinitos.
+
+3. **Analogia com o Mundo Real**: Imagine que você está explorando uma cidade (os nós do grafo) onde cada rua (as arestas) conecta diferentes pontos. Se você escolher uma rua para seguir sem olhar para as outras, você está usando uma abordagem similar ao DFS. Você pode visitar cada ponto uma vez, mas deve anotar onde já esteve, para não se perder e continuar sua exploração.
+
+4. **Passo a Passo para Resolver**:
+   - **Construir o Grafo**: Pense em como as representações de grafos são utilizadas. Você pode usar listas de adjacência ou uma matriz de adjacência. Comece por decidir qual estrutura é mais adequada para a questão.
+   - **Implementar DFS**: Desenvolva a função que aplica o DFS. Ela deve incluir uma condição de parada, que pode ser baseada na visita aos nós ou na profundidade máxima desejada. 
+   - **Marcação de Nós Visitados**: Prepare uma estrutura para marcar os nós que já foram visitados. Isso pode ser uma lista ou um conjunto.
+   - **Recurso Recursivo ou Iterativo**: Decida se você usará a abordagem recursiva ou iterativa para implementar o DFS, sabendo que cada uma possui suas vantagens e desvantagens.
+
+5. **Tratamento de Entrada e Saída**:
+   - **Entrada**: Certifique-se de que a entrada do grafo está formatada corretamente. Por exemplo, se ele for baseado na representação de listas de adjacência, você pode receber uma lista de listas onde cada sublista contém os vizinhos de um nó.
+   - **Saída**: A saída deve ser mostrada no formato solicitado, que pode ser uma lista de nós visitados ou outra representação. 
+
+Exemplo de trechos em Python para manipular entradas e saídas:
+
+```python
+# Para leitura de um grafo em lista de adjacência
+n = int(input())  # número de nós
+grafo = [[] for _ in range(n)]
+m = int(input())  # número de arestas
+for _ in range(m):
+    u, v = map(int, input().split())
+    grafo[u].append(v)
+    grafo[v].append(u)  # se o grafo for não direcionado
+
+# Para exibir os nós visitados
+print("Nós visitados:", visitados)  # onde visitados é a lista de nós
+```
+
+6. **Estruturas Úteis**: Considere o uso de listas para armazenar os nós visitados, conjuntos para garantir a unicidade, e talvez uma pilha para a implementação iterativa do DFS. Além disso, funções auxiliares podem ser muito úteis para modularizar seu código e mantê-lo organizado.
+
+Lembre-se de testar sua implementação com diferentes casos de entradas para garantir que cobre todos os aspectos da questão. Boa sorte!

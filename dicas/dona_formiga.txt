@@ -1,0 +1,41 @@
+Para abordar essa questão sobre Programação Dinâmica em grafos direcionados acíclicos, siga os passos e dicas abaixo:
+
+1. **Leitura do Enunciado**: Preste atenção nas informações sobre os vértices e arestas do grafo. Identifique as relações entre eles e o que é solicitado.
+
+2. **Desafios Principais**: 
+   - Compreender que se trata de um grafo acíclico, portanto, não existem ciclos.
+   - Identificar qual é a "melhor" solução que você precisa encontrar (ex: o caminho mais longo, a soma máxima, etc.).
+   
+3. **Dicas Contextualizadas**: 
+   - Pense no grafo como uma rede de estradas (vértices são cidades e arestas são estradas). Você precisa encontrar a rota que lhe dá a maior distância ou valor (dependerá do que a questão pede, o que é similar a buscar a viagem mais longa entre as cidades sem passar pela mesma mais de uma vez).
+
+4. **Passo a Passo**:
+   - **Inicialização**: Crie uma estrutura que irá armazenar os resultados parciais, como um vetor onde cada posição representa um vértice.
+   - **Ordenação Topológica**: Realize uma ordenação topológica dos vértices do grafo, que é fundamental para resolver problemas de DP em grafos acíclicos.
+   - **Iteração**: Após organizar os vértices, percorra-os na ordem topológica, atualizando os custos das rotas (ou valores) baseando-se nos dados obtidos até o momento.
+   - **Resultado Final**: No final do processo, a resposta esperada estará na estrutura onde você armazena os resultados, tipicamente o maior valor para o último nó ou o nó de interesse.
+
+5. **Tratamento de Entrada e Saída**:
+   - A entrada geralmente será composta por um número de vértices e arestas, seguidos pelas conexões entre eles.
+   - Para ler as entradas, você pode usar `input()` em um loop ou `sys.stdin.read()` para ler tudo de uma vez se o formato for fixo.
+   - A saída será geralmente um único número que é a resposta para a pergunta, como um caminho ou valor máximo encontrado.
+
+Exemplo de trechos úteis de código em Python:
+```python
+# Inicialização do vetor para armazenar resultados
+resultados = [float('-inf')] * num_vertices  # ou 0, dependendo do problema
+resultados[inicio] = 0  # começo no vértice inicial
+
+# Leitura de entrada
+n, m = map(int, input().split())  # Por exemplo, n=veríces e m=arestas
+arestas = [tuple(map(int, input().split())) for _ in range(m)]  # Arestas do grafo
+
+# Processamento dos vértices em ordem topológica
+```
+
+6. **Estruturas Úteis**:
+   - Listas ou arrays para armazenar resultados.
+   - Dicionários, caso precise mapear relações entre vértices e arestas.
+   - Funções auxiliares para manter o código organizado, especialmente para realizar a ordenação topológica. 
+
+Ao seguir o passo a passo e utilizando as estruturas mencionadas, você estará em um bom caminho para resolver a questão proposta.

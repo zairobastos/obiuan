@@ -1,0 +1,31 @@
+Para abordar a questão apresentada, siga as etapas abaixo:
+
+1. **Leitura Atenta do Enunciado**:
+   - Identifique quais informações são fornecidas e quais são as perguntas a serem respondidas. Preste atenção em detalhes sobre o que precisa ser calculado com base nas distâncias euclidianas.
+
+2. **Identificação dos Desafios**:
+   - Compreenda que o principal desafio pode ser calcular a distância entre dois pontos no plano cartesiano. Pense em como isso pode ser semelhante a medir a distância entre duas cidades em um mapa.
+
+3. **Passo a Passo para Resolução**:
+   - **Passo 1**: Identifique as coordenadas dos pontos que serão utilizados (por exemplo, (x1, y1) e (x2, y2)).
+   - **Passo 2**: Lembre-se da fórmula da distância euclidiana entre dois pontos: D = √((x2 - x1)² + (y2 - y1)²). Este é um ponto fundamental e deve ser compreendido.
+   - **Passo 3**: Considere como os dados serão inseridos e como você pode tratá-los para extraí-los adequadamente.
+   - **Passo 4**: Após calcular a distância, pense em como a resposta deve ser formatada e apresentada.
+
+4. **Tratamento de Entrada e Saída**:
+   - **Entrada**: Por exemplo, você pode estar lendo os valores de coordenadas (x1, y1) e (x2, y2) a partir da entrada padrão. Um exemplo de como tratar esse tipo de entrada em Python pode ser:
+     ```python
+     x1, y1 = map(int, input().split())
+     x2, y2 = map(int, input().split())
+     ```
+
+   - **Saída**: Decida como a distância será impressa, por exemplo, considerando a precisão necessária (quantas casas decimais?). Um exemplo de como formatar a saída pode ser:
+     ```python
+     print(f"{distancia:.2f}")
+     ```
+
+5. **Estruturas Úteis em Python**:
+   - **Listas**: Para armazenar as coordenadas, ou mesmo para armazenar diversos pares de coordenadas, se necessário.
+   - **Funções**: Considere a criação de uma função para calcular a distância, que pode receber as coordenadas como parâmetros e retornar o valor calculado. Isso tornará seu código mais organizado e modular.
+
+Seguindo essas diretrizes, você será capaz de desenvolver uma solução completa para a questão, utilizando os conceitos de distâncias euclidianas de maneira clara e estruturada.

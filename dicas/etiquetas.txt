@@ -1,0 +1,22 @@
+1. **Leitura atenta do enunciado**: Identifique os elementos principais do problema, como os dados de entrada, as saídas esperadas e as condições que precisam ser atendidas. Tente entender qual a estrutura necessária para resolver o problema e quais partes podem ser complexas na implementação.
+
+2. **Dicas contextualizadas**: Considere o problema como uma série de "decisões" que precisam ser tomadas em um caminho, semelhantes a escolher entre diferentes rotas em um mapa. Cada decisão se baseia na melhor opção disponível até o momento. Isso pode ajudar a entender a natureza da programação dinâmica, onde você constrói soluções a partir de subsoluções já resolvidas.
+
+3. **Passo a passo de como resolver**:
+   - **Identifique o subproblema**: Pergunte-se qual é a menor parte do problema que você pode resolver e como isso pode se conectar a um problema maior.
+   - **Defina a relação de recorrência**: Descubra como os subproblemas se relacionam entre si e como você pode construir uma solução geral a partir deles.
+   - **Escolha uma abordagem**: Pense em resolver o problema de forma top-down (recursão com memoização) ou bottom-up (tabela), e como isso impacta a eficiência do seu algoritmo.
+
+4. **Tratamento da entrada e saída**:
+   - **Entrada**: Pense na forma que os dados serão fornecidos. Você pode usar `input()` para ler dados do console ou, se for necessário ler de um arquivo, utilize funções como `open()`. Organize os dados em uma estrutura como uma lista ou dicionário para facilitar o acesso a eles posteriormente.
+   - **Saída**: A saída pode ser formatada usando `print()`, mas é essencial garantir que o formato esteja exatamente como solicitado no enunciado (ex. separando valores por espaços ou quebras de linha).
+   - Exemplo de código para manipulação de entrada e saída:
+     ```python
+     entrada = input().split()  # Lê uma linha e divide em uma lista
+     # Outra manipulação pode ser necessária dependendo da demanda do problema.
+     ```
+
+5. **Sugestões de estruturas úteis em Python**:
+   - Utilize listas para armazenar resultados intermediários.
+   - Dicionários podem ser úteis para memoização, armazenando subsoluções que já foram calculadas para evitar recomputações.
+   - Considere o uso de funções auxiliares para encapsular a lógica relacionada aos subproblemas, melhorando a legibilidade do seu código.

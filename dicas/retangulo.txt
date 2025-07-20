@@ -1,0 +1,43 @@
+Primeiro, vamos realizar uma leitura atenta do enunciado e identificar os principais desafios que a questão pode apresentar. O foco da questão é sobre representação de vetores, retas e segmentos de reta dentro de um contexto geométrico. Tais conceitos são fundamentais na programação competitiva e geralmente requerem uma boa compreensão de matemática básica e geometria.
+
+### Dicas Contextualizadas
+
+Pense na geometria como a forma de descrever o espaço ao nosso redor. Quando você está em um ponto em um mapa e deseja se mover para outro, você pode imaginar isso como um vetor. Assim, na programação, podemos usar essas representações vetoriais para resolver problemas envolvendo movimentação, direção e interseção entre diferentes formas.
+
+### Passo a Passo para Abordar a Questão
+
+1. **Entendimento do Problema**: Faça uma leitura cuidadosa do enunciado para entender exatamente o que é requerido. Anote as propriedades especiais que os vetores ou segmentos devem ter (por exemplo, se eles precisam ser paralelos, interseccionar, etc.).
+
+2. **Representação dos Dados**: Pense em como você pode representar um vetor ou um ponto em Python. Vetores podem ser representados como tuplas (x, y) em um sistema cartesiano.
+
+3. **Geometria Básica**: Revise conceitos de geometria que podem ser aplicáveis. Lembre-se de fórmulas como a distância entre dois pontos e como determinar se dois segmentos de reta interseccionam.
+
+4. **Algoritmo**: Estruture o algoritmo separando o problema em menores partes. Por exemplo, se a questão envolve calcular a interseção de segmentos, divida em subproblemas, como verificar se os segmentos são paralelos ou se um ponto está dentro de um segmento.
+
+5. **Manipulação de Dados**: Prepare sua entrada e saída. Veja como os dados geográficos serão fornecidos (coordenadas) e como você deve formatar as saídas (pode ser um ponto, um vetor resultante, etc.).
+
+### Tratamento de Entrada e Saída
+
+Para tratar a entrada e saída, você pode usar a função `input()` para ler os valores:
+
+```python
+x1, y1 = map(int, input().split())
+x2, y2 = map(int, input().split())
+```
+
+Isso irá capturar coordenadas de pontos fornecidos em uma linha. 
+
+A saída pode ser feita usando a função `print()` para mostrar resultados, que pode incluir informações como pontos, resultados de interseção ou resultados de cálculos:
+
+```python
+print("Resultado:", resultado)
+```
+
+### Estruturas Úteis em Python
+
+- **Tuplas**: Para representar pontos 2D (x, y).
+- **Listas**: Para armazenar múltiplos pontos ou vetores.
+- **Dicionários**: Se houver necessidade de armazenar informações adicionais sobre os pontos ou vetores.
+- **Funções Auxiliares**: Crie funções para cálculos repetitivos, como distância entre dois pontos ou verificação de interseção entre segmentos.
+
+Com essas orientações, você deve estar bem preparado para desmembrar a questão e chegar a uma solução consistente. Boa sorte!

@@ -271,6 +271,7 @@ with col1:
     st.markdown("&emsp; • Em um conjunto de casos de teste que totaliza 20 pontos, A ≤ 2400.")
 
     st.subheader("Sua resposta")
+    st.markdown("A resposta da questão na aplicação é em ***cpp***.")
     resposta = st.text_area("", 
                             placeholder="Escreva aqui...",
                             height=150)
